@@ -1,4 +1,4 @@
-# Trello inspired app
+# Trello inspired app 
 
 A new Flutter project.
 
