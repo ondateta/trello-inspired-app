@@ -1,1 +1,61 @@
-aW1wb3J0ICdwYWNrYWdlOmFkYXB0aXZlX3RoZW1lL2FkYXB0aXZlX3RoZW1lLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlci9tYXRlcmlhbC5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL2NvbmZpZy9zdXBhYmFzZV9jb25maWcuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9yb3V0ZXIuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvZGVzaWduX3N5c3RlbS90aGVtZXMuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvdmlld3Mvc3BsYXNoX3ZpZXcuZGFydCc7CgpGdXR1cmU8dm9pZD4gbWFpbigpIGFzeW5jIHsKICBXaWRnZXRzRmx1dHRlckJpbmRpbmcuZW5zdXJlSW5pdGlhbGl6ZWQoKTsKICBhd2FpdCBTdXBhYmFzZUNvbmZpZy5pbml0aWFsaXplKCk7CiAgcnVuQXBwKGNvbnN0IE15QXBwKCkpOwp9CgpjbGFzcyBNeUFwcCBleHRlbmRzIFN0YXRlbGVzc1dpZGdldCB7CiAgY29uc3QgTXlBcHAoe3N1cGVyLmtleX0pOwoKICBAb3ZlcnJpZGUKICBXaWRnZXQgYnVpbGQoQnVpbGRDb250ZXh0IGNvbnRleHQpIHsKICAgIHJldHVybiBBZGFwdGl2ZVRoZW1lKAogICAgICBkZWJ1Z1Nob3dGbG9hdGluZ1RoZW1lQnV0dG9uOiB0cnVlLAogICAgICBpbml0aWFsOiBBZGFwdGl2ZVRoZW1lTW9kZS5zeXN0ZW0sCiAgICAgIGxpZ2h0OiBBcHBUaGVtZXMuZ2V0VGhlbWUoQnJpZ2h0bmVzcy5saWdodCksCiAgICAgIGRhcms6IEFwcFRoZW1lcy5nZXRUaGVtZShCcmlnaHRuZXNzLmRhcmspLAogICAgICBidWlsZGVyOiAobGlnaHRUaGVtZSwgZGFya1RoZW1lKSB7CiAgICAgICAgcmV0dXJuIE1hdGVyaWFsQXBwLnJvdXRlcigKICAgICAgICAgIHRpdGxlOiAnVHJlbGxvIENsb25lJywKICAgICAgICAgIHRoZW1lOiBsaWdodFRoZW1lLAogICAgICAgICAgZGFya1RoZW1lOiBkYXJrVGhlbWUsCiAgICAgICAgICByb3V0ZXJDb25maWc6IHJvdXRlciwKICAgICAgICAgIGJ1aWxkZXI6IChjb250ZXh0LCBjaGlsZCkgPT4gR2F0ZVdheSgKICAgICAgICAgICAgY2hpbGQ6IGNoaWxkID8/IFNwbGFzaFZpZXcoKSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgfSwKICAgICk7CiAgfQp9CgpjbGFzcyBHYXRlV2F5IGV4dGVuZHMgU3RhdGVmdWxXaWRnZXQgewogIGNvbnN0IEdhdGVXYXkoewogICAgc3VwZXIua2V5LAogICAgcmVxdWlyZWQgdGhpcy5jaGlsZCwKICB9KTsKCiAgZmluYWwgV2lkZ2V0IGNoaWxkOwoKICBAb3ZlcnJpZGUKICBTdGF0ZTxHYXRlV2F5PiBjcmVhdGVTdGF0ZSgpID0+IF9HYXRlV2F5U3RhdGUoKTsKfQoKY2xhc3MgX0dhdGVXYXlTdGF0ZSBleHRlbmRzIFN0YXRlPEdhdGVXYXk+IHsKICBAb3ZlcnJpZGUKICB2b2lkIGluaXRTdGF0ZSgpIHsKICAgIHN1cGVyLmluaXRTdGF0ZSgpOwogIH0KCiAgQG92ZXJyaWRlCiAgV2lkZ2V0IGJ1aWxkKEJ1aWxkQ29udGV4dCBjb250ZXh0KSB7CiAgICByZXR1cm4gd2lkZ2V0LmNoaWxkOwogIH0KfQ==
+import 'package:adaptive_theme/adaptive_theme.dart';
+import 'package:flutter/material.dart';
+import 'package:template/config/supabase_config.dart';
+import 'package:template/router.dart';
+import 'package:template/src/design_system/themes.dart';
+import 'package:template/src/views/splash_view.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await SupabaseConfig.initialize();
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return AdaptiveTheme(
+      debugShowFloatingThemeButton: true,
+      initial: AdaptiveThemeMode.system,
+      light: AppThemes.getTheme(Brightness.light),
+      dark: AppThemes.getTheme(Brightness.dark),
+      builder: (lightTheme, darkTheme) {
+        return MaterialApp.router(
+          title: 'Trello Clone',
+          theme: lightTheme,
+          darkTheme: darkTheme,
+          routerConfig: router,
+          builder: (context, child) => GateWay(
+            child: child ?? SplashView(),
+          ),
+        );
+      },
+    );
+  }
+}
+
+class GateWay extends StatefulWidget {
+  const GateWay({
+    super.key,
+    required this.child,
+  });
+
+  final Widget child;
+
+  @override
+  State<GateWay> createState() => _GateWayState();
+}
+
+class _GateWayState extends State<GateWay> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return widget.child;
+  }
+}

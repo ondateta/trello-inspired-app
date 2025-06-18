@@ -1,1 +1,76 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTpzdXBhYmFzZV9mbHV0dGVyL3N1cGFiYXNlX2ZsdXR0ZXIuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9jb25maWcvc3VwYWJhc2VfY29uZmlnLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL2V4dGVuc2lvbnMvaW5kZXguZGFydCc7CgpjbGFzcyBBdXRoQ29udHJvbGxlciBleHRlbmRzIENoYW5nZU5vdGlmaWVyIHsKICBmaW5hbCBTdXBhYmFzZUNsaWVudCBfY2xpZW50ID0gU3VwYWJhc2VDb25maWcuY2xpZW50OwogIGJvb2wgaXNMb2FkaW5nID0gZmFsc2U7CiAgU3RyaW5nPyBlcnJvck1lc3NhZ2U7CgogIFVzZXI/IGdldCBjdXJyZW50VXNlciA9PiBfY2xpZW50LmF1dGguY3VycmVudFVzZXI7CiAgYm9vbCBnZXQgaXNBdXRoZW50aWNhdGVkID0+IGN1cnJlbnRVc2VyICE9IG51bGw7CgogIEZ1dHVyZTx2b2lkPiBzaWduSW5XaXRoRW1haWxBbmRQYXNzd29yZCh7CiAgICByZXF1aXJlZCBTdHJpbmcgZW1haWwsCiAgICByZXF1aXJlZCBTdHJpbmcgcGFzc3dvcmQsCiAgfSkgYXN5bmMgewogICAgdHJ5IHsKICAgICAgaXNMb2FkaW5nID0gdHJ1ZTsKICAgICAgZXJyb3JNZXNzYWdlID0gbnVsbDsKICAgICAgbm90aWZ5TGlzdGVuZXJzKCk7CgogICAgICBhd2FpdCBfY2xpZW50LmF1dGguc2lnbkluV2l0aFBhc3N3b3JkKAogICAgICAgIGVtYWlsOiBlbWFpbCwKICAgICAgICBwYXNzd29yZDogcGFzc3dvcmQsCiAgICAgICk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGVycm9yTWVzc2FnZSA9ICdGYWlsZWQgdG8gc2lnbiBpbjogJHtlLnRvU3RyaW5nKCl9JzsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzTG9hZGluZyA9IGZhbHNlOwogICAgICBub3RpZnlMaXN0ZW5lcnMoKTsKICAgIH0KICB9CgogIEZ1dHVyZTx2b2lkPiBzaWduVXBXaXRoRW1haWxBbmRQYXNzd29yZCh7CiAgICByZXF1aXJlZCBTdHJpbmcgZW1haWwsCiAgICByZXF1aXJlZCBTdHJpbmcgcGFzc3dvcmQsCiAgfSkgYXN5bmMgewogICAgdHJ5IHsKICAgICAgaXNMb2FkaW5nID0gdHJ1ZTsKICAgICAgZXJyb3JNZXNzYWdlID0gbnVsbDsKICAgICAgbm90aWZ5TGlzdGVuZXJzKCk7CgogICAgICBhd2FpdCBfY2xpZW50LmF1dGguc2lnblVwKAogICAgICAgIGVtYWlsOiBlbWFpbCwKICAgICAgICBwYXNzd29yZDogcGFzc3dvcmQsCiAgICAgICk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGVycm9yTWVzc2FnZSA9ICdGYWlsZWQgdG8gc2lnbiB1cDogJHtlLnRvU3RyaW5nKCl9JzsKICAgIH0gZmluYWxseSB7CiAgICAgIGlzTG9hZGluZyA9IGZhbHNlOwogICAgICBub3RpZnlMaXN0ZW5lcnMoKTsKICAgIH0KICB9CgogIEZ1dHVyZTx2b2lkPiBzaWduT3V0KCkgYXN5bmMgewogICAgdHJ5IHsKICAgICAgaXNMb2FkaW5nID0gdHJ1ZTsKICAgICAgbm90aWZ5TGlzdGVuZXJzKCk7CgogICAgICBhd2FpdCBfY2xpZW50LmF1dGguc2lnbk91dCgpOwogICAgfSBjYXRjaCAoZSkgewogICAgICBlcnJvck1lc3NhZ2UgPSAnRmFpbGVkIHRvIHNpZ24gb3V0OiAke2UudG9TdHJpbmcoKX0nOwogICAgfSBmaW5hbGx5IHsKICAgICAgaXNMb2FkaW5nID0gZmFsc2U7CiAgICAgIG5vdGlmeUxpc3RlbmVycygpOwogICAgfQogIH0KCiAgdm9pZCBjbGVhckVycm9yKCkgewogICAgZXJyb3JNZXNzYWdlID0gbnVsbDsKICAgIG5vdGlmeUxpc3RlbmVycygpOwogIH0KCiAgU3RyZWFtPEF1dGhTdGF0ZT4gZ2V0IGF1dGhTdGF0ZUNoYW5nZXMgPT4gX2NsaWVudC5hdXRoLm9uQXV0aFN0YXRlQ2hhbmdlOwp9
+import 'package:flutter/material.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:template/config/supabase_config.dart';
+import 'package:template/src/extensions/index.dart';
+
+class AuthController extends ChangeNotifier {
+  final SupabaseClient _client = SupabaseConfig.client;
+  bool isLoading = false;
+  String? errorMessage;
+
+  User? get currentUser => _client.auth.currentUser;
+  bool get isAuthenticated => currentUser != null;
+
+  Future<void> signInWithEmailAndPassword({
+    required String email,
+    required String password,
+  }) async {
+    try {
+      isLoading = true;
+      errorMessage = null;
+      notifyListeners();
+
+      await _client.auth.signInWithPassword(
+        email: email,
+        password: password,
+      );
+    } catch (e) {
+      errorMessage = 'Failed to sign in: ${e.toString()}';
+    } finally {
+      isLoading = false;
+      notifyListeners();
+    }
+  }
+
+  Future<void> signUpWithEmailAndPassword({
+    required String email,
+    required String password,
+  }) async {
+    try {
+      isLoading = true;
+      errorMessage = null;
+      notifyListeners();
+
+      await _client.auth.signUp(
+        email: email,
+        password: password,
+      );
+    } catch (e) {
+      errorMessage = 'Failed to sign up: ${e.toString()}';
+    } finally {
+      isLoading = false;
+      notifyListeners();
+    }
+  }
+
+  Future<void> signOut() async {
+    try {
+      isLoading = true;
+      notifyListeners();
+
+      await _client.auth.signOut();
+    } catch (e) {
+      errorMessage = 'Failed to sign out: ${e.toString()}';
+    } finally {
+      isLoading = false;
+      notifyListeners();
+    }
+  }
+
+  void clearError() {
+    errorMessage = null;
+    notifyListeners();
+  }
+
+  Stream<AuthState> get authStateChanges => _client.auth.onAuthStateChange;
+}

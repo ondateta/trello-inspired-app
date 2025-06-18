@@ -1,1 +1,83 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvZm91bmRhdGlvbi5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvZGVzaWduX3N5c3RlbS9jb25zdGFudHMvcmVzcG9uc2l2ZV9jb25zdGFudHMuZGFydCc7CmltcG9ydCAncGFja2FnZTp1bml2ZXJzYWxfaW8vaW8uZGFydCc7CgpUIHJlc3BvbnNpdmVWYWx1ZTxUPigKICBCdWlsZENvbnRleHQgY29udGV4dCwgewogIFQgRnVuY3Rpb24oKT8gbW9iaWxlLAogIFQgRnVuY3Rpb24oKT8gdGFibGV0LAogIFQgRnVuY3Rpb24oKT8gbGFwdG9wLAogIFQgRnVuY3Rpb24oKT8gZGVza3RvcCwKICBUIEZ1bmN0aW9uKCk/IG9yRWxzZSwKfSkgewogIGZpbmFsIHNjcmVlblNpemUgPSBNZWRpYVF1ZXJ5LnNpemVPZihjb250ZXh0KTsKICBpZiAoc2NyZWVuU2l6ZS53aWR0aCA8PSBSZXNwb25zaXZlQ29uc3RhbnRzLnBob25lU2l6ZSkgewogICAgcmV0dXJuIF9nZXRWKCdtb2JpbGUnLCBtb2JpbGUsIG9yRWxzZSk7CiAgfQogIGlmIChzY3JlZW5TaXplLndpZHRoIDw9IFJlc3BvbnNpdmVDb25zdGFudHMudGFibGV0U2l6ZSkgewogICAgcmV0dXJuIF9nZXRWKCd0YWJsZXQnLCB0YWJsZXQsIG9yRWxzZSk7CiAgfQogIGlmIChzY3JlZW5TaXplLndpZHRoIDw9IFJlc3BvbnNpdmVDb25zdGFudHMubGFwdG9wKSB7CiAgICByZXR1cm4gX2dldFYoJ2xhcHRvcCcsIGxhcHRvcCwgb3JFbHNlKTsKICB9CiAgcmV0dXJuIF9nZXRWKCdkZXNrdG9wJywgZGVza3RvcCwgb3JFbHNlKTsKfQoKVCBfZ2V0VjxUPihTdHJpbmcgbmFtZSwgVCBGdW5jdGlvbigpPyB2YWx1ZSwgVCBGdW5jdGlvbigpPyBvckVsc2UpIHsKICBhc3NlcnQoCiAgICAodmFsdWUgPT0gbnVsbCAmJiBvckVsc2UgIT0gbnVsbCkgfHwgdmFsdWUgIT0gbnVsbCwKICAgICckbmFtZSBvciBvckVsc2UgbXVzdCBiZSBwcm92aWRlZCcsCiAgKTsKICByZXR1cm4gdmFsdWU/LmNhbGwoKSA/PyBvckVsc2U/LmNhbGwoKSBhcyBUOwp9CgpUIHBsYXRmb3JtVmFsdWU8VD4oCiAgQnVpbGRDb250ZXh0IGNvbnRleHQsIHsKICByZXF1aXJlZCBUIEZ1bmN0aW9uKCkgb3JFbHNlLAogIFQgRnVuY3Rpb24oKT8gd2ViLAogIFQgRnVuY3Rpb24oKT8gaW9zLAogIFQgRnVuY3Rpb24oKT8gYW5kcm9pZCwKICBUIEZ1bmN0aW9uKCk/IHdpbmRvd3MsCiAgVCBGdW5jdGlvbigpPyBtYWNvcywKfSkgewogIGlmIChrSXNXZWIpIHsKICAgIHJldHVybiB3ZWI/LmNhbGwoKSA/PyBvckVsc2UuY2FsbCgpOwogIH0KICBpZiAoUGxhdGZvcm0uaXNJT1MpIHsKICAgIHJldHVybiBpb3M/LmNhbGwoKSA/PyBvckVsc2UuY2FsbCgpOwogIH0KICBpZiAoUGxhdGZvcm0uaXNBbmRyb2lkKSB7CiAgICByZXR1cm4gYW5kcm9pZD8uY2FsbCgpID8/IG9yRWxzZS5jYWxsKCk7CiAgfQogIGlmIChQbGF0Zm9ybS5pc1dpbmRvd3MpIHsKICAgIHJldHVybiB3aW5kb3dzPy5jYWxsKCkgPz8gb3JFbHNlLmNhbGwoKTsKICB9CiAgaWYgKFBsYXRmb3JtLmlzTWFjT1MpIHsKICAgIHJldHVybiBtYWNvcz8uY2FsbCgpID8/IG9yRWxzZS5jYWxsKCk7CiAgfQogIHJldHVybiBvckVsc2UuY2FsbCgpOwp9CgpUIG9yaWVudGF0aW9uVmFsdWU8VD4oCiAgQnVpbGRDb250ZXh0IGNvbnRleHQsIHsKICByZXF1aXJlZCBUIEZ1bmN0aW9uKCkgcG9ydHJhaXQsCiAgcmVxdWlyZWQgVCBGdW5jdGlvbigpIGxhbmRzY2FwZSwKfSkgewogIGZpbmFsIG9yaWVudGF0aW9uID0gTWVkaWFRdWVyeS5vcmllbnRhdGlvbk9mKGNvbnRleHQpOwogIGlmIChvcmllbnRhdGlvbiA9PSBPcmllbnRhdGlvbi5wb3J0cmFpdCkgewogICAgcmV0dXJuIHBvcnRyYWl0LmNhbGwoKTsKICB9CiAgcmV0dXJuIGxhbmRzY2FwZS5jYWxsKCk7Cn0KClQ/IGNvbmRpdGlvbmFsVmFsdWU8VD4oewogIHJlcXVpcmVkIGJvb2wgY29uZGl0aW9uLAogIFQgRnVuY3Rpb24oKT8gaWZUcnVlLAogIFQgRnVuY3Rpb24oKT8gaWZGYWxzZSwKfSkgewogIGlmIChjb25kaXRpb24pIHsKICAgIHJldHVybiBpZlRydWU/LmNhbGwoKTsKICB9CiAgcmV0dXJuIGlmRmFsc2U/LmNhbGwoKTsKfQo=
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:template/src/design_system/constants/responsive_constants.dart';
+import 'package:universal_io/io.dart';
+
+T responsiveValue<T>(
+  BuildContext context, {
+  T Function()? mobile,
+  T Function()? tablet,
+  T Function()? laptop,
+  T Function()? desktop,
+  T Function()? orElse,
+}) {
+  final screenSize = MediaQuery.sizeOf(context);
+  if (screenSize.width <= ResponsiveConstants.phoneSize) {
+    return _getV('mobile', mobile, orElse);
+  }
+  if (screenSize.width <= ResponsiveConstants.tabletSize) {
+    return _getV('tablet', tablet, orElse);
+  }
+  if (screenSize.width <= ResponsiveConstants.laptop) {
+    return _getV('laptop', laptop, orElse);
+  }
+  return _getV('desktop', desktop, orElse);
+}
+
+T _getV<T>(String name, T Function()? value, T Function()? orElse) {
+  assert(
+    (value == null && orElse != null) || value != null,
+    '$name or orElse must be provided',
+  );
+  return value?.call() ?? orElse?.call() as T;
+}
+
+T platformValue<T>(
+  BuildContext context, {
+  required T Function() orElse,
+  T Function()? web,
+  T Function()? ios,
+  T Function()? android,
+  T Function()? windows,
+  T Function()? macos,
+}) {
+  if (kIsWeb) {
+    return web?.call() ?? orElse.call();
+  }
+  if (Platform.isIOS) {
+    return ios?.call() ?? orElse.call();
+  }
+  if (Platform.isAndroid) {
+    return android?.call() ?? orElse.call();
+  }
+  if (Platform.isWindows) {
+    return windows?.call() ?? orElse.call();
+  }
+  if (Platform.isMacOS) {
+    return macos?.call() ?? orElse.call();
+  }
+  return orElse.call();
+}
+
+T orientationValue<T>(
+  BuildContext context, {
+  required T Function() portrait,
+  required T Function() landscape,
+}) {
+  final orientation = MediaQuery.orientationOf(context);
+  if (orientation == Orientation.portrait) {
+    return portrait.call();
+  }
+  return landscape.call();
+}
+
+T? conditionalValue<T>({
+  required bool condition,
+  T Function()? ifTrue,
+  T Function()? ifFalse,
+}) {
+  if (condition) {
+    return ifTrue?.call();
+  }
+  return ifFalse?.call();
+}

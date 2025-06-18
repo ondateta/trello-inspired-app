@@ -1,1 +1,44 @@
-cGx1Z2lucyB7CiAgICBpZCgiY29tLmFuZHJvaWQuYXBwbGljYXRpb24iKQogICAgaWQoImtvdGxpbi1hbmRyb2lkIikKICAgIC8vIFRoZSBGbHV0dGVyIEdyYWRsZSBQbHVnaW4gbXVzdCBiZSBhcHBsaWVkIGFmdGVyIHRoZSBBbmRyb2lkIGFuZCBLb3RsaW4gR3JhZGxlIHBsdWdpbnMuCiAgICBpZCgiZGV2LmZsdXR0ZXIuZmx1dHRlci1ncmFkbGUtcGx1Z2luIikKfQoKYW5kcm9pZCB7CiAgICBuYW1lc3BhY2UgPSAiY29tLmV4YW1wbGUuYXBwIgogICAgY29tcGlsZVNkayA9IGZsdXR0ZXIuY29tcGlsZVNka1ZlcnNpb24KICAgIG5ka1ZlcnNpb24gPSBmbHV0dGVyLm5ka1ZlcnNpb24KCiAgICBjb21waWxlT3B0aW9ucyB7CiAgICAgICAgc291cmNlQ29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMTEKICAgICAgICB0YXJnZXRDb21wYXRpYmlsaXR5ID0gSmF2YVZlcnNpb24uVkVSU0lPTl8xMQogICAgfQoKICAgIGtvdGxpbk9wdGlvbnMgewogICAgICAgIGp2bVRhcmdldCA9IEphdmFWZXJzaW9uLlZFUlNJT05fMTEudG9TdHJpbmcoKQogICAgfQoKICAgIGRlZmF1bHRDb25maWcgewogICAgICAgIC8vIFRPRE86IFNwZWNpZnkgeW91ciBvd24gdW5pcXVlIEFwcGxpY2F0aW9uIElEIChodHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9zdHVkaW8vYnVpbGQvYXBwbGljYXRpb24taWQuaHRtbCkuCiAgICAgICAgYXBwbGljYXRpb25JZCA9ICJjb20uZXhhbXBsZS5hcHAiCiAgICAgICAgLy8gWW91IGNhbiB1cGRhdGUgdGhlIGZvbGxvd2luZyB2YWx1ZXMgdG8gbWF0Y2ggeW91ciBhcHBsaWNhdGlvbiBuZWVkcy4KICAgICAgICAvLyBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgc2VlOiBodHRwczovL2ZsdXR0ZXIuZGV2L3RvL3Jldmlldy1ncmFkbGUtY29uZmlnLgogICAgICAgIG1pblNkayA9IGZsdXR0ZXIubWluU2RrVmVyc2lvbgogICAgICAgIHRhcmdldFNkayA9IGZsdXR0ZXIudGFyZ2V0U2RrVmVyc2lvbgogICAgICAgIHZlcnNpb25Db2RlID0gZmx1dHRlci52ZXJzaW9uQ29kZQogICAgICAgIHZlcnNpb25OYW1lID0gZmx1dHRlci52ZXJzaW9uTmFtZQogICAgfQoKICAgIGJ1aWxkVHlwZXMgewogICAgICAgIHJlbGVhc2UgewogICAgICAgICAgICAvLyBUT0RPOiBBZGQgeW91ciBvd24gc2lnbmluZyBjb25maWcgZm9yIHRoZSByZWxlYXNlIGJ1aWxkLgogICAgICAgICAgICAvLyBTaWduaW5nIHdpdGggdGhlIGRlYnVnIGtleXMgZm9yIG5vdywgc28gYGZsdXR0ZXIgcnVuIC0tcmVsZWFzZWAgd29ya3MuCiAgICAgICAgICAgIHNpZ25pbmdDb25maWcgPSBzaWduaW5nQ29uZmlncy5nZXRCeU5hbWUoImRlYnVnIikKICAgICAgICB9CiAgICB9Cn0KCmZsdXR0ZXIgewogICAgc291cmNlID0gIi4uLy4uIgp9Cg==
+plugins {
+    id("com.android.application")
+    id("kotlin-android")
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id("dev.flutter.flutter-gradle-plugin")
+}
+
+android {
+    namespace = "com.example.app"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11.toString()
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId = "com.example.app"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}

@@ -1,1 +1,31 @@
-Y2xhc3MgQm9hcmRDYXRlZ29yeU1vZGVsIHsKICBmaW5hbCBTdHJpbmcgaWQ7CiAgZmluYWwgU3RyaW5nIGJvYXJkSWQ7CiAgZmluYWwgU3RyaW5nIG5hbWU7CiAgZmluYWwgRGF0ZVRpbWUgY3JlYXRlZEF0OwoKICBCb2FyZENhdGVnb3J5TW9kZWwoewogICAgcmVxdWlyZWQgdGhpcy5pZCwKICAgIHJlcXVpcmVkIHRoaXMuYm9hcmRJZCwKICAgIHJlcXVpcmVkIHRoaXMubmFtZSwKICAgIHJlcXVpcmVkIHRoaXMuY3JlYXRlZEF0LAogIH0pOwoKICBmYWN0b3J5IEJvYXJkQ2F0ZWdvcnlNb2RlbC5mcm9tSnNvbihNYXA8U3RyaW5nLCBkeW5hbWljPiBqc29uKSB7CiAgICByZXR1cm4gQm9hcmRDYXRlZ29yeU1vZGVsKAogICAgICBpZDoganNvblsnaWQnXSwKICAgICAgYm9hcmRJZDoganNvblsnYm9hcmRfaWQnXSwKICAgICAgbmFtZToganNvblsnbmFtZSddLAogICAgICBjcmVhdGVkQXQ6IERhdGVUaW1lLnBhcnNlKGpzb25bJ2NyZWF0ZWRfYXQnXSksCiAgICApOwogIH0KCiAgTWFwPFN0cmluZywgZHluYW1pYz4gdG9Kc29uKCkgewogICAgcmV0dXJuIHsKICAgICAgJ2lkJzogaWQsCiAgICAgICdib2FyZF9pZCc6IGJvYXJkSWQsCiAgICAgICduYW1lJzogbmFtZSwKICAgICAgJ2NyZWF0ZWRfYXQnOiBjcmVhdGVkQXQudG9Jc284NjAxU3RyaW5nKCksCiAgICB9OwogIH0KfQ==
+class BoardCategoryModel {
+  final String id;
+  final String boardId;
+  final String name;
+  final DateTime createdAt;
+
+  BoardCategoryModel({
+    required this.id,
+    required this.boardId,
+    required this.name,
+    required this.createdAt,
+  });
+
+  factory BoardCategoryModel.fromJson(Map<String, dynamic> json) {
+    return BoardCategoryModel(
+      id: json['id'],
+      boardId: json['board_id'],
+      name: json['name'],
+      createdAt: DateTime.parse(json['created_at']),
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'board_id': boardId,
+      'name': name,
+      'created_at': createdAt.toIso8601String(),
+    };
+  }
+}

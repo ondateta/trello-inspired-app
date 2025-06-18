@@ -1,1 +1,88 @@
-IyBUaGlzIGZpbGUgY29udHJvbHMgRmx1dHRlci1sZXZlbCBidWlsZCBzdGVwcy4gSXQgc2hvdWxkIG5vdCBiZSBlZGl0ZWQuCmNtYWtlX21pbmltdW1fcmVxdWlyZWQoVkVSU0lPTiAzLjEwKQoKc2V0KEVQSEVNRVJBTF9ESVIgIiR7Q01BS0VfQ1VSUkVOVF9TT1VSQ0VfRElSfS9lcGhlbWVyYWwiKQoKIyBDb25maWd1cmF0aW9uIHByb3ZpZGVkIHZpYSBmbHV0dGVyIHRvb2wuCmluY2x1ZGUoJHtFUEhFTUVSQUxfRElSfS9nZW5lcmF0ZWRfY29uZmlnLmNtYWtlKQoKIyBUT0RPOiBNb3ZlIHRoZSByZXN0IG9mIHRoaXMgaW50byBmaWxlcyBpbiBlcGhlbWVyYWwuIFNlZQojIGh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIvaXNzdWVzLzU3MTQ2LgoKIyBTZXJ2ZXMgdGhlIHNhbWUgcHVycG9zZSBhcyBsaXN0KFRSQU5TRk9STSAuLi4gUFJFUEVORCAuLi4pLAojIHdoaWNoIGlzbid0IGF2YWlsYWJsZSBpbiAzLjEwLgpmdW5jdGlvbihsaXN0X3ByZXBlbmQgTElTVF9OQU1FIFBSRUZJWCkKICAgIHNldChORVdfTElTVCAiIikKICAgIGZvcmVhY2goZWxlbWVudCAkeyR7TElTVF9OQU1FfX0pCiAgICAgICAgbGlzdChBUFBFTkQgTkVXX0xJU1QgIiR7UFJFRklYfSR7ZWxlbWVudH0iKQogICAgZW5kZm9yZWFjaChlbGVtZW50KQogICAgc2V0KCR7TElTVF9OQU1FfSAiJHtORVdfTElTVH0iIFBBUkVOVF9TQ09QRSkKZW5kZnVuY3Rpb24oKQoKIyA9PT0gRmx1dHRlciBMaWJyYXJ5ID09PQojIFN5c3RlbS1sZXZlbCBkZXBlbmRlbmNpZXMuCmZpbmRfcGFja2FnZShQa2dDb25maWcgUkVRVUlSRUQpCnBrZ19jaGVja19tb2R1bGVzKEdUSyBSRVFVSVJFRCBJTVBPUlRFRF9UQVJHRVQgZ3RrKy0zLjApCnBrZ19jaGVja19tb2R1bGVzKEdMSUIgUkVRVUlSRUQgSU1QT1JURURfVEFSR0VUIGdsaWItMi4wKQpwa2dfY2hlY2tfbW9kdWxlcyhHSU8gUkVRVUlSRUQgSU1QT1JURURfVEFSR0VUIGdpby0yLjApCgpzZXQoRkxVVFRFUl9MSUJSQVJZICIke0VQSEVNRVJBTF9ESVJ9L2xpYmZsdXR0ZXJfbGludXhfZ3RrLnNvIikKCiMgUHVibGlzaGVkIHRvIHBhcmVudCBzY29wZSBmb3IgaW5zdGFsbCBzdGVwLgpzZXQoRkxVVFRFUl9MSUJSQVJZICR7RkxVVFRFUl9MSUJSQVJZfSBQQVJFTlRfU0NPUEUpCnNldChGTFVUVEVSX0lDVV9EQVRBX0ZJTEUgIiR7RVBIRU1FUkFMX0RJUn0vaWN1ZHRsLmRhdCIgUEFSRU5UX1NDT1BFKQpzZXQoUFJPSkVDVF9CVUlMRF9ESVIgIiR7UFJPSkVDVF9ESVJ9L2J1aWxkLyIgUEFSRU5UX1NDT1BFKQpzZXQoQU9UX0xJQlJBUlkgIiR7UFJPSkVDVF9ESVJ9L2J1aWxkL2xpYi9saWJhcHAuc28iIFBBUkVOVF9TQ09QRSkKCmxpc3QoQVBQRU5EIEZMVVRURVJfTElCUkFSWV9IRUFERVJTCiAgImZsX2Jhc2ljX21lc3NhZ2VfY2hhbm5lbC5oIgogICJmbF9iaW5hcnlfY29kZWMuaCIKICAiZmxfYmluYXJ5X21lc3Nlbmdlci5oIgogICJmbF9kYXJ0X3Byb2plY3QuaCIKICAiZmxfZW5naW5lLmgiCiAgImZsX2pzb25fbWVzc2FnZV9jb2RlYy5oIgogICJmbF9qc29uX21ldGhvZF9jb2RlYy5oIgogICJmbF9tZXNzYWdlX2NvZGVjLmgiCiAgImZsX21ldGhvZF9jYWxsLmgiCiAgImZsX21ldGhvZF9jaGFubmVsLmgiCiAgImZsX21ldGhvZF9jb2RlYy5oIgogICJmbF9tZXRob2RfcmVzcG9uc2UuaCIKICAiZmxfcGx1Z2luX3JlZ2lzdHJhci5oIgogICJmbF9wbHVnaW5fcmVnaXN0cnkuaCIKICAiZmxfc3RhbmRhcmRfbWVzc2FnZV9jb2RlYy5oIgogICJmbF9zdGFuZGFyZF9tZXRob2RfY29kZWMuaCIKICAiZmxfc3RyaW5nX2NvZGVjLmgiCiAgImZsX3ZhbHVlLmgiCiAgImZsX3ZpZXcuaCIKICAiZmx1dHRlcl9saW51eC5oIgopCmxpc3RfcHJlcGVuZChGTFVUVEVSX0xJQlJBUllfSEVBREVSUyAiJHtFUEhFTUVSQUxfRElSfS9mbHV0dGVyX2xpbnV4LyIpCmFkZF9saWJyYXJ5KGZsdXR0ZXIgSU5URVJGQUNFKQp0YXJnZXRfaW5jbHVkZV9kaXJlY3RvcmllcyhmbHV0dGVyIElOVEVSRkFDRQogICIke0VQSEVNRVJBTF9ESVJ9IgopCnRhcmdldF9saW5rX2xpYnJhcmllcyhmbHV0dGVyIElOVEVSRkFDRSAiJHtGTFVUVEVSX0xJQlJBUll9IikKdGFyZ2V0X2xpbmtfbGlicmFyaWVzKGZsdXR0ZXIgSU5URVJGQUNFCiAgUGtnQ29uZmlnOjpHVEsKICBQa2dDb25maWc6OkdMSUIKICBQa2dDb25maWc6OkdJTwopCmFkZF9kZXBlbmRlbmNpZXMoZmx1dHRlciBmbHV0dGVyX2Fzc2VtYmxlKQoKIyA9PT0gRmx1dHRlciB0b29sIGJhY2tlbmQgPT09CiMgX3Bob255XyBpcyBhIG5vbi1leGlzdGVudCBmaWxlIHRvIGZvcmNlIHRoaXMgY29tbWFuZCB0byBydW4gZXZlcnkgdGltZSwKIyBzaW5jZSBjdXJyZW50bHkgdGhlcmUncyBubyB3YXkgdG8gZ2V0IGEgZnVsbCBpbnB1dC9vdXRwdXQgbGlzdCBmcm9tIHRoZQojIGZsdXR0ZXIgdG9vbC4KYWRkX2N1c3RvbV9jb21tYW5kKAogIE9VVFBVVCAke0ZMVVRURVJfTElCUkFSWX0gJHtGTFVUVEVSX0xJQlJBUllfSEVBREVSU30KICAgICR7Q01BS0VfQ1VSUkVOVF9CSU5BUllfRElSfS9fcGhvbnlfCiAgQ09NTUFORCAke0NNQUtFX0NPTU1BTkR9IC1FIGVudgogICAgJHtGTFVUVEVSX1RPT0xfRU5WSVJPTk1FTlR9CiAgICAiJHtGTFVUVEVSX1JPT1R9L3BhY2thZ2VzL2ZsdXR0ZXJfdG9vbHMvYmluL3Rvb2xfYmFja2VuZC5zaCIKICAgICAgJHtGTFVUVEVSX1RBUkdFVF9QTEFURk9STX0gJHtDTUFLRV9CVUlMRF9UWVBFfQogIFZFUkJBVElNCikKYWRkX2N1c3RvbV90YXJnZXQoZmx1dHRlcl9hc3NlbWJsZSBERVBFTkRTCiAgIiR7RkxVVFRFUl9MSUJSQVJZfSIKICAke0ZMVVRURVJfTElCUkFSWV9IRUFERVJTfQopCg==
+# This file controls Flutter-level build steps. It should not be edited.
+cmake_minimum_required(VERSION 3.10)
+
+set(EPHEMERAL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ephemeral")
+
+# Configuration provided via flutter tool.
+include(${EPHEMERAL_DIR}/generated_config.cmake)
+
+# TODO: Move the rest of this into files in ephemeral. See
+# https://github.com/flutter/flutter/issues/57146.
+
+# Serves the same purpose as list(TRANSFORM ... PREPEND ...),
+# which isn't available in 3.10.
+function(list_prepend LIST_NAME PREFIX)
+    set(NEW_LIST "")
+    foreach(element ${${LIST_NAME}})
+        list(APPEND NEW_LIST "${PREFIX}${element}")
+    endforeach(element)
+    set(${LIST_NAME} "${NEW_LIST}" PARENT_SCOPE)
+endfunction()
+
+# === Flutter Library ===
+# System-level dependencies.
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GTK REQUIRED IMPORTED_TARGET gtk+-3.0)
+pkg_check_modules(GLIB REQUIRED IMPORTED_TARGET glib-2.0)
+pkg_check_modules(GIO REQUIRED IMPORTED_TARGET gio-2.0)
+
+set(FLUTTER_LIBRARY "${EPHEMERAL_DIR}/libflutter_linux_gtk.so")
+
+# Published to parent scope for install step.
+set(FLUTTER_LIBRARY ${FLUTTER_LIBRARY} PARENT_SCOPE)
+set(FLUTTER_ICU_DATA_FILE "${EPHEMERAL_DIR}/icudtl.dat" PARENT_SCOPE)
+set(PROJECT_BUILD_DIR "${PROJECT_DIR}/build/" PARENT_SCOPE)
+set(AOT_LIBRARY "${PROJECT_DIR}/build/lib/libapp.so" PARENT_SCOPE)
+
+list(APPEND FLUTTER_LIBRARY_HEADERS
+  "fl_basic_message_channel.h"
+  "fl_binary_codec.h"
+  "fl_binary_messenger.h"
+  "fl_dart_project.h"
+  "fl_engine.h"
+  "fl_json_message_codec.h"
+  "fl_json_method_codec.h"
+  "fl_message_codec.h"
+  "fl_method_call.h"
+  "fl_method_channel.h"
+  "fl_method_codec.h"
+  "fl_method_response.h"
+  "fl_plugin_registrar.h"
+  "fl_plugin_registry.h"
+  "fl_standard_message_codec.h"
+  "fl_standard_method_codec.h"
+  "fl_string_codec.h"
+  "fl_value.h"
+  "fl_view.h"
+  "flutter_linux.h"
+)
+list_prepend(FLUTTER_LIBRARY_HEADERS "${EPHEMERAL_DIR}/flutter_linux/")
+add_library(flutter INTERFACE)
+target_include_directories(flutter INTERFACE
+  "${EPHEMERAL_DIR}"
+)
+target_link_libraries(flutter INTERFACE "${FLUTTER_LIBRARY}")
+target_link_libraries(flutter INTERFACE
+  PkgConfig::GTK
+  PkgConfig::GLIB
+  PkgConfig::GIO
+)
+add_dependencies(flutter flutter_assemble)
+
+# === Flutter tool backend ===
+# _phony_ is a non-existent file to force this command to run every time,
+# since currently there's no way to get a full input/output list from the
+# flutter tool.
+add_custom_command(
+  OUTPUT ${FLUTTER_LIBRARY} ${FLUTTER_LIBRARY_HEADERS}
+    ${CMAKE_CURRENT_BINARY_DIR}/_phony_
+  COMMAND ${CMAKE_COMMAND} -E env
+    ${FLUTTER_TOOL_ENVIRONMENT}
+    "${FLUTTER_ROOT}/packages/flutter_tools/bin/tool_backend.sh"
+      ${FLUTTER_TARGET_PLATFORM} ${CMAKE_BUILD_TYPE}
+  VERBATIM
+)
+add_custom_target(flutter_assemble DEPENDS
+  "${FLUTTER_LIBRARY}"
+  ${FLUTTER_LIBRARY_HEADERS}
+)

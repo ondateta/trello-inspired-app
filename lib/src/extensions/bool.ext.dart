@@ -1,1 +1,13 @@
-aW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL3NyYy9kZXNpZ25fc3lzdGVtL3Jlc3BvbnNpdmVfdmFsdWVzLmRhcnQnOwoKZXh0ZW5zaW9uIEJvb2xVdGlscyBvbiBib29sIHsKICBUPyBjb25kaXRpb248VD4oewogICAgVCBGdW5jdGlvbigpPyB0LAogICAgVCBGdW5jdGlvbigpPyBmLAogIH0pID0+CiAgICAgIGNvbmRpdGlvbmFsVmFsdWUoCiAgICAgICAgY29uZGl0aW9uOiB0aGlzLAogICAgICAgIGlmVHJ1ZTogdCwKICAgICAgICBpZkZhbHNlOiBmLAogICAgICApOwp9Cg==
+import 'package:template/src/design_system/responsive_values.dart';
+
+extension BoolUtils on bool {
+  T? condition<T>({
+    T Function()? t,
+    T Function()? f,
+  }) =>
+      conditionalValue(
+        condition: this,
+        ifTrue: t,
+        ifFalse: f,
+      );
+}

@@ -1,1 +1,36 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvZGVzaWduX3N5c3RlbS9jb250cm9sbGVyX2J1aWxkZXIuZGFydCc7CgpjbGFzcyBIb3ZlckJ1aWxkZXIgZXh0ZW5kcyBTdGF0ZWxlc3NXaWRnZXQgewogIGNvbnN0IEhvdmVyQnVpbGRlcih7CiAgICByZXF1aXJlZCB0aGlzLmJ1aWxkZXIsCiAgICB0aGlzLm9uRW50ZXIsCiAgICB0aGlzLm9uRXhpdCwKICAgIHN1cGVyLmtleSwKICB9KTsKCiAgZmluYWwgdm9pZCBGdW5jdGlvbihCdWlsZENvbnRleHQpPyBvbkVudGVyOwogIGZpbmFsIHZvaWQgRnVuY3Rpb24oQnVpbGRDb250ZXh0KT8gb25FeGl0OwogIGZpbmFsIFdpZGdldCBGdW5jdGlvbihCdWlsZENvbnRleHQgY29udGV4dCwgYm9vbCBob3ZlcmVkKSBidWlsZGVyOwoKICBAb3ZlcnJpZGUKICBXaWRnZXQgYnVpbGQoQnVpbGRDb250ZXh0IGNvbnRleHQpIHsKICAgIHJldHVybiBDb250cm9sbGVyQnVpbGRlcigKICAgICAgY3JlYXRlOiAoKSA9PiBWYWx1ZU5vdGlmaWVyKGZhbHNlKSwKICAgICAgYnVpbGRlcjogKGNvbnRleHQsIGNvbnRyb2xsZXIpID0+IE1vdXNlUmVnaW9uKAogICAgICAgIG9uRW50ZXI6IChldmVudCkgPT4gewogICAgICAgICAgb25FbnRlcj8uY2FsbChjb250ZXh0KSwKICAgICAgICAgIGNvbnRyb2xsZXIudmFsdWUgPSB0cnVlLAogICAgICAgIH0sCiAgICAgICAgb25FeGl0OiAoZXZlbnQpID0+IHsKICAgICAgICAgIG9uRXhpdD8uY2FsbChjb250ZXh0KSwKICAgICAgICAgIGNvbnRyb2xsZXIudmFsdWUgPSBmYWxzZSwKICAgICAgICB9LAogICAgICAgIGNoaWxkOiBWYWx1ZUxpc3RlbmFibGVCdWlsZGVyKAogICAgICAgICAgdmFsdWVMaXN0ZW5hYmxlOiBjb250cm9sbGVyLAogICAgICAgICAgYnVpbGRlcjogKGNvbnRleHQsIHZhbHVlLCBfKSA9PiBidWlsZGVyKGNvbnRleHQsIHZhbHVlKSwKICAgICAgICApLAogICAgICApLAogICAgKTsKICB9Cn0K
+import 'package:flutter/material.dart';
+import 'package:template/src/design_system/controller_builder.dart';
+
+class HoverBuilder extends StatelessWidget {
+  const HoverBuilder({
+    required this.builder,
+    this.onEnter,
+    this.onExit,
+    super.key,
+  });
+
+  final void Function(BuildContext)? onEnter;
+  final void Function(BuildContext)? onExit;
+  final Widget Function(BuildContext context, bool hovered) builder;
+
+  @override
+  Widget build(BuildContext context) {
+    return ControllerBuilder(
+      create: () => ValueNotifier(false),
+      builder: (context, controller) => MouseRegion(
+        onEnter: (event) => {
+          onEnter?.call(context),
+          controller.value = true,
+        },
+        onExit: (event) => {
+          onExit?.call(context),
+          controller.value = false,
+        },
+        child: ValueListenableBuilder(
+          valueListenable: controller,
+          builder: (context, value, _) => builder(context, value),
+        ),
+      ),
+    );
+  }
+}

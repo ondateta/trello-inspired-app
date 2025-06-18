@@ -1,1 +1,224 @@
-Ly8gRmx1dHRlciBpbXBvcnRzOgppbXBvcnQgJ3BhY2thZ2U6Ym91bmNlL2JvdW5jZS5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTpmbHV0dGVyL3NlcnZpY2VzLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6bW90aW9uL21vdGlvbi5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL3NyYy9leHRlbnNpb25zL2luZGV4LmRhcnQnOwoKZXh0ZW5zaW9uIFdpZGdldFV0aWxzIG9uIFdpZGdldCB7CiAgU2FmZUFyZWEgc2FmZUFyZWEoKSA9PiBTYWZlQXJlYShjaGlsZDogdGhpcyk7CiAgQ2VudGVyIGNlbnRlcmVkKCkgPT4gQ2VudGVyKGNoaWxkOiB0aGlzKTsKICBBbGlnbiBhbGlnbmVkKEFsaWdubWVudCBhbGlnbm1lbnQpID0+CiAgICAgIEFsaWduKGFsaWdubWVudDogYWxpZ25tZW50LCBjaGlsZDogdGhpcyk7CiAgUGFkZGluZyBwYWRkaW5nKEVkZ2VJbnNldHNHZW9tZXRyeSBwYWRkaW5nKSA9PiBQYWRkaW5nKAogICAgICAgIHBhZGRpbmc6IHBhZGRpbmcsCiAgICAgICAgY2hpbGQ6IHRoaXMsCiAgICAgICk7CiAgUGFkZGluZyBwYWRkaW5nQWxsKGRvdWJsZSBwYWRkaW5nKSA9PiBQYWRkaW5nKAogICAgICAgIHBhZGRpbmc6IEVkZ2VJbnNldHMuYWxsKHBhZGRpbmcpLAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIFBhZGRpbmcgcGFkZGluZ0goZG91YmxlIHBhZGRpbmcpID0+IFBhZGRpbmcoCiAgICAgICAgcGFkZGluZzogRWRnZUluc2V0cy5zeW1tZXRyaWMoaG9yaXpvbnRhbDogcGFkZGluZyksCiAgICAgICAgY2hpbGQ6IHRoaXMsCiAgICAgICk7CiAgUGFkZGluZyBwYWRkaW5nVihkb3VibGUgcGFkZGluZykgPT4gUGFkZGluZygKICAgICAgICBwYWRkaW5nOiBFZGdlSW5zZXRzLnN5bW1ldHJpYyh2ZXJ0aWNhbDogcGFkZGluZyksCiAgICAgICAgY2hpbGQ6IHRoaXMsCiAgICAgICk7CiAgSWdub3JlUG9pbnRlciBpZ25vcmVkKHtyZXF1aXJlZCBib29sIGlnbm9yZX0pID0+IElnbm9yZVBvaW50ZXIoCiAgICAgICAgaWdub3Jpbmc6IGlnbm9yZSwKICAgICAgICBjaGlsZDogdGhpcywKICAgICAgKTsKICBPcGFjaXR5IG9wYWNpdHkoZG91YmxlIG9wYWNpdHkpID0+IE9wYWNpdHkoCiAgICAgICAgb3BhY2l0eTogb3BhY2l0eSwKICAgICAgICBjaGlsZDogdGhpcywKICAgICAgKTsKICBWaXNpYmlsaXR5IHZpc2libGUoe3JlcXVpcmVkIGJvb2wgdmlzaWJsZX0pID0+IFZpc2liaWxpdHkoCiAgICAgICAgdmlzaWJsZTogdmlzaWJsZSwKICAgICAgICBjaGlsZDogdGhpcywKICAgICAgKTsKICBPcGFjaXR5IGhpZGRlbkJ1dFByZXNlbnQoKSA9PiBpZ25vcmVkKGlnbm9yZTogdHJ1ZSkub3BhY2l0eSgwKTsKICBEZWNvcmF0ZWRCb3ggZGVjb3JhdGVkKAogICAgQm94RGVjb3JhdGlvbiBkZWNvcmF0aW9uLCB7CiAgICBEZWNvcmF0aW9uUG9zaXRpb24gcG9zaXRpb24gPSBEZWNvcmF0aW9uUG9zaXRpb24uYmFja2dyb3VuZCwKICB9KSA9PgogICAgICBEZWNvcmF0ZWRCb3goZGVjb3JhdGlvbjogZGVjb3JhdGlvbiwgcG9zaXRpb246IHBvc2l0aW9uLCBjaGlsZDogdGhpcyk7CiAgQ29sb3JlZEJveCBjb2xvcihDb2xvciBjb2xvcikgPT4gQ29sb3JlZEJveChjb2xvcjogY29sb3IsIGNoaWxkOiB0aGlzKTsKICBDbGlwUmVjdCBjbGlwcGVkUmVjdCgpID0+IENsaXBSZWN0KAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIENsaXBSUmVjdCBjbGlwcGVkUlJlY3QoQm9yZGVyUmFkaXVzIGJvcmRlclJhZGl1cykgPT4gQ2xpcFJSZWN0KAogICAgICAgIGJvcmRlclJhZGl1czogYm9yZGVyUmFkaXVzLAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIENsaXBPdmFsIGNsaXBwZWRPdmFsKCkgPT4gQ2xpcE92YWwoY2hpbGQ6IHRoaXMpOwogIEV4cGFuZGVkIGV4cGFuZGVkKHtpbnQgZmxleCA9IDF9KSA9PiBFeHBhbmRlZCgKICAgICAgICBmbGV4OiBmbGV4LAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIEZsZXhpYmxlIGZsZXhpYmxlKHtpbnQgZmxleCA9IDEsIEZsZXhGaXQgZml0ID0gRmxleEZpdC5sb29zZX0pID0+IEZsZXhpYmxlKAogICAgICAgIGZsZXg6IGZsZXgsCiAgICAgICAgZml0OiBmaXQsCiAgICAgICAgY2hpbGQ6IHRoaXMsCiAgICAgICk7CiAgUG9zaXRpb25lZCBwb3NpdGlvbmVkKHsKICAgIGRvdWJsZT8gbGVmdCwKICAgIGRvdWJsZT8gdG9wLAogICAgZG91YmxlPyByaWdodCwKICAgIGRvdWJsZT8gYm90dG9tLAogICAgZG91YmxlPyB3aWR0aCwKICAgIGRvdWJsZT8gaGVpZ2h0LAogIH0pID0+CiAgICAgIFBvc2l0aW9uZWQoCiAgICAgICAgbGVmdDogbGVmdCwKICAgICAgICB0b3A6IHRvcCwKICAgICAgICByaWdodDogcmlnaHQsCiAgICAgICAgYm90dG9tOiBib3R0b20sCiAgICAgICAgd2lkdGg6IHdpZHRoLAogICAgICAgIGhlaWdodDogaGVpZ2h0LAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIFBvc2l0aW9uZWQgcG9zaXRpb25lZEZpbGxlZCgpID0+IFBvc2l0aW9uZWQuZmlsbCgKICAgICAgICBjaGlsZDogdGhpcywKICAgICAgKTsKICBXaWRnZXQgcG9pbnRlcih7Ym9vbCBkaXNhYmxlID0gZmFsc2V9KSA9PiBkaXNhYmxlCiAgICAgID8gdGhpcwogICAgICA6IE1vdXNlUmVnaW9uKAogICAgICAgICAgY3Vyc29yOiBTeXN0ZW1Nb3VzZUN1cnNvcnMuY2xpY2ssCiAgICAgICAgICBjaGlsZDogdGhpcywKICAgICAgICApOwogIFNpemVkQm94IHdpZHRoKGRvdWJsZSB3aWR0aCkgPT4gU2l6ZWRCb3goCiAgICAgICAgd2lkdGg6IHdpZHRoLAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIFNpemVkQm94IGhlaWdodChkb3VibGUgaGVpZ2h0KSA9PiBTaXplZEJveCgKICAgICAgICBoZWlnaHQ6IGhlaWdodCwKICAgICAgICBjaGlsZDogdGhpcywKICAgICAgKTsKICBTaXplZEJveCBzaXplKGRvdWJsZSB3aWR0aCwgZG91YmxlIGhlaWdodCkgPT4gU2l6ZWRCb3goCiAgICAgICAgd2lkdGg6IHdpZHRoLAogICAgICAgIGhlaWdodDogaGVpZ2h0LAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIFNpemVkQm94IHNxdWFyZShkb3VibGUgc2l6ZSkgPT4gU2l6ZWRCb3goCiAgICAgICAgd2lkdGg6IHNpemUsCiAgICAgICAgaGVpZ2h0OiBzaXplLAogICAgICAgIGNoaWxkOiB0aGlzLAogICAgICApOwogIEdlc3R1cmVEZXRlY3RvciBvblRhcCh2b2lkIEZ1bmN0aW9uKCkgb25UYXApID0+IEdlc3R1cmVEZXRlY3RvcigKICAgICAgICBvblRhcDogb25UYXAsCiAgICAgICAgY2hpbGQ6IHRoaXMsCiAgICAgICk7CiAgV2lkZ2V0IGJvdW5jZSh7CiAgICB2b2lkIEZ1bmN0aW9uKCk/IG9uVGFwLAogICAgdm9pZCBGdW5jdGlvbihUYXBEb3duRGV0YWlscyk/IG9uTG9uZ1ByZXNzLAogICAgU3lzdGVtTW91c2VDdXJzb3I/IGN1cnNvciwKICAgIGJvb2wgd2l0aE1vdGlvbiA9IGZhbHNlLAogIH0pIHsKICAgIGZpbmFsIGJvdW5jZSA9IEJvdW5jZSgKICAgICAgb25UYXA6IG9uVGFwLAogICAgICBvbkxvbmdQcmVzczogb25Mb25nUHJlc3MsCiAgICAgIGN1cnNvcjogY3Vyc29yID8/IFN5c3RlbU1vdXNlQ3Vyc29ycy5jbGljaywKICAgICAgc2NhbGVGYWN0b3I6IDAuOTgsCiAgICAgIHRpbHQ6IGZhbHNlLAogICAgICBjaGlsZDogdGhpcywKICAgICk7CiAgICBpZiAod2l0aE1vdGlvbikgewogICAgICByZXR1cm4gTW90aW9uKGNoaWxkOiBib3VuY2UpOwogICAgfQogICAgcmV0dXJuIGJvdW5jZTsKICB9CgogIFdpZGdldCBtb3Rpb24oKSA9PiBNb3Rpb24oY2hpbGQ6IHRoaXMpOwogIFdpZGdldCBib3VuY2VBbmRNb3Rpb24oewogICAgdm9pZCBGdW5jdGlvbigpPyBvblRhcCwKICAgIHZvaWQgRnVuY3Rpb24oVGFwRG93bkRldGFpbHMpPyBvbkxvbmdQcmVzcywKICAgIFN5c3RlbU1vdXNlQ3Vyc29yPyBjdXJzb3IsCiAgfSkgPT4KICAgICAgYm91bmNlKAogICAgICAgIG9uVGFwOiBvblRhcCwKICAgICAgICBvbkxvbmdQcmVzczogb25Mb25nUHJlc3MsCiAgICAgICAgY3Vyc29yOiBjdXJzb3IsCiAgICAgICAgd2l0aE1vdGlvbjogdHJ1ZSwKICAgICAgKTsKICBXaWRnZXQgYXNwZWN0UmF0aW8oZG91YmxlIHJhdGlvKSA9PiBBc3BlY3RSYXRpbygKICAgICAgICBhc3BlY3RSYXRpbzogcmF0aW8sCiAgICAgICAgY2hpbGQ6IHRoaXMsCiAgICAgICk7CiAgQ29uc3RyYWluZWRCb3ggY29uc3RyYWluZWQoQm94Q29uc3RyYWludHMgY29uc3RyYWludHMpID0+CiAgICAgIENvbnN0cmFpbmVkQm94KGNvbnN0cmFpbnRzOiBjb25zdHJhaW50cywgY2hpbGQ6IHRoaXMpOwogIEZpdHRlZEJveCBmaXR0ZWQoe0JveEZpdCBmaXQgPSBCb3hGaXQuY29udGFpbn0pID0+IEZpdHRlZEJveCgKICAgICAgICBmaXQ6IGZpdCwKICAgICAgICBjaGlsZDogdGhpcywKICAgICAgKTsKICBUb29sdGlwIHRvb2x0aXAoU3RyaW5nIG1lc3NhZ2UpID0+IFRvb2x0aXAoCiAgICAgICAgbWVzc2FnZTogbWVzc2FnZSwKICAgICAgICBjaGlsZDogdGhpcywKICAgICAgKTsKICBSZXBhaW50Qm91bmRhcnkgcmVwYWludEJvdW5kYXJ5KCkgPT4gUmVwYWludEJvdW5kYXJ5KGNoaWxkOiB0aGlzKTsKfQoKZXh0ZW5zaW9uIEljb25VdGlscyBvbiBJY29uIHsKICBJY29uQnV0dG9uIGljb25CdXR0b24oe3JlcXVpcmVkIHZvaWQgRnVuY3Rpb24oKSBvblRhcH0pID0+IEljb25CdXR0b24oCiAgICAgICAgb25QcmVzc2VkOiBvblRhcCwKICAgICAgICBpY29uOiB0aGlzLAogICAgICApOwp9CgpleHRlbnNpb24gVGV4dFV0aWxzIG9uIFRleHQgewogIFRleHQgY29weVdpdGgoewogICAgVGV4dFN0eWxlPyBzdHlsZSwKICAgIFRleHRBbGlnbj8gdGV4dEFsaWduLAogICAgVGV4dERpcmVjdGlvbj8gdGV4dERpcmVjdGlvbiwKICAgIExvY2FsZT8gbG9jYWxlLAogICAgYm9vbD8gc29mdFdyYXAsCiAgICBUZXh0T3ZlcmZsb3c/IG92ZXJmbG93LAogICAgaW50PyBtYXhMaW5lcywKICAgIFN0cmluZz8gc2VtYW50aWNzTGFiZWwsCiAgICBUZXh0V2lkdGhCYXNpcz8gdGV4dFdpZHRoQmFzaXMsCiAgfSkgPT4KICAgICAgVGV4dCgKICAgICAgICBkYXRhID8/ICcnLAogICAgICAgIHN0eWxlOiBzdHlsZSwKICAgICAgICB0ZXh0QWxpZ246IHRleHRBbGlnbiwKICAgICAgICB0ZXh0RGlyZWN0aW9uOiB0ZXh0RGlyZWN0aW9uLAogICAgICAgIGxvY2FsZTogbG9jYWxlLAogICAgICAgIHNvZnRXcmFwOiBzb2Z0V3JhcCwKICAgICAgICBvdmVyZmxvdzogb3ZlcmZsb3csCiAgICAgICAgbWF4TGluZXM6IG1heExpbmVzLAogICAgICAgIHNlbWFudGljc0xhYmVsOiBzZW1hbnRpY3NMYWJlbCwKICAgICAgICB0ZXh0V2lkdGhCYXNpczogdGV4dFdpZHRoQmFzaXMsCiAgICAgICk7CiAgVGV4dCBjb2xvcihDb2xvciBjb2xvcikgPT4gY29weVdpdGgoc3R5bGU6IHN0eWxlPy5jb3B5V2l0aChjb2xvcjogY29sb3IpKTsKICBUZXh0IGJvbGQoKSA9PiBjb3B5V2l0aChzdHlsZTogc3R5bGU/LmNvcHlXaXRoKGZvbnRXZWlnaHQ6IEZvbnRXZWlnaHQuYm9sZCkpOwogIFRleHQgaXRhbGljKCkgPT4KICAgICAgY29weVdpdGgoc3R5bGU6IHN0eWxlPy5jb3B5V2l0aChmb250U3R5bGU6IEZvbnRTdHlsZS5pdGFsaWMpKTsKICBUZXh0IHNpemUoZG91YmxlIHNpemUpID0+IGNvcHlXaXRoKHN0eWxlOiBzdHlsZT8uY29weVdpdGgoZm9udFNpemU6IHNpemUpKTsKICBUZXh0IHRleHRBbGlnbihUZXh0QWxpZ24gYWxpZ24pID0+IGNvcHlXaXRoKHRleHRBbGlnbjogYWxpZ24pOwogIFRleHQgbWF4TGluZXMoaW50IGxpbmVzKSA9PiBjb3B5V2l0aChtYXhMaW5lczogbGluZXMpOwogIFRleHQgZWxsaXBzaXMoKSA9PiBjb3B5V2l0aChvdmVyZmxvdzogVGV4dE92ZXJmbG93LmVsbGlwc2lzKTsKICBUZXh0IGRpc3BsYXlMYXJnZShCdWlsZENvbnRleHQgY29udGV4dCkgPT4KICAgICAgY29weVdpdGgoc3R5bGU6IGNvbnRleHQuZGlzcGxheUxhcmdlKTsKICBUZXh0IGRpc3BsYXlNZWRpdW0oQnVpbGRDb250ZXh0IGNvbnRleHQpID0+CiAgICAgIGNvcHlXaXRoKHN0eWxlOiBjb250ZXh0LmRpc3BsYXlNZWRpdW0pOwogIFRleHQgZGlzcGxheVNtYWxsKEJ1aWxkQ29udGV4dCBjb250ZXh0KSA9PgogICAgICBjb3B5V2l0aChzdHlsZTogY29udGV4dC5kaXNwbGF5U21hbGwpOwogIFRleHQgaGVhZGxpbmVMYXJnZShCdWlsZENvbnRleHQgY29udGV4dCkgPT4KICAgICAgY29weVdpdGgoc3R5bGU6IGNvbnRleHQuaGVhZGxpbmVMYXJnZSk7CiAgVGV4dCBoZWFkbGluZU1lZGl1bShCdWlsZENvbnRleHQgY29udGV4dCkgPT4KICAgICAgY29weVdpdGgoc3R5bGU6IGNvbnRleHQuaGVhZGxpbmVNZWRpdW0pOwogIFRleHQgaGVhZGxpbmVTbWFsbChCdWlsZENvbnRleHQgY29udGV4dCkgPT4KICAgICAgY29weVdpdGgoc3R5bGU6IGNvbnRleHQuaGVhZGxpbmVTbWFsbCk7CiAgVGV4dCB0aXRsZUxhcmdlKEJ1aWxkQ29udGV4dCBjb250ZXh0KSA9PiBjb3B5V2l0aChzdHlsZTogY29udGV4dC50aXRsZUxhcmdlKTsKICBUZXh0IHRpdGxlTWVkaXVtKEJ1aWxkQ29udGV4dCBjb250ZXh0KSA9PgogICAgICBjb3B5V2l0aChzdHlsZTogY29udGV4dC50aXRsZU1lZGl1bSk7CiAgVGV4dCB0aXRsZVNtYWxsKEJ1aWxkQ29udGV4dCBjb250ZXh0KSA9PiBjb3B5V2l0aChzdHlsZTogY29udGV4dC50aXRsZVNtYWxsKTsKICBUZXh0IGJvZHlMYXJnZShCdWlsZENvbnRleHQgY29udGV4dCkgPT4gY29weVdpdGgoc3R5bGU6IGNvbnRleHQuYm9keUxhcmdlKTsKICBUZXh0IGJvZHlNZWRpdW0oQnVpbGRDb250ZXh0IGNvbnRleHQpID0+IGNvcHlXaXRoKHN0eWxlOiBjb250ZXh0LmJvZHlNZWRpdW0pOwogIFRleHQgYm9keVNtYWxsKEJ1aWxkQ29udGV4dCBjb250ZXh0KSA9PiBjb3B5V2l0aChzdHlsZTogY29udGV4dC5ib2R5U21hbGwpOwogIFRleHQgbGFiZWxMYXJnZShCdWlsZENvbnRleHQgY29udGV4dCkgPT4gY29weVdpdGgoc3R5bGU6IGNvbnRleHQubGFiZWxMYXJnZSk7CiAgVGV4dCBsYWJlbE1lZGl1bShCdWlsZENvbnRleHQgY29udGV4dCkgPT4KICAgICAgY29weVdpdGgoc3R5bGU6IGNvbnRleHQubGFiZWxNZWRpdW0pOwogIFRleHQgbGFiZWxTbWFsbChCdWlsZENvbnRleHQgY29udGV4dCkgPT4gY29weVdpdGgoc3R5bGU6IGNvbnRleHQubGFiZWxTbWFsbCk7Cn0K
+// Flutter imports:
+import 'package:bounce/bounce.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:motion/motion.dart';
+import 'package:template/src/extensions/index.dart';
+
+extension WidgetUtils on Widget {
+  SafeArea safeArea() => SafeArea(child: this);
+  Center centered() => Center(child: this);
+  Align aligned(Alignment alignment) =>
+      Align(alignment: alignment, child: this);
+  Padding padding(EdgeInsetsGeometry padding) => Padding(
+        padding: padding,
+        child: this,
+      );
+  Padding paddingAll(double padding) => Padding(
+        padding: EdgeInsets.all(padding),
+        child: this,
+      );
+  Padding paddingH(double padding) => Padding(
+        padding: EdgeInsets.symmetric(horizontal: padding),
+        child: this,
+      );
+  Padding paddingV(double padding) => Padding(
+        padding: EdgeInsets.symmetric(vertical: padding),
+        child: this,
+      );
+  IgnorePointer ignored({required bool ignore}) => IgnorePointer(
+        ignoring: ignore,
+        child: this,
+      );
+  Opacity opacity(double opacity) => Opacity(
+        opacity: opacity,
+        child: this,
+      );
+  Visibility visible({required bool visible}) => Visibility(
+        visible: visible,
+        child: this,
+      );
+  Opacity hiddenButPresent() => ignored(ignore: true).opacity(0);
+  DecoratedBox decorated(
+    BoxDecoration decoration, {
+    DecorationPosition position = DecorationPosition.background,
+  }) =>
+      DecoratedBox(decoration: decoration, position: position, child: this);
+  ColoredBox color(Color color) => ColoredBox(color: color, child: this);
+  ClipRect clippedRect() => ClipRect(
+        child: this,
+      );
+  ClipRRect clippedRRect(BorderRadius borderRadius) => ClipRRect(
+        borderRadius: borderRadius,
+        child: this,
+      );
+  ClipOval clippedOval() => ClipOval(child: this);
+  Expanded expanded({int flex = 1}) => Expanded(
+        flex: flex,
+        child: this,
+      );
+  Flexible flexible({int flex = 1, FlexFit fit = FlexFit.loose}) => Flexible(
+        flex: flex,
+        fit: fit,
+        child: this,
+      );
+  Positioned positioned({
+    double? left,
+    double? top,
+    double? right,
+    double? bottom,
+    double? width,
+    double? height,
+  }) =>
+      Positioned(
+        left: left,
+        top: top,
+        right: right,
+        bottom: bottom,
+        width: width,
+        height: height,
+        child: this,
+      );
+  Positioned positionedFilled() => Positioned.fill(
+        child: this,
+      );
+  Widget pointer({bool disable = false}) => disable
+      ? this
+      : MouseRegion(
+          cursor: SystemMouseCursors.click,
+          child: this,
+        );
+  SizedBox width(double width) => SizedBox(
+        width: width,
+        child: this,
+      );
+  SizedBox height(double height) => SizedBox(
+        height: height,
+        child: this,
+      );
+  SizedBox size(double width, double height) => SizedBox(
+        width: width,
+        height: height,
+        child: this,
+      );
+  SizedBox square(double size) => SizedBox(
+        width: size,
+        height: size,
+        child: this,
+      );
+  GestureDetector onTap(void Function() onTap) => GestureDetector(
+        onTap: onTap,
+        child: this,
+      );
+  Widget bounce({
+    void Function()? onTap,
+    void Function(TapDownDetails)? onLongPress,
+    SystemMouseCursor? cursor,
+    bool withMotion = false,
+  }) {
+    final bounce = Bounce(
+      onTap: onTap,
+      onLongPress: onLongPress,
+      cursor: cursor ?? SystemMouseCursors.click,
+      scaleFactor: 0.98,
+      tilt: false,
+      child: this,
+    );
+    if (withMotion) {
+      return Motion(child: bounce);
+    }
+    return bounce;
+  }
+
+  Widget motion() => Motion(child: this);
+  Widget bounceAndMotion({
+    void Function()? onTap,
+    void Function(TapDownDetails)? onLongPress,
+    SystemMouseCursor? cursor,
+  }) =>
+      bounce(
+        onTap: onTap,
+        onLongPress: onLongPress,
+        cursor: cursor,
+        withMotion: true,
+      );
+  Widget aspectRatio(double ratio) => AspectRatio(
+        aspectRatio: ratio,
+        child: this,
+      );
+  ConstrainedBox constrained(BoxConstraints constraints) =>
+      ConstrainedBox(constraints: constraints, child: this);
+  FittedBox fitted({BoxFit fit = BoxFit.contain}) => FittedBox(
+        fit: fit,
+        child: this,
+      );
+  Tooltip tooltip(String message) => Tooltip(
+        message: message,
+        child: this,
+      );
+  RepaintBoundary repaintBoundary() => RepaintBoundary(child: this);
+}
+
+extension IconUtils on Icon {
+  IconButton iconButton({required void Function() onTap}) => IconButton(
+        onPressed: onTap,
+        icon: this,
+      );
+}
+
+extension TextUtils on Text {
+  Text copyWith({
+    TextStyle? style,
+    TextAlign? textAlign,
+    TextDirection? textDirection,
+    Locale? locale,
+    bool? softWrap,
+    TextOverflow? overflow,
+    int? maxLines,
+    String? semanticsLabel,
+    TextWidthBasis? textWidthBasis,
+  }) =>
+      Text(
+        data ?? '',
+        style: style,
+        textAlign: textAlign,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        overflow: overflow,
+        maxLines: maxLines,
+        semanticsLabel: semanticsLabel,
+        textWidthBasis: textWidthBasis,
+      );
+  Text color(Color color) => copyWith(style: style?.copyWith(color: color));
+  Text bold() => copyWith(style: style?.copyWith(fontWeight: FontWeight.bold));
+  Text italic() =>
+      copyWith(style: style?.copyWith(fontStyle: FontStyle.italic));
+  Text size(double size) => copyWith(style: style?.copyWith(fontSize: size));
+  Text textAlign(TextAlign align) => copyWith(textAlign: align);
+  Text maxLines(int lines) => copyWith(maxLines: lines);
+  Text ellipsis() => copyWith(overflow: TextOverflow.ellipsis);
+  Text displayLarge(BuildContext context) =>
+      copyWith(style: context.displayLarge);
+  Text displayMedium(BuildContext context) =>
+      copyWith(style: context.displayMedium);
+  Text displaySmall(BuildContext context) =>
+      copyWith(style: context.displaySmall);
+  Text headlineLarge(BuildContext context) =>
+      copyWith(style: context.headlineLarge);
+  Text headlineMedium(BuildContext context) =>
+      copyWith(style: context.headlineMedium);
+  Text headlineSmall(BuildContext context) =>
+      copyWith(style: context.headlineSmall);
+  Text titleLarge(BuildContext context) => copyWith(style: context.titleLarge);
+  Text titleMedium(BuildContext context) =>
+      copyWith(style: context.titleMedium);
+  Text titleSmall(BuildContext context) => copyWith(style: context.titleSmall);
+  Text bodyLarge(BuildContext context) => copyWith(style: context.bodyLarge);
+  Text bodyMedium(BuildContext context) => copyWith(style: context.bodyMedium);
+  Text bodySmall(BuildContext context) => copyWith(style: context.bodySmall);
+  Text labelLarge(BuildContext context) => copyWith(style: context.labelLarge);
+  Text labelMedium(BuildContext context) =>
+      copyWith(style: context.labelMedium);
+  Text labelSmall(BuildContext context) => copyWith(style: context.labelSmall);
+}

@@ -1,1 +1,42 @@
-cGxhdGZvcm0gOm9zeCwgJzEwLjE0JwoKIyBDb2NvYVBvZHMgYW5hbHl0aWNzIHNlbmRzIG5ldHdvcmsgc3RhdHMgc3luY2hyb25vdXNseSBhZmZlY3RpbmcgZmx1dHRlciBidWlsZCBsYXRlbmN5LgpFTlZbJ0NPQ09BUE9EU19ESVNBQkxFX1NUQVRTJ10gPSAndHJ1ZScKCnByb2plY3QgJ1J1bm5lcicsIHsKICAnRGVidWcnID0+IDpkZWJ1ZywKICAnUHJvZmlsZScgPT4gOnJlbGVhc2UsCiAgJ1JlbGVhc2UnID0+IDpyZWxlYXNlLAp9CgpkZWYgZmx1dHRlcl9yb290CiAgZ2VuZXJhdGVkX3hjb2RlX2J1aWxkX3NldHRpbmdzX3BhdGggPSBGaWxlLmV4cGFuZF9wYXRoKEZpbGUuam9pbignLi4nLCAnRmx1dHRlcicsICdlcGhlbWVyYWwnLCAnRmx1dHRlci1HZW5lcmF0ZWQueGNjb25maWcnKSwgX19GSUxFX18pCiAgdW5sZXNzIEZpbGUuZXhpc3Q/KGdlbmVyYXRlZF94Y29kZV9idWlsZF9zZXR0aW5nc19wYXRoKQogICAgcmFpc2UgIiN7Z2VuZXJhdGVkX3hjb2RlX2J1aWxkX3NldHRpbmdzX3BhdGh9IG11c3QgZXhpc3QuIElmIHlvdSdyZSBydW5uaW5nIHBvZCBpbnN0YWxsIG1hbnVhbGx5LCBtYWtlIHN1cmUgXCJmbHV0dGVyIHB1YiBnZXRcIiBpcyBleGVjdXRlZCBmaXJzdCIKICBlbmQKCiAgRmlsZS5mb3JlYWNoKGdlbmVyYXRlZF94Y29kZV9idWlsZF9zZXR0aW5nc19wYXRoKSBkbyB8bGluZXwKICAgIG1hdGNoZXMgPSBsaW5lLm1hdGNoKC9GTFVUVEVSX1JPT1RcPSguKikvKQogICAgcmV0dXJuIG1hdGNoZXNbMV0uc3RyaXAgaWYgbWF0Y2hlcwogIGVuZAogIHJhaXNlICJGTFVUVEVSX1JPT1Qgbm90IGZvdW5kIGluICN7Z2VuZXJhdGVkX3hjb2RlX2J1aWxkX3NldHRpbmdzX3BhdGh9LiBUcnkgZGVsZXRpbmcgRmx1dHRlci1HZW5lcmF0ZWQueGNjb25maWcsIHRoZW4gcnVuIFwiZmx1dHRlciBwdWIgZ2V0XCIiCmVuZAoKcmVxdWlyZSBGaWxlLmV4cGFuZF9wYXRoKEZpbGUuam9pbigncGFja2FnZXMnLCAnZmx1dHRlcl90b29scycsICdiaW4nLCAncG9kaGVscGVyJyksIGZsdXR0ZXJfcm9vdCkKCmZsdXR0ZXJfbWFjb3NfcG9kZmlsZV9zZXR1cAoKdGFyZ2V0ICdSdW5uZXInIGRvCiAgdXNlX2ZyYW1ld29ya3MhCgogIGZsdXR0ZXJfaW5zdGFsbF9hbGxfbWFjb3NfcG9kcyBGaWxlLmRpcm5hbWUoRmlsZS5yZWFscGF0aChfX0ZJTEVfXykpCiAgdGFyZ2V0ICdSdW5uZXJUZXN0cycgZG8KICAgIGluaGVyaXQhIDpzZWFyY2hfcGF0aHMKICBlbmQKZW5kCgpwb3N0X2luc3RhbGwgZG8gfGluc3RhbGxlcnwKICBpbnN0YWxsZXIucG9kc19wcm9qZWN0LnRhcmdldHMuZWFjaCBkbyB8dGFyZ2V0fAogICAgZmx1dHRlcl9hZGRpdGlvbmFsX21hY29zX2J1aWxkX3NldHRpbmdzKHRhcmdldCkKICBlbmQKZW5kCg==
+platform :osx, '10.14'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'ephemeral', 'Flutter-Generated.xcconfig'), __FILE__)
+  unless File.exist?(generated_xcode_build_settings_path)
+    raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure \"flutter pub get\" is executed first"
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/FLUTTER_ROOT\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}. Try deleting Flutter-Generated.xcconfig, then run \"flutter pub get\""
+end
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
+flutter_macos_podfile_setup
+
+target 'Runner' do
+  use_frameworks!
+
+  flutter_install_all_macos_pods File.dirname(File.realpath(__FILE__))
+  target 'RunnerTests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_macos_build_settings(target)
+  end
+end

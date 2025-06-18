@@ -1,1 +1,102 @@
-I2lmbmRlZiBSVU5ORVJfV0lOMzJfV0lORE9XX0hfCiNkZWZpbmUgUlVOTkVSX1dJTjMyX1dJTkRPV19IXwoKI2luY2x1ZGUgPHdpbmRvd3MuaD4KCiNpbmNsdWRlIDxmdW5jdGlvbmFsPgojaW5jbHVkZSA8bWVtb3J5PgojaW5jbHVkZSA8c3RyaW5nPgoKLy8gQSBjbGFzcyBhYnN0cmFjdGlvbiBmb3IgYSBoaWdoIERQSS1hd2FyZSBXaW4zMiBXaW5kb3cuIEludGVuZGVkIHRvIGJlCi8vIGluaGVyaXRlZCBmcm9tIGJ5IGNsYXNzZXMgdGhhdCB3aXNoIHRvIHNwZWNpYWxpemUgd2l0aCBjdXN0b20KLy8gcmVuZGVyaW5nIGFuZCBpbnB1dCBoYW5kbGluZwpjbGFzcyBXaW4zMldpbmRvdyB7CiBwdWJsaWM6CiAgc3RydWN0IFBvaW50IHsKICAgIHVuc2lnbmVkIGludCB4OwogICAgdW5zaWduZWQgaW50IHk7CiAgICBQb2ludCh1bnNpZ25lZCBpbnQgeCwgdW5zaWduZWQgaW50IHkpIDogeCh4KSwgeSh5KSB7fQogIH07CgogIHN0cnVjdCBTaXplIHsKICAgIHVuc2lnbmVkIGludCB3aWR0aDsKICAgIHVuc2lnbmVkIGludCBoZWlnaHQ7CiAgICBTaXplKHVuc2lnbmVkIGludCB3aWR0aCwgdW5zaWduZWQgaW50IGhlaWdodCkKICAgICAgICA6IHdpZHRoKHdpZHRoKSwgaGVpZ2h0KGhlaWdodCkge30KICB9OwoKICBXaW4zMldpbmRvdygpOwogIHZpcnR1YWwgfldpbjMyV2luZG93KCk7CgogIC8vIENyZWF0ZXMgYSB3aW4zMiB3aW5kb3cgd2l0aCB8dGl0bGV8IHRoYXQgaXMgcG9zaXRpb25lZCBhbmQgc2l6ZWQgdXNpbmcKICAvLyB8b3JpZ2lufCBhbmQgfHNpemV8LiBOZXcgd2luZG93cyBhcmUgY3JlYXRlZCBvbiB0aGUgZGVmYXVsdCBtb25pdG9yLiBXaW5kb3cKICAvLyBzaXplcyBhcmUgc3BlY2lmaWVkIHRvIHRoZSBPUyBpbiBwaHlzaWNhbCBwaXhlbHMsIGhlbmNlIHRvIGVuc3VyZSBhCiAgLy8gY29uc2lzdGVudCBzaXplIHRoaXMgZnVuY3Rpb24gd2lsbCBzY2FsZSB0aGUgaW5wdXR0ZWQgd2lkdGggYW5kIGhlaWdodCBhcwogIC8vIGFzIGFwcHJvcHJpYXRlIGZvciB0aGUgZGVmYXVsdCBtb25pdG9yLiBUaGUgd2luZG93IGlzIGludmlzaWJsZSB1bnRpbAogIC8vIHxTaG93fCBpcyBjYWxsZWQuIFJldHVybnMgdHJ1ZSBpZiB0aGUgd2luZG93IHdhcyBjcmVhdGVkIHN1Y2Nlc3NmdWxseS4KICBib29sIENyZWF0ZShjb25zdCBzdGQ6OndzdHJpbmcmIHRpdGxlLCBjb25zdCBQb2ludCYgb3JpZ2luLCBjb25zdCBTaXplJiBzaXplKTsKCiAgLy8gU2hvdyB0aGUgY3VycmVudCB3aW5kb3cuIFJldHVybnMgdHJ1ZSBpZiB0aGUgd2luZG93IHdhcyBzdWNjZXNzZnVsbHkgc2hvd24uCiAgYm9vbCBTaG93KCk7CgogIC8vIFJlbGVhc2UgT1MgcmVzb3VyY2VzIGFzc29jaWF0ZWQgd2l0aCB3aW5kb3cuCiAgdm9pZCBEZXN0cm95KCk7CgogIC8vIEluc2VydHMgfGNvbnRlbnR8IGludG8gdGhlIHdpbmRvdyB0cmVlLgogIHZvaWQgU2V0Q2hpbGRDb250ZW50KEhXTkQgY29udGVudCk7CgogIC8vIFJldHVybnMgdGhlIGJhY2tpbmcgV2luZG93IGhhbmRsZSB0byBlbmFibGUgY2xpZW50cyB0byBzZXQgaWNvbiBhbmQgb3RoZXIKICAvLyB3aW5kb3cgcHJvcGVydGllcy4gUmV0dXJucyBudWxscHRyIGlmIHRoZSB3aW5kb3cgaGFzIGJlZW4gZGVzdHJveWVkLgogIEhXTkQgR2V0SGFuZGxlKCk7CgogIC8vIElmIHRydWUsIGNsb3NpbmcgdGhpcyB3aW5kb3cgd2lsbCBxdWl0IHRoZSBhcHBsaWNhdGlvbi4KICB2b2lkIFNldFF1aXRPbkNsb3NlKGJvb2wgcXVpdF9vbl9jbG9zZSk7CgogIC8vIFJldHVybiBhIFJFQ1QgcmVwcmVzZW50aW5nIHRoZSBib3VuZHMgb2YgdGhlIGN1cnJlbnQgY2xpZW50IGFyZWEuCiAgUkVDVCBHZXRDbGllbnRBcmVhKCk7CgogcHJvdGVjdGVkOgogIC8vIFByb2Nlc3NlcyBhbmQgcm91dGUgc2FsaWVudCB3aW5kb3cgbWVzc2FnZXMgZm9yIG1vdXNlIGhhbmRsaW5nLAogIC8vIHNpemUgY2hhbmdlIGFuZCBEUEkuIERlbGVnYXRlcyBoYW5kbGluZyBvZiB0aGVzZSB0byBtZW1iZXIgb3ZlcmxvYWRzIHRoYXQKICAvLyBpbmhlcml0aW5nIGNsYXNzZXMgY2FuIGhhbmRsZS4KICB2aXJ0dWFsIExSRVNVTFQgTWVzc2FnZUhhbmRsZXIoSFdORCB3aW5kb3csCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVJTlQgY29uc3QgbWVzc2FnZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgV1BBUkFNIGNvbnN0IHdwYXJhbSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTFBBUkFNIGNvbnN0IGxwYXJhbSkgbm9leGNlcHQ7CgogIC8vIENhbGxlZCB3aGVuIENyZWF0ZUFuZFNob3cgaXMgY2FsbGVkLCBhbGxvd2luZyBzdWJjbGFzcyB3aW5kb3ctcmVsYXRlZAogIC8vIHNldHVwLiBTdWJjbGFzc2VzIHNob3VsZCByZXR1cm4gZmFsc2UgaWYgc2V0dXAgZmFpbHMuCiAgdmlydHVhbCBib29sIE9uQ3JlYXRlKCk7CgogIC8vIENhbGxlZCB3aGVuIERlc3Ryb3kgaXMgY2FsbGVkLgogIHZpcnR1YWwgdm9pZCBPbkRlc3Ryb3koKTsKCiBwcml2YXRlOgogIGZyaWVuZCBjbGFzcyBXaW5kb3dDbGFzc1JlZ2lzdHJhcjsKCiAgLy8gT1MgY2FsbGJhY2sgY2FsbGVkIGJ5IG1lc3NhZ2UgcHVtcC4gSGFuZGxlcyB0aGUgV01fTkNDUkVBVEUgbWVzc2FnZSB3aGljaAogIC8vIGlzIHBhc3NlZCB3aGVuIHRoZSBub24tY2xpZW50IGFyZWEgaXMgYmVpbmcgY3JlYXRlZCBhbmQgZW5hYmxlcyBhdXRvbWF0aWMKICAvLyBub24tY2xpZW50IERQSSBzY2FsaW5nIHNvIHRoYXQgdGhlIG5vbi1jbGllbnQgYXJlYSBhdXRvbWF0aWNhbGx5CiAgLy8gcmVzcG9uZHMgdG8gY2hhbmdlcyBpbiBEUEkuIEFsbCBvdGhlciBtZXNzYWdlcyBhcmUgaGFuZGxlZCBieQogIC8vIE1lc3NhZ2VIYW5kbGVyLgogIHN0YXRpYyBMUkVTVUxUIENBTExCQUNLIFduZFByb2MoSFdORCBjb25zdCB3aW5kb3csCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBVSU5UIGNvbnN0IG1lc3NhZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXUEFSQU0gY29uc3Qgd3BhcmFtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTFBBUkFNIGNvbnN0IGxwYXJhbSkgbm9leGNlcHQ7CgogIC8vIFJldHJpZXZlcyBhIGNsYXNzIGluc3RhbmNlIHBvaW50ZXIgZm9yIHx3aW5kb3d8CiAgc3RhdGljIFdpbjMyV2luZG93KiBHZXRUaGlzRnJvbUhhbmRsZShIV05EIGNvbnN0IHdpbmRvdykgbm9leGNlcHQ7CgogIC8vIFVwZGF0ZSB0aGUgd2luZG93IGZyYW1lJ3MgdGhlbWUgdG8gbWF0Y2ggdGhlIHN5c3RlbSB0aGVtZS4KICBzdGF0aWMgdm9pZCBVcGRhdGVUaGVtZShIV05EIGNvbnN0IHdpbmRvdyk7CgogIGJvb2wgcXVpdF9vbl9jbG9zZV8gPSBmYWxzZTsKCiAgLy8gd2luZG93IGhhbmRsZSBmb3IgdG9wIGxldmVsIHdpbmRvdy4KICBIV05EIHdpbmRvd19oYW5kbGVfID0gbnVsbHB0cjsKCiAgLy8gd2luZG93IGhhbmRsZSBmb3IgaG9zdGVkIGNvbnRlbnQuCiAgSFdORCBjaGlsZF9jb250ZW50XyA9IG51bGxwdHI7Cn07CgojZW5kaWYgIC8vIFJVTk5FUl9XSU4zMl9XSU5ET1dfSF8K
+#ifndef RUNNER_WIN32_WINDOW_H_
+#define RUNNER_WIN32_WINDOW_H_
+
+#include <windows.h>
+
+#include <functional>
+#include <memory>
+#include <string>
+
+// A class abstraction for a high DPI-aware Win32 Window. Intended to be
+// inherited from by classes that wish to specialize with custom
+// rendering and input handling
+class Win32Window {
+ public:
+  struct Point {
+    unsigned int x;
+    unsigned int y;
+    Point(unsigned int x, unsigned int y) : x(x), y(y) {}
+  };
+
+  struct Size {
+    unsigned int width;
+    unsigned int height;
+    Size(unsigned int width, unsigned int height)
+        : width(width), height(height) {}
+  };
+
+  Win32Window();
+  virtual ~Win32Window();
+
+  // Creates a win32 window with |title| that is positioned and sized using
+  // |origin| and |size|. New windows are created on the default monitor. Window
+  // sizes are specified to the OS in physical pixels, hence to ensure a
+  // consistent size this function will scale the inputted width and height as
+  // as appropriate for the default monitor. The window is invisible until
+  // |Show| is called. Returns true if the window was created successfully.
+  bool Create(const std::wstring& title, const Point& origin, const Size& size);
+
+  // Show the current window. Returns true if the window was successfully shown.
+  bool Show();
+
+  // Release OS resources associated with window.
+  void Destroy();
+
+  // Inserts |content| into the window tree.
+  void SetChildContent(HWND content);
+
+  // Returns the backing Window handle to enable clients to set icon and other
+  // window properties. Returns nullptr if the window has been destroyed.
+  HWND GetHandle();
+
+  // If true, closing this window will quit the application.
+  void SetQuitOnClose(bool quit_on_close);
+
+  // Return a RECT representing the bounds of the current client area.
+  RECT GetClientArea();
+
+ protected:
+  // Processes and route salient window messages for mouse handling,
+  // size change and DPI. Delegates handling of these to member overloads that
+  // inheriting classes can handle.
+  virtual LRESULT MessageHandler(HWND window,
+                                 UINT const message,
+                                 WPARAM const wparam,
+                                 LPARAM const lparam) noexcept;
+
+  // Called when CreateAndShow is called, allowing subclass window-related
+  // setup. Subclasses should return false if setup fails.
+  virtual bool OnCreate();
+
+  // Called when Destroy is called.
+  virtual void OnDestroy();
+
+ private:
+  friend class WindowClassRegistrar;
+
+  // OS callback called by message pump. Handles the WM_NCCREATE message which
+  // is passed when the non-client area is being created and enables automatic
+  // non-client DPI scaling so that the non-client area automatically
+  // responds to changes in DPI. All other messages are handled by
+  // MessageHandler.
+  static LRESULT CALLBACK WndProc(HWND const window,
+                                  UINT const message,
+                                  WPARAM const wparam,
+                                  LPARAM const lparam) noexcept;
+
+  // Retrieves a class instance pointer for |window|
+  static Win32Window* GetThisFromHandle(HWND const window) noexcept;
+
+  // Update the window frame's theme to match the system theme.
+  static void UpdateTheme(HWND const window);
+
+  bool quit_on_close_ = false;
+
+  // window handle for top level window.
+  HWND window_handle_ = nullptr;
+
+  // window handle for hosted content.
+  HWND child_content_ = nullptr;
+};
+
+#endif  // RUNNER_WIN32_WINDOW_H_

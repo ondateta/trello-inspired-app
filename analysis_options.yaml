@@ -1,1 +1,22 @@
-aW5jbHVkZTogcGFja2FnZTpmbHV0dGVyX2xpbnRzL2ZsdXR0ZXIueWFtbAoKYW5hbHl6ZXI6CiAgZXhjbHVkZTogW2FwaS8qKl0KCmxpbnRlcjoKICAjIFRoZSBsaW50IHJ1bGVzIGFwcGxpZWQgdG8gdGhpcyBwcm9qZWN0IGNhbiBiZSBjdXN0b21pemVkIGluIHRoZQogICMgc2VjdGlvbiBiZWxvdyB0byBkaXNhYmxlIHJ1bGVzIGZyb20gdGhlIGBwYWNrYWdlOmZsdXR0ZXJfbGludHMvZmx1dHRlci55YW1sYAogICMgaW5jbHVkZWQgYWJvdmUgb3IgdG8gZW5hYmxlIGFkZGl0aW9uYWwgcnVsZXMuIEEgbGlzdCBvZiBhbGwgYXZhaWxhYmxlIGxpbnRzCiAgIyBhbmQgdGhlaXIgZG9jdW1lbnRhdGlvbiBpcyBwdWJsaXNoZWQgYXQgaHR0cHM6Ly9kYXJ0LmRldi9saW50cy4KICAjCiAgIyBJbnN0ZWFkIG9mIGRpc2FibGluZyBhIGxpbnQgcnVsZSBmb3IgdGhlIGVudGlyZSBwcm9qZWN0IGluIHRoZQogICMgc2VjdGlvbiBiZWxvdywgaXQgY2FuIGFsc28gYmUgc3VwcHJlc3NlZCBmb3IgYSBzaW5nbGUgbGluZSBvZiBjb2RlCiAgIyBvciBhIHNwZWNpZmljIGRhcnQgZmlsZSBieSB1c2luZyB0aGUgYC8vIGlnbm9yZTogbmFtZV9vZl9saW50YCBhbmQKICAjIGAvLyBpZ25vcmVfZm9yX2ZpbGU6IG5hbWVfb2ZfbGludGAgc3ludGF4IG9uIHRoZSBsaW5lIG9yIGluIHRoZSBmaWxlCiAgIyBwcm9kdWNpbmcgdGhlIGxpbnQuCiAgcnVsZXM6CiAgICAjIGF2b2lkX3ByaW50OiBmYWxzZSAgIyBVbmNvbW1lbnQgdG8gZGlzYWJsZSB0aGUgYGF2b2lkX3ByaW50YCBydWxlCiAgICAjIHByZWZlcl9zaW5nbGVfcXVvdGVzOiB0cnVlICAjIFVuY29tbWVudCB0byBlbmFibGUgdGhlIGBwcmVmZXJfc2luZ2xlX3F1b3Rlc2AgcnVsZQoKIyBBZGRpdGlvbmFsIGluZm9ybWF0aW9uIGFib3V0IHRoaXMgZmlsZSBjYW4gYmUgZm91bmQgYXQKIyBodHRwczovL2RhcnQuZGV2L2d1aWRlcy9sYW5ndWFnZS9hbmFseXNpcy1vcHRpb25zCg==
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude: [api/**]
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at https://dart.dev/lints.
+  #
+  # Instead of disabling a lint rule for the entire project in the
+  # section below, it can also be suppressed for a single line of code
+  # or a specific dart file by using the `// ignore: name_of_lint` and
+  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
+  # producing the lint.
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options

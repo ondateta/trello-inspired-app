@@ -1,1 +1,5 @@
-ZXh0ZW5zaW9uIE9iamVjdFV0aWxzIG9uIE9iamVjdD8gewogIGJvb2wgZXhpc3RzKCkgPT4gdGhpcyAhPSBudWxsOwogIGJvb2wgbm90RXhpc3RzKCkgPT4gdGhpcyA9PSBudWxsOwogIFQgRnVuY3Rpb24oKSBsYXp5PFQ+KCkgPT4gKCkgPT4gdGhpcyBhcyBUOwp9Cg==
+extension ObjectUtils on Object? {
+  bool exists() => this != null;
+  bool notExists() => this == null;
+  T Function() lazy<T>() => () => this as T;
+}

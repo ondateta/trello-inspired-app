@@ -1,1 +1,250 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvY3VwZXJ0aW5vLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlci9tYXRlcmlhbC5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOmdhcC9nYXAuZGFydCc7CmltcG9ydCAncGFja2FnZTpnb19yb3V0ZXIvZ29fcm91dGVyLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL2NvbnRyb2xsZXJzL2F1dGhfY29udHJvbGxlci5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL3NyYy9kZXNpZ25fc3lzdGVtL2FwcF9sb2dvLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL2Rlc2lnbl9zeXN0ZW0vY29udHJvbGxlcl9idWlsZGVyLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL2Rlc2lnbl9zeXN0ZW0vcmVzcG9uc2l2ZV93cmFwcGVyLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL2V4dGVuc2lvbnMvaW5kZXguZGFydCc7CgpjbGFzcyBMb2dpblZpZXcgZXh0ZW5kcyBTdGF0ZWZ1bFdpZGdldCB7CiAgY29uc3QgTG9naW5WaWV3KHtzdXBlci5rZXl9KTsKCiAgQG92ZXJyaWRlCiAgU3RhdGU8TG9naW5WaWV3PiBjcmVhdGVTdGF0ZSgpID0+IF9Mb2dpblZpZXdTdGF0ZSgpOwp9CgpjbGFzcyBfTG9naW5WaWV3U3RhdGUgZXh0ZW5kcyBTdGF0ZTxMb2dpblZpZXc+IHsKICBmaW5hbCBUZXh0RWRpdGluZ0NvbnRyb2xsZXIgZW1haWxDb250cm9sbGVyID0gVGV4dEVkaXRpbmdDb250cm9sbGVyKCk7CiAgZmluYWwgVGV4dEVkaXRpbmdDb250cm9sbGVyIHBhc3N3b3JkQ29udHJvbGxlciA9IFRleHRFZGl0aW5nQ29udHJvbGxlcigpOwogIGZpbmFsIEdsb2JhbEtleTxGb3JtU3RhdGU+IGZvcm1LZXkgPSBHbG9iYWxLZXk8Rm9ybVN0YXRlPigpOwoKICBAb3ZlcnJpZGUKICB2b2lkIGRpc3Bvc2UoKSB7CiAgICBlbWFpbENvbnRyb2xsZXIuZGlzcG9zZSgpOwogICAgcGFzc3dvcmRDb250cm9sbGVyLmRpc3Bvc2UoKTsKICAgIHN1cGVyLmRpc3Bvc2UoKTsKICB9CgogIEBvdmVycmlkZQogIFdpZGdldCBidWlsZChCdWlsZENvbnRleHQgY29udGV4dCkgewogICAgZmluYWwgdGhlbWUgPSBUaGVtZS5vZihjb250ZXh0KTsKICAgIAogICAgcmV0dXJuIENvbnRyb2xsZXJCdWlsZGVyPEF1dGhDb250cm9sbGVyPigKICAgICAgY3JlYXRlOiAoKSA9PiBBdXRoQ29udHJvbGxlcigpLAogICAgICBidWlsZGVyOiAoY29udGV4dCwgY29udHJvbGxlcikgewogICAgICAgIHJldHVybiBTY2FmZm9sZCgKICAgICAgICAgIGJvZHk6IFN0YWNrKAogICAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICAgIFBvc2l0aW9uZWQuZmlsbCgKICAgICAgICAgICAgICAgIGNoaWxkOiBEZWNvcmF0ZWRCb3goCiAgICAgICAgICAgICAgICAgIGRlY29yYXRpb246IEJveERlY29yYXRpb24oCiAgICAgICAgICAgICAgICAgICAgZ3JhZGllbnQ6IExpbmVhckdyYWRpZW50KAogICAgICAgICAgICAgICAgICAgICAgYmVnaW46IEFsaWdubWVudC50b3BDZW50ZXIsCiAgICAgICAgICAgICAgICAgICAgICBlbmQ6IEFsaWdubWVudC5ib3R0b21DZW50ZXIsCiAgICAgICAgICAgICAgICAgICAgICBjb2xvcnM6IFsKICAgICAgICAgICAgICAgICAgICAgICAgdGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgICAgICAgICAgICAgdGhlbWUuY29sb3JTY2hlbWUuc2Vjb25kYXJ5LndpdGhPcGFjaXR5KDAuNSksCiAgICAgICAgICAgICAgICAgICAgICAgIHRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2Uud2l0aE9wYWNpdHkoMCksCiAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgc3RvcHM6IGNvbnN0IFswLCAwLjMsIDAuNl0sCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICBQb3NpdGlvbmVkLmZpbGwoCiAgICAgICAgICAgICAgICBjaGlsZDogUmVzcG9uc2l2ZVdyYXBwZXIoCiAgICAgICAgICAgICAgICAgIGNoaWxkOiBGb3JtKAogICAgICAgICAgICAgICAgICAgIGtleTogZm9ybUtleSwKICAgICAgICAgICAgICAgICAgICBjaGlsZDogQ2VudGVyKAogICAgICAgICAgICAgICAgICAgICAgY2hpbGQ6IENvbnRhaW5lcigKICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDQwMCwKICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogY29uc3QgRWRnZUluc2V0cy5hbGwoMjQpLAogICAgICAgICAgICAgICAgICAgICAgICBkZWNvcmF0aW9uOiBCb3hEZWNvcmF0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiB0aGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogQm9yZGVyUmFkaXVzLmNpcmN1bGFyKDE2KSwKICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6IFsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEJveFNoYWRvdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IENvbG9ycy5ibGFjay53aXRoT3BhY2l0eSgwLjEpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibHVyUmFkaXVzOiAxMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3ByZWFkUmFkaXVzOiAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICBjaGlsZDogQ29sdW1uKAogICAgICAgICAgICAgICAgICAgICAgICAgIG1haW5BeGlzU2l6ZTogTWFpbkF4aXNTaXplLm1pbiwKICAgICAgICAgICAgICAgICAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgQXBwTG9nbyhzaXplOiA2MCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBHYXAoMTYpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ1dlbGNvbWUgQmFjayEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZTogdGhlbWUudGV4dFRoZW1lLmhlYWRsaW5lTWVkaXVtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IEdhcCg4KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdTaWduIGluIHRvIGNvbnRpbnVlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU6IHRoZW1lLnRleHRUaGVtZS5ib2R5TGFyZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgR2FwKDI0KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb250cm9sbGVyLmVycm9yTWVzc2FnZSAhPSBudWxsKSAuLi5bCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbnRhaW5lcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiBjb25zdCBFZGdlSW5zZXRzLmFsbCg4KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWNvcmF0aW9uOiBCb3hEZWNvcmF0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lLmVycm9yLndpdGhPcGFjaXR5KDAuMSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IEJvcmRlclJhZGl1cy5jaXJjdWxhcig4KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoaWxkOiBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlci5lcnJvck1lc3NhZ2UhLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU6IHRoZW1lLnRleHRUaGVtZS5ib2R5TWVkaXVtIS5jb3B5V2l0aCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lLmVycm9yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBHYXAoMTYpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEZvcm1GaWVsZDxTdHJpbmc+KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWxpZGF0b3I6ICh2YWx1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlbWFpbENvbnRyb2xsZXIudGV4dC5pc0VtcHR5KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gJ0VtYWlsIGlzIHJlcXVpcmVkJzsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCFSZWdFeHAocideW1x3LVwuXStAKFtcdy1dK1wuKStbXHctXXsyLDR9JCcpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXNNYXRjaChlbWFpbENvbnRyb2xsZXIudGV4dCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAnRW50ZXIgYSB2YWxpZCBlbWFpbCc7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBidWlsZGVyOiAoc3RhdGUpID0+IENvbHVtbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcm9zc0F4aXNBbGlnbm1lbnQ6IENyb3NzQXhpc0FsaWdubWVudC5zdGFydCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ3VwZXJ0aW5vVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250cm9sbGVyOiBlbWFpbENvbnRyb2xsZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyOiAnRW1haWwnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXlib2FyZFR5cGU6IFRleHRJbnB1dFR5cGUuZW1haWxBZGRyZXNzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiBjb25zdCBFZGdlSW5zZXRzLmFsbCgxMiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlY29yYXRpb246IEJveERlY29yYXRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VDb250YWluZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyU3R5bGU6IHRoZW1lLnRleHRUaGVtZS5ib2R5TWVkaXVtIS5jb3B5V2l0aCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogdGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlLndpdGhPcGFjaXR5KDAuNSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiB0aGVtZS50ZXh0VGhlbWUuYm9keU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2VkOiAodmFsdWUpID0+IHN0YXRlLmRpZENoYW5nZSh2YWx1ZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHN0YXRlLmhhc0Vycm9yKSAuLi5bCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEdhcCg4KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZS5lcnJvclRleHQhLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiB0aGVtZS50ZXh0VGhlbWUuYm9keVNtYWxsIQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY29weVdpdGgoY29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lLmVycm9yKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBHYXAoMTYpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgRm9ybUZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWxpZGF0b3I6ICh2YWx1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChwYXNzd29yZENvbnRyb2xsZXIudGV4dC5pc0VtcHR5KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gJ1Bhc3N3b3JkIGlzIHJlcXVpcmVkJzsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHBhc3N3b3JkQ29udHJvbGxlci50ZXh0Lmxlbmd0aCA8IDYpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAnUGFzc3dvcmQgbXVzdCBiZSBhdCBsZWFzdCA2IGNoYXJhY3RlcnMnOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVpbGRlcjogKHN0YXRlKSA9PiBDb2x1bW4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3Jvc3NBeGlzQWxpZ25tZW50OiBDcm9zc0F4aXNBbGlnbm1lbnQuc3RhcnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hpbGRyZW46IFsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEN1cGVydGlub1RleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlcjogcGFzc3dvcmRDb250cm9sbGVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcjogJ1Bhc3N3b3JkJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogY29uc3QgRWRnZUluc2V0cy5hbGwoMTIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWNvcmF0aW9uOiBCb3hEZWNvcmF0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiB0aGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlQ29udGFpbmVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogQm9yZGVyUmFkaXVzLmNpcmN1bGFyKDgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlclN0eWxlOiB0aGVtZS50ZXh0VGhlbWUuYm9keU1lZGl1bSEuY29weVdpdGgoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZS53aXRoT3BhY2l0eSgwLjUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZTogdGhlbWUudGV4dFRoZW1lLmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9ic2N1cmVUZXh0OiB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZWQ6ICh2YWx1ZSkgPT4gc3RhdGUuZGlkQ2hhbmdlKHZhbHVlKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoc3RhdGUuaGFzRXJyb3IpIC4uLlsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR2FwKDgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlLmVycm9yVGV4dCEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU6IHRoZW1lLnRleHRUaGVtZS5ib2R5U21hbGwhCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb3B5V2l0aChjb2xvcjogdGhlbWUuY29sb3JTY2hlbWUuZXJyb3IpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IEdhcCgyNCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTaXplZEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IGRvdWJsZS5pbmZpbml0eSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hpbGQ6IEVsZXZhdGVkQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiBFbGV2YXRlZEJ1dHRvbi5zdHlsZUZyb20oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3JlZ3JvdW5kQ29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMuc3ltbWV0cmljKHZlcnRpY2FsOiAxNiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGFwZTogUm91bmRlZFJlY3RhbmdsZUJvcmRlcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25QcmVzc2VkOiBjb250cm9sbGVyLmlzTG9hZGluZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAoKSBhc3luYyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZm9ybUtleS5jdXJyZW50U3RhdGUhLnZhbGlkYXRlKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXdhaXQgY29udHJvbGxlci5zaWduSW5XaXRoRW1haWxBbmRQYXNzd29yZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbWFpbDogZW1haWxDb250cm9sbGVyLnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFzc3dvcmQ6IHBhc3N3b3JkQ29udHJvbGxlci50ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY29udHJvbGxlci5pc0F1dGhlbnRpY2F0ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdvKCcvYm9hcmRzJyk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoaWxkOiBjb250cm9sbGVyLmlzTG9hZGluZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IGNvbnN0IFNpemVkQm94KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDI0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAyNCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoaWxkOiBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJva2VXaWR0aDogMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IENvbG9ycy53aGl0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IGNvbnN0IFRleHQoJ1NpZ24gSW4nKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBHYXAoMTYpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYWluQXhpc0FsaWdubWVudDogTWFpbkF4aXNBbGlnbm1lbnQuY2VudGVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiRG9uJ3QgaGF2ZSBhbiBhY2NvdW50PyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZTogdGhlbWUudGV4dFRoZW1lLmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25QcmVzc2VkOiAoKSA9PiBjb250ZXh0LmdvKCcvcmVnaXN0ZXInKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoaWxkOiBUZXh0KCdTaWduIFVwJyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgXSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgfSwKICAgICk7CiAgfQp9
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+import 'package:go_router/go_router.dart';
+import 'package:template/src/controllers/auth_controller.dart';
+import 'package:template/src/design_system/app_logo.dart';
+import 'package:template/src/design_system/controller_builder.dart';
+import 'package:template/src/design_system/responsive_wrapper.dart';
+import 'package:template/src/extensions/index.dart';
+
+class LoginView extends StatefulWidget {
+  const LoginView({super.key});
+
+  @override
+  State<LoginView> createState() => _LoginViewState();
+}
+
+class _LoginViewState extends State<LoginView> {
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+  final GlobalKey<FormState> formKey = GlobalKey<FormState>();
+
+  @override
+  void dispose() {
+    emailController.dispose();
+    passwordController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    
+    return ControllerBuilder<AuthController>(
+      create: () => AuthController(),
+      builder: (context, controller) {
+        return Scaffold(
+          body: Stack(
+            children: [
+              Positioned.fill(
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [
+                        theme.colorScheme.primary,
+                        theme.colorScheme.secondary.withOpacity(0.5),
+                        theme.colorScheme.surface.withOpacity(0),
+                      ],
+                      stops: const [0, 0.3, 0.6],
+                    ),
+                  ),
+                ),
+              ),
+              Positioned.fill(
+                child: ResponsiveWrapper(
+                  child: Form(
+                    key: formKey,
+                    child: Center(
+                      child: Container(
+                        width: 400,
+                        padding: const EdgeInsets.all(24),
+                        decoration: BoxDecoration(
+                          color: theme.colorScheme.surface,
+                          borderRadius: BorderRadius.circular(16),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withOpacity(0.1),
+                              blurRadius: 10,
+                              spreadRadius: 1,
+                            ),
+                          ],
+                        ),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const AppLogo(size: 60),
+                            const Gap(16),
+                            Text(
+                              'Welcome Back!',
+                              style: theme.textTheme.headlineMedium,
+                            ),
+                            const Gap(8),
+                            Text(
+                              'Sign in to continue',
+                              style: theme.textTheme.bodyLarge,
+                            ),
+                            const Gap(24),
+                            if (controller.errorMessage != null) ...[
+                              Container(
+                                padding: const EdgeInsets.all(8),
+                                decoration: BoxDecoration(
+                                  color: theme.colorScheme.error.withOpacity(0.1),
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: Text(
+                                  controller.errorMessage!,
+                                  style: theme.textTheme.bodyMedium!.copyWith(
+                                    color: theme.colorScheme.error,
+                                  ),
+                                ),
+                              ),
+                              const Gap(16),
+                            ],
+                            FormField<String>(
+                              validator: (value) {
+                                if (emailController.text.isEmpty) {
+                                  return 'Email is required';
+                                }
+                                if (!RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$')
+                                    .hasMatch(emailController.text)) {
+                                  return 'Enter a valid email';
+                                }
+                                return null;
+                              },
+                              builder: (state) => Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  CupertinoTextField(
+                                    controller: emailController,
+                                    placeholder: 'Email',
+                                    keyboardType: TextInputType.emailAddress,
+                                    padding: const EdgeInsets.all(12),
+                                    decoration: BoxDecoration(
+                                      color: theme.colorScheme.surfaceContainer,
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                    placeholderStyle: theme.textTheme.bodyMedium!.copyWith(
+                                      color: theme.colorScheme.onSurface.withOpacity(0.5),
+                                    ),
+                                    style: theme.textTheme.bodyMedium,
+                                    onChanged: (value) => state.didChange(value),
+                                  ),
+                                  if (state.hasError) ...[
+                                    Gap(8),
+                                    Text(
+                                      state.errorText!,
+                                      style: theme.textTheme.bodySmall!
+                                          .copyWith(color: theme.colorScheme.error),
+                                    ),
+                                  ],
+                                ],
+                              ),
+                            ),
+                            const Gap(16),
+                            FormField(
+                              validator: (value) {
+                                if (passwordController.text.isEmpty) {
+                                  return 'Password is required';
+                                }
+                                if (passwordController.text.length < 6) {
+                                  return 'Password must be at least 6 characters';
+                                }
+                                return null;
+                              },
+                              builder: (state) => Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  CupertinoTextField(
+                                    controller: passwordController,
+                                    placeholder: 'Password',
+                                    padding: const EdgeInsets.all(12),
+                                    decoration: BoxDecoration(
+                                      color: theme.colorScheme.surfaceContainer,
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                    placeholderStyle: theme.textTheme.bodyMedium!.copyWith(
+                                      color: theme.colorScheme.onSurface.withOpacity(0.5),
+                                    ),
+                                    style: theme.textTheme.bodyMedium,
+                                    obscureText: true,
+                                    onChanged: (value) => state.didChange(value),
+                                  ),
+                                  if (state.hasError) ...[
+                                    Gap(8),
+                                    Text(
+                                      state.errorText!,
+                                      style: theme.textTheme.bodySmall!
+                                          .copyWith(color: theme.colorScheme.error),
+                                    ),
+                                  ],
+                                ],
+                              ),
+                            ),
+                            const Gap(24),
+                            SizedBox(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: theme.colorScheme.primary,
+                                  foregroundColor: theme.colorScheme.onPrimary,
+                                  padding: const EdgeInsets.symmetric(vertical: 16),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                ),
+                                onPressed: controller.isLoading
+                                    ? null
+                                    : () async {
+                                        if (formKey.currentState!.validate()) {
+                                          await controller.signInWithEmailAndPassword(
+                                            email: emailController.text,
+                                            password: passwordController.text,
+                                          );
+                                          if (controller.isAuthenticated) {
+                                            context.go('/boards');
+                                          }
+                                        }
+                                      },
+                                child: controller.isLoading
+                                    ? const SizedBox(
+                                        width: 24,
+                                        height: 24,
+                                        child: CircularProgressIndicator(
+                                          strokeWidth: 2,
+                                          color: Colors.white,
+                                        ),
+                                      )
+                                    : const Text('Sign In'),
+                              ),
+                            ),
+                            const Gap(16),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Don't have an account?",
+                                  style: theme.textTheme.bodyMedium,
+                                ),
+                                TextButton(
+                                  onPressed: () => context.go('/register'),
+                                  child: Text('Sign Up'),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}

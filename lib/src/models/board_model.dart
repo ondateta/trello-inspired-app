@@ -1,1 +1,81 @@
-aW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL3NyYy9tb2RlbHMvdGFza19tb2RlbC5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL3NyYy9tb2RlbHMvYm9hcmRfY2F0ZWdvcnlfbW9kZWwuZGFydCc7CgpjbGFzcyBCb2FyZE1vZGVsIHsKICBmaW5hbCBTdHJpbmcgaWQ7CiAgZmluYWwgU3RyaW5nIHVzZXJJZDsKICBmaW5hbCBTdHJpbmcgbmFtZTsKICBmaW5hbCBEYXRlVGltZSBjcmVhdGVkQXQ7CiAgZmluYWwgRGF0ZVRpbWUgdXBkYXRlZEF0OwogIGZpbmFsIGludCB0b3RhbFRhc2tzOwogIGZpbmFsIGludCBjb21wbGV0ZWRUYXNrczsKICBmaW5hbCBMaXN0PFRhc2tNb2RlbD4/IHRhc2tzOwogIGZpbmFsIExpc3Q8Qm9hcmRDYXRlZ29yeU1vZGVsPj8gY3VzdG9tQ2F0ZWdvcmllczsKCiAgQm9hcmRNb2RlbCh7CiAgICByZXF1aXJlZCB0aGlzLmlkLAogICAgcmVxdWlyZWQgdGhpcy51c2VySWQsCiAgICByZXF1aXJlZCB0aGlzLm5hbWUsCiAgICByZXF1aXJlZCB0aGlzLmNyZWF0ZWRBdCwKICAgIHJlcXVpcmVkIHRoaXMudXBkYXRlZEF0LAogICAgdGhpcy50b3RhbFRhc2tzID0gMCwKICAgIHRoaXMuY29tcGxldGVkVGFza3MgPSAwLAogICAgdGhpcy50YXNrcywKICAgIHRoaXMuY3VzdG9tQ2F0ZWdvcmllcywKICB9KTsKCiAgZmFjdG9yeSBCb2FyZE1vZGVsLmZyb21Kc29uKE1hcDxTdHJpbmcsIGR5bmFtaWM+IGpzb24pIHsKICAgIHJldHVybiBCb2FyZE1vZGVsKAogICAgICBpZDoganNvblsnaWQnXSwKICAgICAgdXNlcklkOiBqc29uWyd1c2VyX2lkJ10sCiAgICAgIG5hbWU6IGpzb25bJ25hbWUnXSwKICAgICAgY3JlYXRlZEF0OiBEYXRlVGltZS5wYXJzZShqc29uWydjcmVhdGVkX2F0J10pLAogICAgICB1cGRhdGVkQXQ6IERhdGVUaW1lLnBhcnNlKGpzb25bJ3VwZGF0ZWRfYXQnXSksCiAgICAgIHRvdGFsVGFza3M6IGpzb25bJ3Rhc2tzJ10gIT0gbnVsbCA/IChqc29uWyd0YXNrcyddIGFzIExpc3QpLmxlbmd0aCA6CiAgICAgICAgICAgICAgICAgIGpzb25bJ3RvdGFsX3Rhc2tzJ10gIT0gbnVsbCAmJiBqc29uWyd0b3RhbF90YXNrcyddIGlzIGludCA/IGpzb25bJ3RvdGFsX3Rhc2tzJ10gOiAwLAogICAgICBjb21wbGV0ZWRUYXNrczoganNvblsndGFza3MnXSAhPSBudWxsID8gCiAgICAgICAgICAgICAgICAgICAgICAoanNvblsndGFza3MnXSBhcyBMaXN0KS53aGVyZSgodGFzaykgPT4gdGFza1snY29tcGxldGVkJ10gPT0gdHJ1ZSkubGVuZ3RoIDogCiAgICAgICAgICAgICAgICAgICAgICBqc29uWydjb21wbGV0ZWRfdGFza3MnXSAhPSBudWxsICYmIGpzb25bJ2NvbXBsZXRlZF90YXNrcyddIGlzIGludCA/IGpzb25bJ2NvbXBsZXRlZF90YXNrcyddIDogMCwKICAgICAgdGFza3M6IGpzb25bJ3Rhc2tzJ10gIT0gbnVsbCA/IChqc29uWyd0YXNrcyddIGFzIExpc3QpLm1hcDxUYXNrTW9kZWw+KCh0YXNrKSA9PiBUYXNrTW9kZWwuZnJvbUpzb24odGFzaykpLnRvTGlzdCgpIDogbnVsbCwKICAgICAgY3VzdG9tQ2F0ZWdvcmllczoganNvblsnY3VzdG9tX2NhdGVnb3JpZXMnXSAhPSBudWxsID8gKGpzb25bJ2N1c3RvbV9jYXRlZ29yaWVzJ10gYXMgTGlzdCkubWFwPEJvYXJkQ2F0ZWdvcnlNb2RlbD4oKGNhdGVnb3J5KSA9PiBCb2FyZENhdGVnb3J5TW9kZWwuZnJvbUpzb24oY2F0ZWdvcnkpKS50b0xpc3QoKSA6IG51bGwsCiAgICApOwogIH0KCiAgTWFwPFN0cmluZywgZHluYW1pYz4gdG9Kc29uKCkgewogICAgcmV0dXJuIHsKICAgICAgJ2lkJzogaWQsCiAgICAgICd1c2VyX2lkJzogdXNlcklkLAogICAgICAnbmFtZSc6IG5hbWUsCiAgICAgICdjcmVhdGVkX2F0JzogY3JlYXRlZEF0LnRvSXNvODYwMVN0cmluZygpLAogICAgICAndXBkYXRlZF9hdCc6IHVwZGF0ZWRBdC50b0lzbzg2MDFTdHJpbmcoKSwKICAgICAgJ3RvdGFsX3Rhc2tzJzogdG90YWxUYXNrcywKICAgICAgJ2NvbXBsZXRlZF90YXNrcyc6IGNvbXBsZXRlZFRhc2tzLAogICAgICAndGFza3MnOiB0YXNrcz8ubWFwKCh0YXNrKSA9PiB0YXNrLnRvSnNvbigpKS50b0xpc3QoKSwKICAgICAgJ2N1c3RvbV9jYXRlZ29yaWVzJzogY3VzdG9tQ2F0ZWdvcmllcz8ubWFwKChjYXRlZ29yeSkgPT4gY2F0ZWdvcnkudG9Kc29uKCkpLnRvTGlzdCgpLAogICAgfTsKICB9CgogIEJvYXJkTW9kZWwgY29weVdpdGgoewogICAgU3RyaW5nPyBpZCwKICAgIFN0cmluZz8gdXNlcklkLAogICAgU3RyaW5nPyBuYW1lLAogICAgRGF0ZVRpbWU/IGNyZWF0ZWRBdCwKICAgIERhdGVUaW1lPyB1cGRhdGVkQXQsCiAgICBpbnQ/IHRvdGFsVGFza3MsCiAgICBpbnQ/IGNvbXBsZXRlZFRhc2tzLAogICAgTGlzdDxUYXNrTW9kZWw+PyB0YXNrcywKICAgIExpc3Q8Qm9hcmRDYXRlZ29yeU1vZGVsPj8gY3VzdG9tQ2F0ZWdvcmllcywKICB9KSB7CiAgICByZXR1cm4gQm9hcmRNb2RlbCgKICAgICAgaWQ6IGlkID8/IHRoaXMuaWQsCiAgICAgIHVzZXJJZDogdXNlcklkID8/IHRoaXMudXNlcklkLAogICAgICBuYW1lOiBuYW1lID8/IHRoaXMubmFtZSwKICAgICAgY3JlYXRlZEF0OiBjcmVhdGVkQXQgPz8gdGhpcy5jcmVhdGVkQXQsCiAgICAgIHVwZGF0ZWRBdDogdXBkYXRlZEF0ID8/IHRoaXMudXBkYXRlZEF0LAogICAgICB0b3RhbFRhc2tzOiB0b3RhbFRhc2tzID8/IHRoaXMudG90YWxUYXNrcywKICAgICAgY29tcGxldGVkVGFza3M6IGNvbXBsZXRlZFRhc2tzID8/IHRoaXMuY29tcGxldGVkVGFza3MsCiAgICAgIHRhc2tzOiB0YXNrcyA/PyB0aGlzLnRhc2tzLAogICAgICBjdXN0b21DYXRlZ29yaWVzOiBjdXN0b21DYXRlZ29yaWVzID8/IHRoaXMuY3VzdG9tQ2F0ZWdvcmllcywKICAgICk7CiAgfQp9
+import 'package:template/src/models/task_model.dart';
+import 'package:template/src/models/board_category_model.dart';
+
+class BoardModel {
+  final String id;
+  final String userId;
+  final String name;
+  final DateTime createdAt;
+  final DateTime updatedAt;
+  final int totalTasks;
+  final int completedTasks;
+  final List<TaskModel>? tasks;
+  final List<BoardCategoryModel>? customCategories;
+
+  BoardModel({
+    required this.id,
+    required this.userId,
+    required this.name,
+    required this.createdAt,
+    required this.updatedAt,
+    this.totalTasks = 0,
+    this.completedTasks = 0,
+    this.tasks,
+    this.customCategories,
+  });
+
+  factory BoardModel.fromJson(Map<String, dynamic> json) {
+    return BoardModel(
+      id: json['id'],
+      userId: json['user_id'],
+      name: json['name'],
+      createdAt: DateTime.parse(json['created_at']),
+      updatedAt: DateTime.parse(json['updated_at']),
+      totalTasks: json['tasks'] != null ? (json['tasks'] as List).length :
+                  json['total_tasks'] != null && json['total_tasks'] is int ? json['total_tasks'] : 0,
+      completedTasks: json['tasks'] != null ? 
+                      (json['tasks'] as List).where((task) => task['completed'] == true).length : 
+                      json['completed_tasks'] != null && json['completed_tasks'] is int ? json['completed_tasks'] : 0,
+      tasks: json['tasks'] != null ? (json['tasks'] as List).map<TaskModel>((task) => TaskModel.fromJson(task)).toList() : null,
+      customCategories: json['custom_categories'] != null ? (json['custom_categories'] as List).map<BoardCategoryModel>((category) => BoardCategoryModel.fromJson(category)).toList() : null,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'user_id': userId,
+      'name': name,
+      'created_at': createdAt.toIso8601String(),
+      'updated_at': updatedAt.toIso8601String(),
+      'total_tasks': totalTasks,
+      'completed_tasks': completedTasks,
+      'tasks': tasks?.map((task) => task.toJson()).toList(),
+      'custom_categories': customCategories?.map((category) => category.toJson()).toList(),
+    };
+  }
+
+  BoardModel copyWith({
+    String? id,
+    String? userId,
+    String? name,
+    DateTime? createdAt,
+    DateTime? updatedAt,
+    int? totalTasks,
+    int? completedTasks,
+    List<TaskModel>? tasks,
+    List<BoardCategoryModel>? customCategories,
+  }) {
+    return BoardModel(
+      id: id ?? this.id,
+      userId: userId ?? this.userId,
+      name: name ?? this.name,
+      createdAt: createdAt ?? this.createdAt,
+      updatedAt: updatedAt ?? this.updatedAt,
+      totalTasks: totalTasks ?? this.totalTasks,
+      completedTasks: completedTasks ?? this.completedTasks,
+      tasks: tasks ?? this.tasks,
+      customCategories: customCategories ?? this.customCategories,
+    );
+  }
+}

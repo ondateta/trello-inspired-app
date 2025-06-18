@@ -1,1 +1,212 @@
-aW1wb3J0ICdkYXJ0OmFzeW5jJzsKaW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTpmbHV0dGVyX3Rlc3QvZmx1dHRlcl90ZXN0LmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL2NvbnRyb2xsZXJzL3Rhc2tzX2NvbnRyb2xsZXIuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvbW9kZWxzL3Rhc2tfbW9kZWwuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvdmlld3MvYm9hcmRfZGV0YWlsX3ZpZXcuZGFydCc7CgovLyBUaGlzIHRlc3Qgc2ltdWxhdGVzIG11bHRpcGxlIGNsaWVudHMgdmlld2luZyBhbmQgdXBkYXRpbmcgdGhlIHNhbWUgYm9hcmQKCmNsYXNzIE11bHRpQ2xpZW50U2ltdWxhdG9yIHsKICBmaW5hbCBTdHJpbmcgYm9hcmRJZDsKICBmaW5hbCBTdHJlYW1Db250cm9sbGVyPFRhc2tVcGRhdGVFdmVudD4gX2NvbnRyb2xsZXIgPSBTdHJlYW1Db250cm9sbGVyPFRhc2tVcGRhdGVFdmVudD4uYnJvYWRjYXN0KCk7CiAgZmluYWwgTGlzdDxUYXNrTW9kZWw+IF9zaGFyZWRUYXNrcyA9IFtdOwogIAogIE11bHRpQ2xpZW50U2ltdWxhdG9yKHRoaXMuYm9hcmRJZCkgewogICAgLy8gSW5pdGlhbGl6ZSB3aXRoIHNvbWUgdGFza3MKICAgIF9zaGFyZWRUYXNrcy5hZGQoCiAgICAgIFRhc2tNb2RlbCgKICAgICAgICBpZDogJzEnLAogICAgICAgIGJvYXJkSWQ6IGJvYXJkSWQsCiAgICAgICAgdGl0bGU6ICdTaGFyZWQgVGFzayAxJywKICAgICAgICBzdGF0dXM6IFRhc2tTdGF0dXMudG9kbywKICAgICAgICBjYXRlZ29yeTogJ2RlZmF1bHQnLAogICAgICAgIHBvc2l0aW9uOiAwLAogICAgICAgIHRhZ3M6IFsnc2hhcmVkJ10sCiAgICAgICAgY3JlYXRlZEF0OiBEYXRlVGltZS5ub3coKSwKICAgICAgICB1cGRhdGVkQXQ6IERhdGVUaW1lLm5vdygpLAogICAgICApCiAgICApOwogICAgCiAgICAvLyBFbWl0IGluaXRpYWwgdGFza3MKICAgIF9jb250cm9sbGVyLmFkZChUYXNrVXBkYXRlRXZlbnQoX3NoYXJlZFRhc2tzLCBUYXNrVXBkYXRlVHlwZS5pbml0aWFsKSk7CiAgfQogIAogIFN0cmVhbTxUYXNrVXBkYXRlRXZlbnQ+IGdldFN0cmVhbSgpIHsKICAgIHJldHVybiBfY29udHJvbGxlci5zdHJlYW07CiAgfQogIAogIHZvaWQgYWRkVGFzayhUYXNrTW9kZWwgdGFzaykgewogICAgX3NoYXJlZFRhc2tzLmFkZCh0YXNrKTsKICAgIF9jb250cm9sbGVyLmFkZChUYXNrVXBkYXRlRXZlbnQoX3NoYXJlZFRhc2tzLCBUYXNrVXBkYXRlVHlwZS5vdGhlclVwZGF0ZSkpOwogIH0KICAKICB2b2lkIG1vdmVUYXNrKFN0cmluZyB0YXNrSWQsIFN0cmluZyBuZXdTdGF0dXMpIHsKICAgIGZpbmFsIGluZGV4ID0gX3NoYXJlZFRhc2tzLmluZGV4V2hlcmUoKHRhc2spID0+IHRhc2suaWQgPT0gdGFza0lkKTsKICAgIGlmIChpbmRleCA+PSAwKSB7CiAgICAgIF9zaGFyZWRUYXNrc1tpbmRleF0gPSBfc2hhcmVkVGFza3NbaW5kZXhdLmNvcHlXaXRoKHN0YXR1czogbmV3U3RhdHVzKTsKICAgICAgX2NvbnRyb2xsZXIuYWRkKFRhc2tVcGRhdGVFdmVudChfc2hhcmVkVGFza3MsIFRhc2tVcGRhdGVUeXBlLmNvbHVtbk1vdmUpKTsKICAgIH0KICB9CiAgCiAgdm9pZCB1cGRhdGVUYXNrVGFncyhTdHJpbmcgdGFza0lkLCBMaXN0PFN0cmluZz4gbmV3VGFncykgewogICAgZmluYWwgaW5kZXggPSBfc2hhcmVkVGFza3MuaW5kZXhXaGVyZSgodGFzaykgPT4gdGFzay5pZCA9PSB0YXNrSWQpOwogICAgaWYgKGluZGV4ID49IDApIHsKICAgICAgX3NoYXJlZFRhc2tzW2luZGV4XSA9IF9zaGFyZWRUYXNrc1tpbmRleF0uY29weVdpdGgodGFnczogbmV3VGFncyk7CiAgICAgIF9jb250cm9sbGVyLmFkZChUYXNrVXBkYXRlRXZlbnQoX3NoYXJlZFRhc2tzLCBUYXNrVXBkYXRlVHlwZS50YWdVcGRhdGUpKTsKICAgIH0KICB9CiAgCiAgdm9pZCBkaXNwb3NlKCkgewogICAgX2NvbnRyb2xsZXIuY2xvc2UoKTsKICB9Cn0KCnZvaWQgbWFpbigpIHsKICBncm91cCgnTXVsdGktY2xpZW50IFJlYWwtdGltZSBTeW5jaHJvbml6YXRpb24gVGVzdHMnLCAoKSB7CiAgICBsYXRlIE11bHRpQ2xpZW50U2ltdWxhdG9yIHNpbXVsYXRvcjsKICAgIAogICAgc2V0VXAoKCkgewogICAgICBUZXN0V2lkZ2V0c0ZsdXR0ZXJCaW5kaW5nLmVuc3VyZUluaXRpYWxpemVkKCk7CiAgICAgIHNpbXVsYXRvciA9IE11bHRpQ2xpZW50U2ltdWxhdG9yKCdzaGFyZWQtYm9hcmQnKTsKICAgIH0pOwogICAgCiAgICB0ZWFyRG93bigoKSB7CiAgICAgIHNpbXVsYXRvci5kaXNwb3NlKCk7CiAgICB9KTsKICAgIAogICAgdGVzdFdpZGdldHMoJ011bHRpcGxlIGNsaWVudHMgc2hvdWxkIHNlZSB0aGUgc2FtZSB0YXNrcycsIChXaWRnZXRUZXN0ZXIgdGVzdGVyKSBhc3luYyB7CiAgICAgIC8vIEJ1aWxkIGNsaWVudCAxIHZpZXcKICAgICAgYXdhaXQgdGVzdGVyLnB1bXBXaWRnZXQoCiAgICAgICAgTWF0ZXJpYWxBcHAoCiAgICAgICAgICBob21lOiBTY2FmZm9sZCgKICAgICAgICAgICAgYm9keTogU3RyZWFtQnVpbGRlcjxUYXNrVXBkYXRlRXZlbnQ+KAogICAgICAgICAgICAgIHN0cmVhbTogc2ltdWxhdG9yLmdldFN0cmVhbSgpLAogICAgICAgICAgICAgIGJ1aWxkZXI6IChjb250ZXh0LCBzbmFwc2hvdCkgewogICAgICAgICAgICAgICAgaWYgKCFzbmFwc2hvdC5oYXNEYXRhKSByZXR1cm4gY29uc3QgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmaW5hbCB0YXNrcyA9IHNuYXBzaG90LmRhdGEhLnRhc2tzOwogICAgICAgICAgICAgICAgcmV0dXJuIExpc3RWaWV3LmJ1aWxkZXIoCiAgICAgICAgICAgICAgICAgIGl0ZW1Db3VudDogdGFza3MubGVuZ3RoLAogICAgICAgICAgICAgICAgICBpdGVtQnVpbGRlcjogKGNvbnRleHQsIGluZGV4KSA9PiAKICAgICAgICAgICAgICAgICAgICBMaXN0VGlsZSh0aXRsZTogVGV4dCh0YXNrc1tpbmRleF0udGl0bGUpKSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKSwKICAgICAgICAgICksCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgCiAgICAgIGF3YWl0IHRlc3Rlci5wdW1wQW5kU2V0dGxlKCk7CiAgICAgIAogICAgICAvLyBWZXJpZnkgaW5pdGlhbCB0YXNrCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1NoYXJlZCBUYXNrIDEnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICAKICAgICAgLy8gU2ltdWxhdGUgY2xpZW50IDIgYWRkaW5nIGEgdGFzawogICAgICBzaW11bGF0b3IuYWRkVGFzaygKICAgICAgICBUYXNrTW9kZWwoCiAgICAgICAgICBpZDogJzInLAogICAgICAgICAgYm9hcmRJZDogJ3NoYXJlZC1ib2FyZCcsCiAgICAgICAgICB0aXRsZTogJ0FkZGVkIGJ5IENsaWVudCAyJywKICAgICAgICAgIHN0YXR1czogVGFza1N0YXR1cy50b2RvLAogICAgICAgICAgY2F0ZWdvcnk6ICdkZWZhdWx0JywKICAgICAgICAgIHBvc2l0aW9uOiAxLAogICAgICAgICAgdGFnczogWydjbGllbnQyJ10sCiAgICAgICAgICBjcmVhdGVkQXQ6IERhdGVUaW1lLm5vdygpLAogICAgICAgICAgdXBkYXRlZEF0OiBEYXRlVGltZS5ub3coKSwKICAgICAgICApCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gQ2xpZW50IDEgc2hvdWxkIHNlZSBib3RoIHRhc2tzIG5vdwogICAgICBleHBlY3QoZmluZC50ZXh0KCdTaGFyZWQgVGFzayAxJyksIGZpbmRzT25lV2lkZ2V0KTsKICAgICAgZXhwZWN0KGZpbmQudGV4dCgnQWRkZWQgYnkgQ2xpZW50IDInKSwgZmluZHNPbmVXaWRnZXQpOwogICAgfSk7CiAgICAKICAgIHRlc3RXaWRnZXRzKCdUYXNrIHN0YXR1cyBjaGFuZ2VzIHNob3VsZCBzeW5jIGFjcm9zcyBjbGllbnRzJywgKFdpZGdldFRlc3RlciB0ZXN0ZXIpIGFzeW5jIHsKICAgICAgLy8gQnVpbGQgY2xpZW50IHZpZXcgd2l0aCBjdXN0b20gd2lkZ2V0IHRvIHNlZSBzdGF0dXMKICAgICAgYXdhaXQgdGVzdGVyLnB1bXBXaWRnZXQoCiAgICAgICAgTWF0ZXJpYWxBcHAoCiAgICAgICAgICBob21lOiBTY2FmZm9sZCgKICAgICAgICAgICAgYm9keTogU3RyZWFtQnVpbGRlcjxUYXNrVXBkYXRlRXZlbnQ+KAogICAgICAgICAgICAgIHN0cmVhbTogc2ltdWxhdG9yLmdldFN0cmVhbSgpLAogICAgICAgICAgICAgIGJ1aWxkZXI6IChjb250ZXh0LCBzbmFwc2hvdCkgewogICAgICAgICAgICAgICAgaWYgKCFzbmFwc2hvdC5oYXNEYXRhKSByZXR1cm4gY29uc3QgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmaW5hbCB0YXNrcyA9IHNuYXBzaG90LmRhdGEhLnRhc2tzOwogICAgICAgICAgICAgICAgcmV0dXJuIExpc3RWaWV3LmJ1aWxkZXIoCiAgICAgICAgICAgICAgICAgIGl0ZW1Db3VudDogdGFza3MubGVuZ3RoLAogICAgICAgICAgICAgICAgICBpdGVtQnVpbGRlcjogKGNvbnRleHQsIGluZGV4KSA9PiBMaXN0VGlsZSgKICAgICAgICAgICAgICAgICAgICB0aXRsZTogVGV4dCh0YXNrc1tpbmRleF0udGl0bGUpLAogICAgICAgICAgICAgICAgICAgIHN1YnRpdGxlOiBUZXh0KCdTdGF0dXM6ICR7dGFza3NbaW5kZXhdLnN0YXR1c30nKSwKICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKSwKICAgICAgICAgICksCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgCiAgICAgIGF3YWl0IHRlc3Rlci5wdW1wQW5kU2V0dGxlKCk7CiAgICAgIAogICAgICAvLyBJbml0aWFsIHN0YXR1cwogICAgICBleHBlY3QoZmluZC50ZXh0KCdTdGF0dXM6IHRvZG8nKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICAKICAgICAgLy8gU2ltdWxhdGUgY2xpZW50IDIgbW92aW5nIHRoZSB0YXNrCiAgICAgIHNpbXVsYXRvci5tb3ZlVGFzaygnMScsIFRhc2tTdGF0dXMuaW5Qcm9ncmVzcyk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gU3RhdHVzIHNob3VsZCBiZSB1cGRhdGVkIGluIGNsaWVudCAxCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1N0YXR1czogaW5fcHJvZ3Jlc3MnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICBleHBlY3QoZmluZC50ZXh0KCdTdGF0dXM6IHRvZG8nKSwgZmluZHNOb3RoaW5nKTsKICAgIH0pOwogICAgCiAgICB0ZXN0V2lkZ2V0cygnVGFnIHVwZGF0ZXMgc2hvdWxkIHN5bmMgYWNyb3NzIGNsaWVudHMnLCAoV2lkZ2V0VGVzdGVyIHRlc3RlcikgYXN5bmMgewogICAgICBhd2FpdCB0ZXN0ZXIucHVtcFdpZGdldCgKICAgICAgICBNYXRlcmlhbEFwcCgKICAgICAgICAgIGhvbWU6IFNjYWZmb2xkKAogICAgICAgICAgICBib2R5OiBTdHJlYW1CdWlsZGVyPFRhc2tVcGRhdGVFdmVudD4oCiAgICAgICAgICAgICAgc3RyZWFtOiBzaW11bGF0b3IuZ2V0U3RyZWFtKCksCiAgICAgICAgICAgICAgYnVpbGRlcjogKGNvbnRleHQsIHNuYXBzaG90KSB7CiAgICAgICAgICAgICAgICBpZiAoIXNuYXBzaG90Lmhhc0RhdGEpIHJldHVybiBjb25zdCBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKCk7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGZpbmFsIHRhc2tzID0gc25hcHNob3QuZGF0YSEudGFza3M7CiAgICAgICAgICAgICAgICByZXR1cm4gTGlzdFZpZXcuYnVpbGRlcigKICAgICAgICAgICAgICAgICAgaXRlbUNvdW50OiB0YXNrcy5sZW5ndGgsCiAgICAgICAgICAgICAgICAgIGl0ZW1CdWlsZGVyOiAoY29udGV4dCwgaW5kZXgpID0+IENvbHVtbigKICAgICAgICAgICAgICAgICAgICBjcm9zc0F4aXNBbGlnbm1lbnQ6IENyb3NzQXhpc0FsaWdubWVudC5zdGFydCwKICAgICAgICAgICAgICAgICAgICBjaGlsZHJlbjogWwogICAgICAgICAgICAgICAgICAgICAgVGV4dCh0YXNrc1tpbmRleF0udGl0bGUpLAogICAgICAgICAgICAgICAgICAgICAgV3JhcCgKICAgICAgICAgICAgICAgICAgICAgICAgY2hpbGRyZW46IHRhc2tzW2luZGV4XS50YWdzLm1hcCgodGFnKSA9PiAKICAgICAgICAgICAgICAgICAgICAgICAgICBDaGlwKGxhYmVsOiBUZXh0KHRhZykpCiAgICAgICAgICAgICAgICAgICAgICAgICkudG9MaXN0KCksCiAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICksCiAgICAgICAgICApLAogICAgICAgICksCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gSW5pdGlhbCB0YWdzCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ3NoYXJlZCcpLCBmaW5kc09uZVdpZGdldCk7CiAgICAgIAogICAgICAvLyBTaW11bGF0ZSBjbGllbnQgMiB1cGRhdGluZyB0YWdzCiAgICAgIHNpbXVsYXRvci51cGRhdGVUYXNrVGFncygnMScsIFsnc2hhcmVkJywgJ3VyZ2VudCcsICdzcHJpbnQnXSk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gQWxsIHRhZ3Mgc2hvdWxkIGFwcGVhciBpbiBjbGllbnQgMQogICAgICBleHBlY3QoZmluZC50ZXh0KCdzaGFyZWQnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICBleHBlY3QoZmluZC50ZXh0KCd1cmdlbnQnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICBleHBlY3QoZmluZC50ZXh0KCdzcHJpbnQnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgfSk7CiAgfSk7Cn0=
+import 'dart:async';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:template/src/controllers/tasks_controller.dart';
+import 'package:template/src/models/task_model.dart';
+import 'package:template/src/views/board_detail_view.dart';
+
+// This test simulates multiple clients viewing and updating the same board
+
+class MultiClientSimulator {
+  final String boardId;
+  final StreamController<TaskUpdateEvent> _controller = StreamController<TaskUpdateEvent>.broadcast();
+  final List<TaskModel> _sharedTasks = [];
+  
+  MultiClientSimulator(this.boardId) {
+    // Initialize with some tasks
+    _sharedTasks.add(
+      TaskModel(
+        id: '1',
+        boardId: boardId,
+        title: 'Shared Task 1',
+        status: TaskStatus.todo,
+        category: 'default',
+        position: 0,
+        tags: ['shared'],
+        createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
+      )
+    );
+    
+    // Emit initial tasks
+    _controller.add(TaskUpdateEvent(_sharedTasks, TaskUpdateType.initial));
+  }
+  
+  Stream<TaskUpdateEvent> getStream() {
+    return _controller.stream;
+  }
+  
+  void addTask(TaskModel task) {
+    _sharedTasks.add(task);
+    _controller.add(TaskUpdateEvent(_sharedTasks, TaskUpdateType.otherUpdate));
+  }
+  
+  void moveTask(String taskId, String newStatus) {
+    final index = _sharedTasks.indexWhere((task) => task.id == taskId);
+    if (index >= 0) {
+      _sharedTasks[index] = _sharedTasks[index].copyWith(status: newStatus);
+      _controller.add(TaskUpdateEvent(_sharedTasks, TaskUpdateType.columnMove));
+    }
+  }
+  
+  void updateTaskTags(String taskId, List<String> newTags) {
+    final index = _sharedTasks.indexWhere((task) => task.id == taskId);
+    if (index >= 0) {
+      _sharedTasks[index] = _sharedTasks[index].copyWith(tags: newTags);
+      _controller.add(TaskUpdateEvent(_sharedTasks, TaskUpdateType.tagUpdate));
+    }
+  }
+  
+  void dispose() {
+    _controller.close();
+  }
+}
+
+void main() {
+  group('Multi-client Real-time Synchronization Tests', () {
+    late MultiClientSimulator simulator;
+    
+    setUp(() {
+      TestWidgetsFlutterBinding.ensureInitialized();
+      simulator = MultiClientSimulator('shared-board');
+    });
+    
+    tearDown(() {
+      simulator.dispose();
+    });
+    
+    testWidgets('Multiple clients should see the same tasks', (WidgetTester tester) async {
+      // Build client 1 view
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: StreamBuilder<TaskUpdateEvent>(
+              stream: simulator.getStream(),
+              builder: (context, snapshot) {
+                if (!snapshot.hasData) return const CircularProgressIndicator();
+                
+                final tasks = snapshot.data!.tasks;
+                return ListView.builder(
+                  itemCount: tasks.length,
+                  itemBuilder: (context, index) => 
+                    ListTile(title: Text(tasks[index].title)),
+                );
+              },
+            ),
+          ),
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Verify initial task
+      expect(find.text('Shared Task 1'), findsOneWidget);
+      
+      // Simulate client 2 adding a task
+      simulator.addTask(
+        TaskModel(
+          id: '2',
+          boardId: 'shared-board',
+          title: 'Added by Client 2',
+          status: TaskStatus.todo,
+          category: 'default',
+          position: 1,
+          tags: ['client2'],
+          createdAt: DateTime.now(),
+          updatedAt: DateTime.now(),
+        )
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Client 1 should see both tasks now
+      expect(find.text('Shared Task 1'), findsOneWidget);
+      expect(find.text('Added by Client 2'), findsOneWidget);
+    });
+    
+    testWidgets('Task status changes should sync across clients', (WidgetTester tester) async {
+      // Build client view with custom widget to see status
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: StreamBuilder<TaskUpdateEvent>(
+              stream: simulator.getStream(),
+              builder: (context, snapshot) {
+                if (!snapshot.hasData) return const CircularProgressIndicator();
+                
+                final tasks = snapshot.data!.tasks;
+                return ListView.builder(
+                  itemCount: tasks.length,
+                  itemBuilder: (context, index) => ListTile(
+                    title: Text(tasks[index].title),
+                    subtitle: Text('Status: ${tasks[index].status}'),
+                  ),
+                );
+              },
+            ),
+          ),
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Initial status
+      expect(find.text('Status: todo'), findsOneWidget);
+      
+      // Simulate client 2 moving the task
+      simulator.moveTask('1', TaskStatus.inProgress);
+      
+      await tester.pumpAndSettle();
+      
+      // Status should be updated in client 1
+      expect(find.text('Status: in_progress'), findsOneWidget);
+      expect(find.text('Status: todo'), findsNothing);
+    });
+    
+    testWidgets('Tag updates should sync across clients', (WidgetTester tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: StreamBuilder<TaskUpdateEvent>(
+              stream: simulator.getStream(),
+              builder: (context, snapshot) {
+                if (!snapshot.hasData) return const CircularProgressIndicator();
+                
+                final tasks = snapshot.data!.tasks;
+                return ListView.builder(
+                  itemCount: tasks.length,
+                  itemBuilder: (context, index) => Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(tasks[index].title),
+                      Wrap(
+                        children: tasks[index].tags.map((tag) => 
+                          Chip(label: Text(tag))
+                        ).toList(),
+                      ),
+                    ],
+                  ),
+                );
+              },
+            ),
+          ),
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Initial tags
+      expect(find.text('shared'), findsOneWidget);
+      
+      // Simulate client 2 updating tags
+      simulator.updateTaskTags('1', ['shared', 'urgent', 'sprint']);
+      
+      await tester.pumpAndSettle();
+      
+      // All tags should appear in client 1
+      expect(find.text('shared'), findsOneWidget);
+      expect(find.text('urgent'), findsOneWidget);
+      expect(find.text('sprint'), findsOneWidget);
+    });
+  });
+}

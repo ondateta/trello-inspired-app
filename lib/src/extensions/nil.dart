@@ -1,1 +1,4 @@
-Ly8gRmx1dHRlciBpbXBvcnRzOgppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlci9tYXRlcmlhbC5kYXJ0JzsKClNpemVkQm94IGdldCBuaWwgPT4gY29uc3QgU2l6ZWRCb3guc2hyaW5rKCk7Cg==
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+SizedBox get nil => const SizedBox.shrink();

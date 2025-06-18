@@ -1,1 +1,159 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvY29udHJvbGxlcnMvYm9hcmRzX2NvbnRyb2xsZXIuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvZXh0ZW5zaW9ucy9pbmRleC5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL3NyYy9tb2RlbHMvYm9hcmRfbW9kZWwuZGFydCc7CgpjbGFzcyBNeUhvbWVQYWdlIGV4dGVuZHMgU3RhdGVmdWxXaWRnZXQgewogIGNvbnN0IE15SG9tZVBhZ2Uoe3N1cGVyLmtleSwgcmVxdWlyZWQgdGhpcy50aXRsZX0pOwoKICBmaW5hbCBTdHJpbmcgdGl0bGU7CgogIEBvdmVycmlkZQogIFN0YXRlPE15SG9tZVBhZ2U+IGNyZWF0ZVN0YXRlKCkgPT4gX015SG9tZVBhZ2VTdGF0ZSgpOwp9CgpjbGFzcyBfTXlIb21lUGFnZVN0YXRlIGV4dGVuZHMgU3RhdGU8TXlIb21lUGFnZT4gewogIGxhdGUgRnV0dXJlPExpc3Q8Qm9hcmRNb2RlbD4+IF9ib2FyZHNGdXR1cmU7CgogIEBvdmVycmlkZQogIHZvaWQgaW5pdFN0YXRlKCkgewogICAgc3VwZXIuaW5pdFN0YXRlKCk7CiAgICBfbG9hZEJvYXJkcygpOwogIH0KCiAgdm9pZCBfbG9hZEJvYXJkcygpIGFzeW5jIHsKICAgIHNldFN0YXRlKCgpIHsKICAgICAgX2JvYXJkc0Z1dHVyZSA9IF9mZXRjaEJvYXJkc1dpdGhUYXNrcygpOwogICAgfSk7CiAgfQoKICBGdXR1cmU8TGlzdDxCb2FyZE1vZGVsPj4gX2ZldGNoQm9hcmRzV2l0aFRhc2tzKCkgYXN5bmMgewogICAgZmluYWwgYm9hcmRzID0gYXdhaXQgQm9hcmRzQ29udHJvbGxlci5nZXRCb2FyZHMoKTsKICAgIAogICAgTGlzdDxCb2FyZE1vZGVsPiB1cGRhdGVkQm9hcmRzID0gW107CiAgICBmb3IgKHZhciBib2FyZCBpbiBib2FyZHMpIHsKICAgICAgZmluYWwgYm9hcmRXaXRoVGFza3MgPSBhd2FpdCBCb2FyZHNDb250cm9sbGVyLmdldEJvYXJkV2l0aFRhc2tzKGJvYXJkLmlkKTsKICAgICAgdXBkYXRlZEJvYXJkcy5hZGQoYm9hcmRXaXRoVGFza3MpOwogICAgfQogICAgCiAgICByZXR1cm4gdXBkYXRlZEJvYXJkczsKICB9CgogIHZvaWQgX2NyZWF0ZU5ld0JvYXJkKCkgYXN5bmMgewogICAgZmluYWwgVGV4dEVkaXRpbmdDb250cm9sbGVyIG5hbWVDb250cm9sbGVyID0gVGV4dEVkaXRpbmdDb250cm9sbGVyKCk7CiAgICAKICAgIGF3YWl0IHNob3dEaWFsb2coCiAgICAgIGNvbnRleHQ6IGNvbnRleHQsCiAgICAgIGJ1aWxkZXI6IChjb250ZXh0KSA9PiBBbGVydERpYWxvZygKICAgICAgICB0aXRsZTogY29uc3QgVGV4dCgnQ3JlYXRlIE5ldyBCb2FyZCcpLAogICAgICAgIGNvbnRlbnQ6IFRleHRGaWVsZCgKICAgICAgICAgIGNvbnRyb2xsZXI6IG5hbWVDb250cm9sbGVyLAogICAgICAgICAgZGVjb3JhdGlvbjogY29uc3QgSW5wdXREZWNvcmF0aW9uKAogICAgICAgICAgICBoaW50VGV4dDogJ0JvYXJkIE5hbWUnLAogICAgICAgICAgKSwKICAgICAgICAgIGF1dG9mb2N1czogdHJ1ZSwKICAgICAgICApLAogICAgICAgIGFjdGlvbnM6IFsKICAgICAgICAgIFRleHRCdXR0b24oCiAgICAgICAgICAgIG9uUHJlc3NlZDogKCkgPT4gTmF2aWdhdG9yLnBvcChjb250ZXh0KSwKICAgICAgICAgICAgY2hpbGQ6IGNvbnN0IFRleHQoJ0NhbmNlbCcpLAogICAgICAgICAgKSwKICAgICAgICAgIFRleHRCdXR0b24oCiAgICAgICAgICAgIG9uUHJlc3NlZDogKCkgYXN5bmMgewogICAgICAgICAgICAgIGlmIChuYW1lQ29udHJvbGxlci50ZXh0LnRyaW0oKS5pc05vdEVtcHR5KSB7CiAgICAgICAgICAgICAgICBhd2FpdCBCb2FyZHNDb250cm9sbGVyLmNyZWF0ZUJvYXJkKG5hbWVDb250cm9sbGVyLnRleHQudHJpbSgpKTsKICAgICAgICAgICAgICAgIE5hdmlnYXRvci5wb3AoY29udGV4dCk7CiAgICAgICAgICAgICAgICBfbG9hZEJvYXJkcygpOyAvLyBSZWZyZXNoIHRoZSBib2FyZHMgbGlzdAogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgY2hpbGQ6IGNvbnN0IFRleHQoJ0NyZWF0ZScpLAogICAgICAgICAgKSwKICAgICAgICBdLAogICAgICApLAogICAgKTsKICB9CgogIEBvdmVycmlkZQogIFdpZGdldCBidWlsZChCdWlsZENvbnRleHQgY29udGV4dCkgewogICAgcmV0dXJuIFNjYWZmb2xkKAogICAgICBhcHBCYXI6IEFwcEJhcigKICAgICAgICB0aXRsZTogVGV4dCh3aWRnZXQudGl0bGUpLAogICAgICApLAogICAgICBib2R5OiBGdXR1cmVCdWlsZGVyPExpc3Q8Qm9hcmRNb2RlbD4+KAogICAgICAgIGZ1dHVyZTogX2JvYXJkc0Z1dHVyZSwKICAgICAgICBidWlsZGVyOiAoY29udGV4dCwgc25hcHNob3QpIHsKICAgICAgICAgIGlmIChzbmFwc2hvdC5jb25uZWN0aW9uU3RhdGUgPT0gQ29ubmVjdGlvblN0YXRlLndhaXRpbmcpIHsKICAgICAgICAgICAgcmV0dXJuIGNvbnN0IENlbnRlcihjaGlsZDogQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigpKTsKICAgICAgICAgIH0gZWxzZSBpZiAoc25hcHNob3QuaGFzRXJyb3IpIHsKICAgICAgICAgICAgcmV0dXJuIENlbnRlcigKICAgICAgICAgICAgICBjaGlsZDogQ29sdW1uKAogICAgICAgICAgICAgICAgbWFpbkF4aXNBbGlnbm1lbnQ6IE1haW5BeGlzQWxpZ25tZW50LmNlbnRlciwKICAgICAgICAgICAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgJ0Vycm9yIGxvYWRpbmcgYm9hcmRzOiAke3NuYXBzaG90LmVycm9yfScsCiAgICAgICAgICAgICAgICAgICAgdGV4dEFsaWduOiBUZXh0QWxpZ24uY2VudGVyLAogICAgICAgICAgICAgICAgICAgIHN0eWxlOiBjb25zdCBUZXh0U3R5bGUoY29sb3I6IENvbG9ycy5yZWQpLAogICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICBjb25zdCBTaXplZEJveChoZWlnaHQ6IDE2KSwKICAgICAgICAgICAgICAgICAgRWxldmF0ZWRCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgb25QcmVzc2VkOiBfbG9hZEJvYXJkcywKICAgICAgICAgICAgICAgICAgICBjaGlsZDogY29uc3QgVGV4dCgnUmV0cnknKSwKICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgKTsKICAgICAgICAgIH0gZWxzZSBpZiAoIXNuYXBzaG90Lmhhc0RhdGEgfHwgc25hcHNob3QuZGF0YSEuaXNFbXB0eSkgewogICAgICAgICAgICByZXR1cm4gQ2VudGVyKAogICAgICAgICAgICAgIGNoaWxkOiBDb2x1bW4oCiAgICAgICAgICAgICAgICBtYWluQXhpc0FsaWdubWVudDogTWFpbkF4aXNBbGlnbm1lbnQuY2VudGVyLAogICAgICAgICAgICAgICAgY2hpbGRyZW46IFsKICAgICAgICAgICAgICAgICAgY29uc3QgVGV4dCgnTm8gYm9hcmRzIGZvdW5kLiBDcmVhdGUgeW91ciBmaXJzdCBib2FyZCEnKSwKICAgICAgICAgICAgICAgICAgY29uc3QgU2l6ZWRCb3goaGVpZ2h0OiAxNiksCiAgICAgICAgICAgICAgICAgIEVsZXZhdGVkQnV0dG9uKAogICAgICAgICAgICAgICAgICAgIG9uUHJlc3NlZDogX2NyZWF0ZU5ld0JvYXJkLAogICAgICAgICAgICAgICAgICAgIGNoaWxkOiBjb25zdCBUZXh0KCdDcmVhdGUgQm9hcmQnKSwKICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgKTsKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBfYnVpbGRCb2FyZHNMaXN0KHNuYXBzaG90LmRhdGEhKTsKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICApLAogICAgICBmbG9hdGluZ0FjdGlvbkJ1dHRvbjogRmxvYXRpbmdBY3Rpb25CdXR0b24oCiAgICAgICAgb25QcmVzc2VkOiBfY3JlYXRlTmV3Qm9hcmQsCiAgICAgICAgdG9vbHRpcDogJ0NyZWF0ZSBCb2FyZCcsCiAgICAgICAgY2hpbGQ6IGNvbnN0IEljb24oSWNvbnMuYWRkKSwKICAgICAgKSwKICAgICk7CiAgfQoKICBXaWRnZXQgX2J1aWxkQm9hcmRzTGlzdChMaXN0PEJvYXJkTW9kZWw+IGJvYXJkcykgewogICAgcmV0dXJuIExpc3RWaWV3LmJ1aWxkZXIoCiAgICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMuYWxsKDE2KSwKICAgICAgaXRlbUNvdW50OiBib2FyZHMubGVuZ3RoLAogICAgICBpdGVtQnVpbGRlcjogKGNvbnRleHQsIGluZGV4KSB7CiAgICAgICAgZmluYWwgYm9hcmQgPSBib2FyZHNbaW5kZXhdOwoKICAgICAgICByZXR1cm4gQ2FyZCgKICAgICAgICAgIGVsZXZhdGlvbjogMiwKICAgICAgICAgIG1hcmdpbjogY29uc3QgRWRnZUluc2V0cy5vbmx5KGJvdHRvbTogMTYpLAogICAgICAgICAgY2hpbGQ6IExpc3RUaWxlKAogICAgICAgICAgICBjb250ZW50UGFkZGluZzogY29uc3QgRWRnZUluc2V0cy5hbGwoMTYpLAogICAgICAgICAgICB0aXRsZTogVGV4dCgKICAgICAgICAgICAgICBib2FyZC5uYW1lLAogICAgICAgICAgICAgIHN0eWxlOiBjb250ZXh0LnRpdGxlTWVkaXVtPy5jb3B5V2l0aChmb250V2VpZ2h0OiBGb250V2VpZ2h0LmJvbGQpLAogICAgICAgICAgICApLAogICAgICAgICAgICBvblRhcDogKCkgewogICAgICAgICAgICAgIE5hdmlnYXRvci5wdXNoTmFtZWQoCiAgICAgICAgICAgICAgICBjb250ZXh0LCAKICAgICAgICAgICAgICAgICcvYm9hcmQvJHtib2FyZC5pZH0nLAogICAgICAgICAgICAgICkudGhlbigoXykgPT4gX2xvYWRCb2FyZHMoKSk7CiAgICAgICAgICAgIH0sCiAgICAgICAgICApLAogICAgICAgICk7CiAgICAgIH0sCiAgICApOwogIH0KfQ==
+import 'package:flutter/material.dart';
+import 'package:template/src/controllers/boards_controller.dart';
+import 'package:template/src/extensions/index.dart';
+import 'package:template/src/models/board_model.dart';
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  late Future<List<BoardModel>> _boardsFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadBoards();
+  }
+
+  void _loadBoards() async {
+    setState(() {
+      _boardsFuture = _fetchBoardsWithTasks();
+    });
+  }
+
+  Future<List<BoardModel>> _fetchBoardsWithTasks() async {
+    final boards = await BoardsController.getBoards();
+    
+    List<BoardModel> updatedBoards = [];
+    for (var board in boards) {
+      final boardWithTasks = await BoardsController.getBoardWithTasks(board.id);
+      updatedBoards.add(boardWithTasks);
+    }
+    
+    return updatedBoards;
+  }
+
+  void _createNewBoard() async {
+    final TextEditingController nameController = TextEditingController();
+    
+    await showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Create New Board'),
+        content: TextField(
+          controller: nameController,
+          decoration: const InputDecoration(
+            hintText: 'Board Name',
+          ),
+          autofocus: true,
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () async {
+              if (nameController.text.trim().isNotEmpty) {
+                await BoardsController.createBoard(nameController.text.trim());
+                Navigator.pop(context);
+                _loadBoards(); // Refresh the boards list
+              }
+            },
+            child: const Text('Create'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: FutureBuilder<List<BoardModel>>(
+        future: _boardsFuture,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'Error loading boards: ${snapshot.error}',
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(color: Colors.red),
+                  ),
+                  const SizedBox(height: 16),
+                  ElevatedButton(
+                    onPressed: _loadBoards,
+                    child: const Text('Retry'),
+                  ),
+                ],
+              ),
+            );
+          } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
+            return Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text('No boards found. Create your first board!'),
+                  const SizedBox(height: 16),
+                  ElevatedButton(
+                    onPressed: _createNewBoard,
+                    child: const Text('Create Board'),
+                  ),
+                ],
+              ),
+            );
+          } else {
+            return _buildBoardsList(snapshot.data!);
+          }
+        },
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _createNewBoard,
+        tooltip: 'Create Board',
+        child: const Icon(Icons.add),
+      ),
+    );
+  }
+
+  Widget _buildBoardsList(List<BoardModel> boards) {
+    return ListView.builder(
+      padding: const EdgeInsets.all(16),
+      itemCount: boards.length,
+      itemBuilder: (context, index) {
+        final board = boards[index];
+
+        return Card(
+          elevation: 2,
+          margin: const EdgeInsets.only(bottom: 16),
+          child: ListTile(
+            contentPadding: const EdgeInsets.all(16),
+            title: Text(
+              board.name,
+              style: context.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+            ),
+            onTap: () {
+              Navigator.pushNamed(
+                context, 
+                '/board/${board.id}',
+              ).then((_) => _loadBoards());
+            },
+          ),
+        );
+      },
+    );
+  }
+}

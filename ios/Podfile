@@ -1,1 +1,43 @@
-IyBVbmNvbW1lbnQgdGhpcyBsaW5lIHRvIGRlZmluZSBhIGdsb2JhbCBwbGF0Zm9ybSBmb3IgeW91ciBwcm9qZWN0CiMgcGxhdGZvcm0gOmlvcywgJzEyLjAnCgojIENvY29hUG9kcyBhbmFseXRpY3Mgc2VuZHMgbmV0d29yayBzdGF0cyBzeW5jaHJvbm91c2x5IGFmZmVjdGluZyBmbHV0dGVyIGJ1aWxkIGxhdGVuY3kuCkVOVlsnQ09DT0FQT0RTX0RJU0FCTEVfU1RBVFMnXSA9ICd0cnVlJwoKcHJvamVjdCAnUnVubmVyJywgewogICdEZWJ1ZycgPT4gOmRlYnVnLAogICdQcm9maWxlJyA9PiA6cmVsZWFzZSwKICAnUmVsZWFzZScgPT4gOnJlbGVhc2UsCn0KCmRlZiBmbHV0dGVyX3Jvb3QKICBnZW5lcmF0ZWRfeGNvZGVfYnVpbGRfc2V0dGluZ3NfcGF0aCA9IEZpbGUuZXhwYW5kX3BhdGgoRmlsZS5qb2luKCcuLicsICdGbHV0dGVyJywgJ0dlbmVyYXRlZC54Y2NvbmZpZycpLCBfX0ZJTEVfXykKICB1bmxlc3MgRmlsZS5leGlzdD8oZ2VuZXJhdGVkX3hjb2RlX2J1aWxkX3NldHRpbmdzX3BhdGgpCiAgICByYWlzZSAiI3tnZW5lcmF0ZWRfeGNvZGVfYnVpbGRfc2V0dGluZ3NfcGF0aH0gbXVzdCBleGlzdC4gSWYgeW91J3JlIHJ1bm5pbmcgcG9kIGluc3RhbGwgbWFudWFsbHksIG1ha2Ugc3VyZSBmbHV0dGVyIHB1YiBnZXQgaXMgZXhlY3V0ZWQgZmlyc3QiCiAgZW5kCgogIEZpbGUuZm9yZWFjaChnZW5lcmF0ZWRfeGNvZGVfYnVpbGRfc2V0dGluZ3NfcGF0aCkgZG8gfGxpbmV8CiAgICBtYXRjaGVzID0gbGluZS5tYXRjaCgvRkxVVFRFUl9ST09UXD0oLiopLykKICAgIHJldHVybiBtYXRjaGVzWzFdLnN0cmlwIGlmIG1hdGNoZXMKICBlbmQKICByYWlzZSAiRkxVVFRFUl9ST09UIG5vdCBmb3VuZCBpbiAje2dlbmVyYXRlZF94Y29kZV9idWlsZF9zZXR0aW5nc19wYXRofS4gVHJ5IGRlbGV0aW5nIEdlbmVyYXRlZC54Y2NvbmZpZywgdGhlbiBydW4gZmx1dHRlciBwdWIgZ2V0IgplbmQKCnJlcXVpcmUgRmlsZS5leHBhbmRfcGF0aChGaWxlLmpvaW4oJ3BhY2thZ2VzJywgJ2ZsdXR0ZXJfdG9vbHMnLCAnYmluJywgJ3BvZGhlbHBlcicpLCBmbHV0dGVyX3Jvb3QpCgpmbHV0dGVyX2lvc19wb2RmaWxlX3NldHVwCgp0YXJnZXQgJ1J1bm5lcicgZG8KICB1c2VfZnJhbWV3b3JrcyEKCiAgZmx1dHRlcl9pbnN0YWxsX2FsbF9pb3NfcG9kcyBGaWxlLmRpcm5hbWUoRmlsZS5yZWFscGF0aChfX0ZJTEVfXykpCiAgdGFyZ2V0ICdSdW5uZXJUZXN0cycgZG8KICAgIGluaGVyaXQhIDpzZWFyY2hfcGF0aHMKICBlbmQKZW5kCgpwb3N0X2luc3RhbGwgZG8gfGluc3RhbGxlcnwKICBpbnN0YWxsZXIucG9kc19wcm9qZWN0LnRhcmdldHMuZWFjaCBkbyB8dGFyZ2V0fAogICAgZmx1dHRlcl9hZGRpdGlvbmFsX2lvc19idWlsZF9zZXR0aW5ncyh0YXJnZXQpCiAgZW5kCmVuZAo=
+# Uncomment this line to define a global platform for your project
+# platform :ios, '12.0'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
+  unless File.exist?(generated_xcode_build_settings_path)
+    raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure flutter pub get is executed first"
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/FLUTTER_ROOT\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}. Try deleting Generated.xcconfig, then run flutter pub get"
+end
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
+flutter_ios_podfile_setup
+
+target 'Runner' do
+  use_frameworks!
+
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+  target 'RunnerTests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_ios_build_settings(target)
+  end
+end

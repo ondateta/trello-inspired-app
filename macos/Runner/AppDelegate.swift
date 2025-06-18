@@ -1,1 +1,13 @@
-aW1wb3J0IENvY29hCmltcG9ydCBGbHV0dGVyTWFjT1MKCkBtYWluCmNsYXNzIEFwcERlbGVnYXRlOiBGbHV0dGVyQXBwRGVsZWdhdGUgewogIG92ZXJyaWRlIGZ1bmMgYXBwbGljYXRpb25TaG91bGRUZXJtaW5hdGVBZnRlckxhc3RXaW5kb3dDbG9zZWQoXyBzZW5kZXI6IE5TQXBwbGljYXRpb24pIC0+IEJvb2wgewogICAgcmV0dXJuIHRydWUKICB9CgogIG92ZXJyaWRlIGZ1bmMgYXBwbGljYXRpb25TdXBwb3J0c1NlY3VyZVJlc3RvcmFibGVTdGF0ZShfIGFwcDogTlNBcHBsaWNhdGlvbikgLT4gQm9vbCB7CiAgICByZXR1cm4gdHJ1ZQogIH0KfQo=
+import Cocoa
+import FlutterMacOS
+
+@main
+class AppDelegate: FlutterAppDelegate {
+  override func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+    return true
+  }
+
+  override func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
+    return true
+  }
+}

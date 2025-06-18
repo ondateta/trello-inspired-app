@@ -1,1 +1,65 @@
-I2luY2x1ZGUgInV0aWxzLmgiCgojaW5jbHVkZSA8Zmx1dHRlcl93aW5kb3dzLmg+CiNpbmNsdWRlIDxpby5oPgojaW5jbHVkZSA8c3RkaW8uaD4KI2luY2x1ZGUgPHdpbmRvd3MuaD4KCiNpbmNsdWRlIDxpb3N0cmVhbT4KCnZvaWQgQ3JlYXRlQW5kQXR0YWNoQ29uc29sZSgpIHsKICBpZiAoOjpBbGxvY0NvbnNvbGUoKSkgewogICAgRklMRSAqdW51c2VkOwogICAgaWYgKGZyZW9wZW5fcygmdW51c2VkLCAiQ09OT1VUJCIsICJ3Iiwgc3Rkb3V0KSkgewogICAgICBfZHVwMihfZmlsZW5vKHN0ZG91dCksIDEpOwogICAgfQogICAgaWYgKGZyZW9wZW5fcygmdW51c2VkLCAiQ09OT1VUJCIsICJ3Iiwgc3RkZXJyKSkgewogICAgICBfZHVwMihfZmlsZW5vKHN0ZG91dCksIDIpOwogICAgfQogICAgc3RkOjppb3M6OnN5bmNfd2l0aF9zdGRpbygpOwogICAgRmx1dHRlckRlc2t0b3BSZXN5bmNPdXRwdXRTdHJlYW1zKCk7CiAgfQp9CgpzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4gR2V0Q29tbWFuZExpbmVBcmd1bWVudHMoKSB7CiAgLy8gQ29udmVydCB0aGUgVVRGLTE2IGNvbW1hbmQgbGluZSBhcmd1bWVudHMgdG8gVVRGLTggZm9yIHRoZSBFbmdpbmUgdG8gdXNlLgogIGludCBhcmdjOwogIHdjaGFyX3QqKiBhcmd2ID0gOjpDb21tYW5kTGluZVRvQXJndlcoOjpHZXRDb21tYW5kTGluZVcoKSwgJmFyZ2MpOwogIGlmIChhcmd2ID09IG51bGxwdHIpIHsKICAgIHJldHVybiBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4oKTsKICB9CgogIHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiBjb21tYW5kX2xpbmVfYXJndW1lbnRzOwoKICAvLyBTa2lwIHRoZSBmaXJzdCBhcmd1bWVudCBhcyBpdCdzIHRoZSBiaW5hcnkgbmFtZS4KICBmb3IgKGludCBpID0gMTsgaSA8IGFyZ2M7IGkrKykgewogICAgY29tbWFuZF9saW5lX2FyZ3VtZW50cy5wdXNoX2JhY2soVXRmOEZyb21VdGYxNihhcmd2W2ldKSk7CiAgfQoKICA6OkxvY2FsRnJlZShhcmd2KTsKCiAgcmV0dXJuIGNvbW1hbmRfbGluZV9hcmd1bWVudHM7Cn0KCnN0ZDo6c3RyaW5nIFV0ZjhGcm9tVXRmMTYoY29uc3Qgd2NoYXJfdCogdXRmMTZfc3RyaW5nKSB7CiAgaWYgKHV0ZjE2X3N0cmluZyA9PSBudWxscHRyKSB7CiAgICByZXR1cm4gc3RkOjpzdHJpbmcoKTsKICB9CiAgdW5zaWduZWQgaW50IHRhcmdldF9sZW5ndGggPSA6OldpZGVDaGFyVG9NdWx0aUJ5dGUoCiAgICAgIENQX1VURjgsIFdDX0VSUl9JTlZBTElEX0NIQVJTLCB1dGYxNl9zdHJpbmcsCiAgICAgIC0xLCBudWxscHRyLCAwLCBudWxscHRyLCBudWxscHRyKQogICAgLTE7IC8vIHJlbW92ZSB0aGUgdHJhaWxpbmcgbnVsbCBjaGFyYWN0ZXIKICBpbnQgaW5wdXRfbGVuZ3RoID0gKGludCl3Y3NsZW4odXRmMTZfc3RyaW5nKTsKICBzdGQ6OnN0cmluZyB1dGY4X3N0cmluZzsKICBpZiAodGFyZ2V0X2xlbmd0aCA9PSAwIHx8IHRhcmdldF9sZW5ndGggPiB1dGY4X3N0cmluZy5tYXhfc2l6ZSgpKSB7CiAgICByZXR1cm4gdXRmOF9zdHJpbmc7CiAgfQogIHV0Zjhfc3RyaW5nLnJlc2l6ZSh0YXJnZXRfbGVuZ3RoKTsKICBpbnQgY29udmVydGVkX2xlbmd0aCA9IDo6V2lkZUNoYXJUb011bHRpQnl0ZSgKICAgICAgQ1BfVVRGOCwgV0NfRVJSX0lOVkFMSURfQ0hBUlMsIHV0ZjE2X3N0cmluZywKICAgICAgaW5wdXRfbGVuZ3RoLCB1dGY4X3N0cmluZy5kYXRhKCksIHRhcmdldF9sZW5ndGgsIG51bGxwdHIsIG51bGxwdHIpOwogIGlmIChjb252ZXJ0ZWRfbGVuZ3RoID09IDApIHsKICAgIHJldHVybiBzdGQ6OnN0cmluZygpOwogIH0KICByZXR1cm4gdXRmOF9zdHJpbmc7Cn0K
+#include "utils.h"
+
+#include <flutter_windows.h>
+#include <io.h>
+#include <stdio.h>
+#include <windows.h>
+
+#include <iostream>
+
+void CreateAndAttachConsole() {
+  if (::AllocConsole()) {
+    FILE *unused;
+    if (freopen_s(&unused, "CONOUT$", "w", stdout)) {
+      _dup2(_fileno(stdout), 1);
+    }
+    if (freopen_s(&unused, "CONOUT$", "w", stderr)) {
+      _dup2(_fileno(stdout), 2);
+    }
+    std::ios::sync_with_stdio();
+    FlutterDesktopResyncOutputStreams();
+  }
+}
+
+std::vector<std::string> GetCommandLineArguments() {
+  // Convert the UTF-16 command line arguments to UTF-8 for the Engine to use.
+  int argc;
+  wchar_t** argv = ::CommandLineToArgvW(::GetCommandLineW(), &argc);
+  if (argv == nullptr) {
+    return std::vector<std::string>();
+  }
+
+  std::vector<std::string> command_line_arguments;
+
+  // Skip the first argument as it's the binary name.
+  for (int i = 1; i < argc; i++) {
+    command_line_arguments.push_back(Utf8FromUtf16(argv[i]));
+  }
+
+  ::LocalFree(argv);
+
+  return command_line_arguments;
+}
+
+std::string Utf8FromUtf16(const wchar_t* utf16_string) {
+  if (utf16_string == nullptr) {
+    return std::string();
+  }
+  unsigned int target_length = ::WideCharToMultiByte(
+      CP_UTF8, WC_ERR_INVALID_CHARS, utf16_string,
+      -1, nullptr, 0, nullptr, nullptr)
+    -1; // remove the trailing null character
+  int input_length = (int)wcslen(utf16_string);
+  std::string utf8_string;
+  if (target_length == 0 || target_length > utf8_string.max_size()) {
+    return utf8_string;
+  }
+  utf8_string.resize(target_length);
+  int converted_length = ::WideCharToMultiByte(
+      CP_UTF8, WC_ERR_INVALID_CHARS, utf16_string,
+      input_length, utf8_string.data(), target_length, nullptr, nullptr);
+  if (converted_length == 0) {
+    return std::string();
+  }
+  return utf8_string;
+}

@@ -1,1 +1,16 @@
-IyBUcmVsbG8gaW5zcGlyZWQgYXBwIGNpYW9vbwoKQSBuZXcgRmx1dHRlciBwcm9qZWN0LgoKIyMgR2V0dGluZyBTdGFydGVkCgpUaGlzIHByb2plY3QgaXMgYSBzdGFydGluZyBwb2ludCBmb3IgYSBGbHV0dGVyIGFwcGxpY2F0aW9uLgoKQSBmZXcgcmVzb3VyY2VzIHRvIGdldCB5b3Ugc3RhcnRlZCBpZiB0aGlzIGlzIHlvdXIgZmlyc3QgRmx1dHRlciBwcm9qZWN0OgoKLSBbTGFiOiBXcml0ZSB5b3VyIGZpcnN0IEZsdXR0ZXIgYXBwXShodHRwczovL2RvY3MuZmx1dHRlci5kZXYvZ2V0LXN0YXJ0ZWQvY29kZWxhYikKLSBbQ29va2Jvb2s6IFVzZWZ1bCBGbHV0dGVyIHNhbXBsZXNdKGh0dHBzOi8vZG9jcy5mbHV0dGVyLmRldi9jb29rYm9vaykKCkZvciBoZWxwIGdldHRpbmcgc3RhcnRlZCB3aXRoIEZsdXR0ZXIgZGV2ZWxvcG1lbnQsIHZpZXcgdGhlCltvbmxpbmUgZG9jdW1lbnRhdGlvbl0oaHR0cHM6Ly9kb2NzLmZsdXR0ZXIuZGV2LyksIHdoaWNoIG9mZmVycyB0dXRvcmlhbHMsCnNhbXBsZXMsIGd1aWRhbmNlIG9uIG1vYmlsZSBkZXZlbG9wbWVudCwgYW5kIGEgZnVsbCBBUEkgcmVmZXJlbmNlLgo=
+# Trello inspired app ciaooo
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

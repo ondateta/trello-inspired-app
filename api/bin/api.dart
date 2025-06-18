@@ -1,1 +1,5 @@
-aW1wb3J0ICdwYWNrYWdlOmFwaS9hcGkuZGFydCcgYXMgYXBpOwoKdm9pZCBtYWluKExpc3Q8U3RyaW5nPiBhcmd1bWVudHMpIHsKICBhcGkubWFpbigpOwp9Cg==
+import 'package:api/api.dart' as api;
+
+void main(List<String> arguments) {
+  api.main();
+}

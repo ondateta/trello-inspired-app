@@ -1,1 +1,12 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBNb2RpZnkgdGhpcyBmaWxlIHRvIGN1c3RvbWl6ZSB5b3VyIGxhdW5jaCBzcGxhc2ggc2NyZWVuIC0tPgo8bGF5ZXItbGlzdCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiPgogICAgPGl0ZW0gYW5kcm9pZDpkcmF3YWJsZT0iP2FuZHJvaWQ6Y29sb3JCYWNrZ3JvdW5kIiAvPgoKICAgIDwhLS0gWW91IGNhbiBpbnNlcnQgeW91ciBvd24gaW1hZ2UgYXNzZXRzIGhlcmUgLS0+CiAgICA8IS0tIDxpdGVtPgogICAgICAgIDxiaXRtYXAKICAgICAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6c3JjPSJAbWlwbWFwL2xhdW5jaF9pbWFnZSIgLz4KICAgIDwvaXRlbT4gLS0+CjwvbGF5ZXItbGlzdD4K
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?android:colorBackground" />
+
+    <!-- You can insert your own image assets here -->
+    <!-- <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/launch_image" />
+    </item> -->
+</layer-list>

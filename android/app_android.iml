@@ -1,1 +1,29 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1vZHVsZSB0eXBlPSJKQVZBX01PRFVMRSIgdmVyc2lvbj0iNCI+CiAgPGNvbXBvbmVudCBuYW1lPSJGYWNldE1hbmFnZXIiPgogICAgPGZhY2V0IHR5cGU9ImFuZHJvaWQiIG5hbWU9IkFuZHJvaWQiPgogICAgICA8Y29uZmlndXJhdGlvbj4KICAgICAgICA8b3B0aW9uIG5hbWU9IkFMTE9XX1VTRVJfQ09ORklHVVJBVElPTiIgdmFsdWU9ImZhbHNlIiAvPgogICAgICAgIDxvcHRpb24gbmFtZT0iR0VOX0ZPTERFUl9SRUxBVElWRV9QQVRIX0FQVCIgdmFsdWU9Ii9nZW4iIC8+CiAgICAgICAgPG9wdGlvbiBuYW1lPSJHRU5fRk9MREVSX1JFTEFUSVZFX1BBVEhfQUlETCIgdmFsdWU9Ii9nZW4iIC8+CiAgICAgICAgPG9wdGlvbiBuYW1lPSJNQU5JRkVTVF9GSUxFX1JFTEFUSVZFX1BBVEgiIHZhbHVlPSIvYXBwL3NyYy9tYWluL0FuZHJvaWRNYW5pZmVzdC54bWwiIC8+CiAgICAgICAgPG9wdGlvbiBuYW1lPSJSRVNfRk9MREVSX1JFTEFUSVZFX1BBVEgiIHZhbHVlPSIvYXBwL3NyYy9tYWluL3JlcyIgLz4KICAgICAgICA8b3B0aW9uIG5hbWU9IkFTU0VUU19GT0xERVJfUkVMQVRJVkVfUEFUSCIgdmFsdWU9Ii9hcHAvc3JjL21haW4vYXNzZXRzIiAvPgogICAgICAgIDxvcHRpb24gbmFtZT0iTElCU19GT0xERVJfUkVMQVRJVkVfUEFUSCIgdmFsdWU9Ii9hcHAvc3JjL21haW4vbGlicyIgLz4KICAgICAgICA8b3B0aW9uIG5hbWU9IlBST0dVQVJEX0xPR1NfRk9MREVSX1JFTEFUSVZFX1BBVEgiIHZhbHVlPSIvYXBwL3NyYy9tYWluL3Byb2d1YXJkX2xvZ3MiIC8+CiAgICAgIDwvY29uZmlndXJhdGlvbj4KICAgIDwvZmFjZXQ+CiAgPC9jb21wb25lbnQ+CiAgPGNvbXBvbmVudCBuYW1lPSJOZXdNb2R1bGVSb290TWFuYWdlciIgaW5oZXJpdC1jb21waWxlci1vdXRwdXQ9InRydWUiPgogICAgPGV4Y2x1ZGUtb3V0cHV0IC8+CiAgICA8Y29udGVudCB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQiPgogICAgICA8c291cmNlRm9sZGVyIHVybD0iZmlsZTovLyRNT0RVTEVfRElSJC9hcHAvc3JjL21haW4vamF2YSIgaXNUZXN0U291cmNlPSJmYWxzZSIgLz4KICAgICAgPHNvdXJjZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvYXBwL3NyYy9tYWluL2tvdGxpbiIgaXNUZXN0U291cmNlPSJmYWxzZSIgLz4KICAgICAgPHNvdXJjZUZvbGRlciB1cmw9ImZpbGU6Ly8kTU9EVUxFX0RJUiQvZ2VuIiBpc1Rlc3RTb3VyY2U9ImZhbHNlIiBnZW5lcmF0ZWQ9InRydWUiIC8+CiAgICA8L2NvbnRlbnQ+CiAgICA8b3JkZXJFbnRyeSB0eXBlPSJqZGsiIGpka05hbWU9IkFuZHJvaWQgQVBJIDI5IFBsYXRmb3JtIiBqZGtUeXBlPSJBbmRyb2lkIFNESyIgLz4KICAgIDxvcmRlckVudHJ5IHR5cGU9InNvdXJjZUZvbGRlciIgZm9yVGVzdHM9ImZhbHNlIiAvPgogICAgPG9yZGVyRW50cnkgdHlwZT0ibGlicmFyeSIgbmFtZT0iRmx1dHRlciBmb3IgQW5kcm9pZCIgbGV2ZWw9InByb2plY3QiIC8+CiAgICA8b3JkZXJFbnRyeSB0eXBlPSJsaWJyYXJ5IiBuYW1lPSJLb3RsaW5KYXZhUnVudGltZSIgbGV2ZWw9InByb2plY3QiIC8+CiAgPC9jb21wb25lbnQ+CjwvbW9kdWxlPgo=
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/app/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/app/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/app/src/main/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/app/src/main/libs" />
+        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/app/src/main/proguard_logs" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/app/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/app/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Flutter for Android" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+  </component>
+</module>

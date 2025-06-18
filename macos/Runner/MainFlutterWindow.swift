@@ -1,1 +1,15 @@
-aW1wb3J0IENvY29hCmltcG9ydCBGbHV0dGVyTWFjT1MKCmNsYXNzIE1haW5GbHV0dGVyV2luZG93OiBOU1dpbmRvdyB7CiAgb3ZlcnJpZGUgZnVuYyBhd2FrZUZyb21OaWIoKSB7CiAgICBsZXQgZmx1dHRlclZpZXdDb250cm9sbGVyID0gRmx1dHRlclZpZXdDb250cm9sbGVyKCkKICAgIGxldCB3aW5kb3dGcmFtZSA9IHNlbGYuZnJhbWUKICAgIHNlbGYuY29udGVudFZpZXdDb250cm9sbGVyID0gZmx1dHRlclZpZXdDb250cm9sbGVyCiAgICBzZWxmLnNldEZyYW1lKHdpbmRvd0ZyYW1lLCBkaXNwbGF5OiB0cnVlKQoKICAgIFJlZ2lzdGVyR2VuZXJhdGVkUGx1Z2lucyhyZWdpc3RyeTogZmx1dHRlclZpZXdDb250cm9sbGVyKQoKICAgIHN1cGVyLmF3YWtlRnJvbU5pYigpCiAgfQp9Cg==
+import Cocoa
+import FlutterMacOS
+
+class MainFlutterWindow: NSWindow {
+  override func awakeFromNib() {
+    let flutterViewController = FlutterViewController()
+    let windowFrame = self.frame
+    self.contentViewController = flutterViewController
+    self.setFrame(windowFrame, display: true)
+
+    RegisterGeneratedPlugins(registry: flutterViewController)
+
+    super.awakeFromNib()
+  }
+}

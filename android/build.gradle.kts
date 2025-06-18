@@ -1,1 +1,21 @@
-YWxscHJvamVjdHMgewogICAgcmVwb3NpdG9yaWVzIHsKICAgICAgICBnb29nbGUoKQogICAgICAgIG1hdmVuQ2VudHJhbCgpCiAgICB9Cn0KCnZhbCBuZXdCdWlsZERpcjogRGlyZWN0b3J5ID0gcm9vdFByb2plY3QubGF5b3V0LmJ1aWxkRGlyZWN0b3J5LmRpcigiLi4vLi4vYnVpbGQiKS5nZXQoKQpyb290UHJvamVjdC5sYXlvdXQuYnVpbGREaXJlY3RvcnkudmFsdWUobmV3QnVpbGREaXIpCgpzdWJwcm9qZWN0cyB7CiAgICB2YWwgbmV3U3VicHJvamVjdEJ1aWxkRGlyOiBEaXJlY3RvcnkgPSBuZXdCdWlsZERpci5kaXIocHJvamVjdC5uYW1lKQogICAgcHJvamVjdC5sYXlvdXQuYnVpbGREaXJlY3RvcnkudmFsdWUobmV3U3VicHJvamVjdEJ1aWxkRGlyKQp9CnN1YnByb2plY3RzIHsKICAgIHByb2plY3QuZXZhbHVhdGlvbkRlcGVuZHNPbigiOmFwcCIpCn0KCnRhc2tzLnJlZ2lzdGVyPERlbGV0ZT4oImNsZWFuIikgewogICAgZGVsZXRlKHJvb3RQcm9qZWN0LmxheW91dC5idWlsZERpcmVjdG9yeSkKfQo=
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+val newBuildDir: Directory = rootProject.layout.buildDirectory.dir("../../build").get()
+rootProject.layout.buildDirectory.value(newBuildDir)
+
+subprojects {
+    val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
+    project.layout.buildDirectory.value(newSubprojectBuildDir)
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
+}

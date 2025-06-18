@@ -1,1 +1,19 @@
-bmFtZTogYXBpCmRlc2NyaXB0aW9uOiBBIHNhbXBsZSBjb21tYW5kLWxpbmUgYXBwbGljYXRpb24uCnZlcnNpb246IDEuMC4wCiMgcmVwb3NpdG9yeTogaHR0cHM6Ly9naXRodWIuY29tL215X29yZy9teV9yZXBvCgplbnZpcm9ubWVudDoKICBzZGs6IF4zLjcuMAoKIyBBZGQgcmVndWxhciBkZXBlbmRlbmNpZXMgaGVyZS4KZGVwZW5kZW5jaWVzOgogIHNoZWxmOiBeMS40LjIKICBzaGVsZl9nemlwOiBeNC4xLjAKICBzaGVsZl9yb3V0ZXI6IF4xLjEuNAogIHN1cGFiYXNlOiBeMS4xMS4xMQogICMgcGF0aDogXjEuOC4wCgpkZXZfZGVwZW5kZW5jaWVzOgogIGxpbnRzOiBeNS4wLjAKICB0ZXN0OiBeMS4yNC4w
+name: api
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.7.0
+
+# Add regular dependencies here.
+dependencies:
+  shelf: ^1.4.2
+  shelf_gzip: ^4.1.0
+  shelf_router: ^1.1.4
+  supabase: ^1.11.11
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0

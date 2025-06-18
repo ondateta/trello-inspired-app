@@ -1,1 +1,76 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CgpjbGFzcyBDdXN0b21DYXRlZ29yeU1vZGFsIGV4dGVuZHMgU3RhdGVmdWxXaWRnZXQgewogIGZpbmFsIEZ1bmN0aW9uKFN0cmluZykgb25BZGRDYXRlZ29yeTsKCiAgY29uc3QgQ3VzdG9tQ2F0ZWdvcnlNb2RhbCh7CiAgICBLZXk/IGtleSwKICAgIHJlcXVpcmVkIHRoaXMub25BZGRDYXRlZ29yeSwKICB9KSA6IHN1cGVyKGtleToga2V5KTsKCiAgQG92ZXJyaWRlCiAgU3RhdGU8Q3VzdG9tQ2F0ZWdvcnlNb2RhbD4gY3JlYXRlU3RhdGUoKSA9PiBfQ3VzdG9tQ2F0ZWdvcnlNb2RhbFN0YXRlKCk7Cn0KCmNsYXNzIF9DdXN0b21DYXRlZ29yeU1vZGFsU3RhdGUgZXh0ZW5kcyBTdGF0ZTxDdXN0b21DYXRlZ29yeU1vZGFsPiB7CiAgZmluYWwgVGV4dEVkaXRpbmdDb250cm9sbGVyIF9jYXRlZ29yeUNvbnRyb2xsZXIgPSBUZXh0RWRpdGluZ0NvbnRyb2xsZXIoKTsKICBib29sIF9pc0xvYWRpbmcgPSBmYWxzZTsKCiAgQG92ZXJyaWRlCiAgdm9pZCBkaXNwb3NlKCkgewogICAgX2NhdGVnb3J5Q29udHJvbGxlci5kaXNwb3NlKCk7CiAgICBzdXBlci5kaXNwb3NlKCk7CiAgfQoKICBAb3ZlcnJpZGUKICBXaWRnZXQgYnVpbGQoQnVpbGRDb250ZXh0IGNvbnRleHQpIHsKICAgIHJldHVybiBBbGVydERpYWxvZygKICAgICAgdGl0bGU6IGNvbnN0IFRleHQoJ0FkZCBDdXN0b20gQ2F0ZWdvcnknKSwKICAgICAgY29udGVudDogVGV4dEZpZWxkKAogICAgICAgIGNvbnRyb2xsZXI6IF9jYXRlZ29yeUNvbnRyb2xsZXIsCiAgICAgICAgZGVjb3JhdGlvbjogY29uc3QgSW5wdXREZWNvcmF0aW9uKAogICAgICAgICAgbGFiZWxUZXh0OiAnQ2F0ZWdvcnkgTmFtZScsCiAgICAgICAgICBoaW50VGV4dDogJ0VudGVyIGNhdGVnb3J5IG5hbWUnLAogICAgICAgICksCiAgICAgICAgYXV0b2ZvY3VzOiB0cnVlLAogICAgICApLAogICAgICBhY3Rpb25zOiBbCiAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgIG9uUHJlc3NlZDogKCkgPT4gTmF2aWdhdG9yLm9mKGNvbnRleHQpLnBvcCgpLAogICAgICAgICAgY2hpbGQ6IGNvbnN0IFRleHQoJ0NhbmNlbCcpLAogICAgICAgICksCiAgICAgICAgRWxldmF0ZWRCdXR0b24oCiAgICAgICAgICBvblByZXNzZWQ6IF9pc0xvYWRpbmcKICAgICAgICAgICAgICA/IG51bGwKICAgICAgICAgICAgICA6ICgpIGFzeW5jIHsKICAgICAgICAgICAgICAgICAgaWYgKF9jYXRlZ29yeUNvbnRyb2xsZXIudGV4dC50cmltKCkuaXNFbXB0eSkgcmV0dXJuOwogICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgc2V0U3RhdGUoKCkgewogICAgICAgICAgICAgICAgICAgIF9pc0xvYWRpbmcgPSB0cnVlOwogICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgYXdhaXQgd2lkZ2V0Lm9uQWRkQ2F0ZWdvcnkoX2NhdGVnb3J5Q29udHJvbGxlci50ZXh0LnRyaW0oKSk7CiAgICAgICAgICAgICAgICAgICAgaWYgKG1vdW50ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgIE5hdmlnYXRvci5vZihjb250ZXh0KS5wb3AoKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKG1vdW50ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgIHNldFN0YXRlKCgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgX2lzTG9hZGluZyA9IGZhbHNlOwogICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgY2hpbGQ6IF9pc0xvYWRpbmcKICAgICAgICAgICAgICA/IGNvbnN0IFNpemVkQm94KAogICAgICAgICAgICAgICAgICB3aWR0aDogMjAsCiAgICAgICAgICAgICAgICAgIGhlaWdodDogMjAsCiAgICAgICAgICAgICAgICAgIGNoaWxkOiBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKHN0cm9rZVdpZHRoOiAyKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICA6IGNvbnN0IFRleHQoJ0FkZCBDYXRlZ29yeScpLAogICAgICAgICksCiAgICAgIF0sCiAgICApOwogIH0KfQ==
+import 'package:flutter/material.dart';
+
+class CustomCategoryModal extends StatefulWidget {
+  final Function(String) onAddCategory;
+
+  const CustomCategoryModal({
+    Key? key,
+    required this.onAddCategory,
+  }) : super(key: key);
+
+  @override
+  State<CustomCategoryModal> createState() => _CustomCategoryModalState();
+}
+
+class _CustomCategoryModalState extends State<CustomCategoryModal> {
+  final TextEditingController _categoryController = TextEditingController();
+  bool _isLoading = false;
+
+  @override
+  void dispose() {
+    _categoryController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AlertDialog(
+      title: const Text('Add Custom Category'),
+      content: TextField(
+        controller: _categoryController,
+        decoration: const InputDecoration(
+          labelText: 'Category Name',
+          hintText: 'Enter category name',
+        ),
+        autofocus: true,
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.of(context).pop(),
+          child: const Text('Cancel'),
+        ),
+        ElevatedButton(
+          onPressed: _isLoading
+              ? null
+              : () async {
+                  if (_categoryController.text.trim().isEmpty) return;
+                  
+                  setState(() {
+                    _isLoading = true;
+                  });
+                  
+                  try {
+                    await widget.onAddCategory(_categoryController.text.trim());
+                    if (mounted) {
+                      Navigator.of(context).pop();
+                    }
+                  } finally {
+                    if (mounted) {
+                      setState(() {
+                        _isLoading = false;
+                      });
+                    }
+                  }
+                },
+          child: _isLoading
+              ? const SizedBox(
+                  width: 20,
+                  height: 20,
+                  child: CircularProgressIndicator(strokeWidth: 2),
+                )
+              : const Text('Add Category'),
+        ),
+      ],
+    );
+  }
+}

@@ -1,1 +1,18 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDwhLS0gVGhlbWUgYXBwbGllZCB0byB0aGUgQW5kcm9pZCBXaW5kb3cgd2hpbGUgdGhlIHByb2Nlc3MgaXMgc3RhcnRpbmcgd2hlbiB0aGUgT1MncyBEYXJrIE1vZGUgc2V0dGluZyBpcyBvbiAtLT4KICAgIDxzdHlsZSBuYW1lPSJMYXVuY2hUaGVtZSIgcGFyZW50PSJAYW5kcm9pZDpzdHlsZS9UaGVtZS5CbGFjay5Ob1RpdGxlQmFyIj4KICAgICAgICA8IS0tIFNob3cgYSBzcGxhc2ggc2NyZWVuIG9uIHRoZSBhY3Rpdml0eS4gQXV0b21hdGljYWxseSByZW1vdmVkIHdoZW4KICAgICAgICAgICAgIHRoZSBGbHV0dGVyIGVuZ2luZSBkcmF3cyBpdHMgZmlyc3QgZnJhbWUgLS0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dCYWNrZ3JvdW5kIj5AZHJhd2FibGUvbGF1bmNoX2JhY2tncm91bmQ8L2l0ZW0+CiAgICA8L3N0eWxlPgogICAgPCEtLSBUaGVtZSBhcHBsaWVkIHRvIHRoZSBBbmRyb2lkIFdpbmRvdyBhcyBzb29uIGFzIHRoZSBwcm9jZXNzIGhhcyBzdGFydGVkLgogICAgICAgICBUaGlzIHRoZW1lIGRldGVybWluZXMgdGhlIGNvbG9yIG9mIHRoZSBBbmRyb2lkIFdpbmRvdyB3aGlsZSB5b3VyCiAgICAgICAgIEZsdXR0ZXIgVUkgaW5pdGlhbGl6ZXMsIGFzIHdlbGwgYXMgYmVoaW5kIHlvdXIgRmx1dHRlciBVSSB3aGlsZSBpdHMKICAgICAgICAgcnVubmluZy4KCiAgICAgICAgIFRoaXMgVGhlbWUgaXMgb25seSB1c2VkIHN0YXJ0aW5nIHdpdGggVjIgb2YgRmx1dHRlcidzIEFuZHJvaWQgZW1iZWRkaW5nLiAtLT4KICAgIDxzdHlsZSBuYW1lPSJOb3JtYWxUaGVtZSIgcGFyZW50PSJAYW5kcm9pZDpzdHlsZS9UaGVtZS5CbGFjay5Ob1RpdGxlQmFyIj4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0JhY2tncm91bmQiPj9hbmRyb2lkOmNvbG9yQmFja2dyb3VuZDwvaXRlbT4KICAgIDwvc3R5bGU+CjwvcmVzb3VyY2VzPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is on -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the color of the Android Window while your
+         Flutter UI initializes, as well as behind your Flutter UI while its
+         running.
+
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

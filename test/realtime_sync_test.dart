@@ -1,1 +1,227 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTpmbHV0dGVyX3Rlc3QvZmx1dHRlcl90ZXN0LmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvY29uZmlnL3N1cGFiYXNlX2NvbmZpZy5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL3NyYy9jb250cm9sbGVycy90YXNrc19jb250cm9sbGVyLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL21vZGVscy90YXNrX21vZGVsLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6dGVtcGxhdGUvc3JjL3ZpZXdzL2JvYXJkX2RldGFpbF92aWV3LmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6bW9ja2l0by9tb2NraXRvLmRhcnQnOwppbXBvcnQgJ3BhY2thZ2U6bW9ja2l0by9hbm5vdGF0aW9ucy5kYXJ0JzsKaW1wb3J0ICdkYXJ0OmFzeW5jJzsKCkBHZW5lcmF0ZU1vY2tzKFtTdXBhYmFzZUNvbmZpZ10pCnZvaWQgbWFpbigpIHsKICBncm91cCgnUmVhbC10aW1lIFN5bmNocm9uaXphdGlvbiBUZXN0cycsICgpIHsKICAgIGxhdGUgVGFza1VwZGF0ZUV2ZW50IGluaXRpYWxFdmVudDsKICAgIGxhdGUgU3RyZWFtQ29udHJvbGxlcjxUYXNrVXBkYXRlRXZlbnQ+IG1vY2tTdHJlYW1Db250cm9sbGVyOwogICAgCiAgICBzZXRVcCgoKSB7CiAgICAgIG1vY2tTdHJlYW1Db250cm9sbGVyID0gU3RyZWFtQ29udHJvbGxlcjxUYXNrVXBkYXRlRXZlbnQ+LmJyb2FkY2FzdCgpOwogICAgICAKICAgICAgaW5pdGlhbEV2ZW50ID0gVGFza1VwZGF0ZUV2ZW50KAogICAgICAgIFsKICAgICAgICAgIFRhc2tNb2RlbCgKICAgICAgICAgICAgaWQ6ICcxJywKICAgICAgICAgICAgYm9hcmRJZDogJ2JvYXJkLTEnLAogICAgICAgICAgICB0aXRsZTogJ1Rhc2sgMScsCiAgICAgICAgICAgIHN0YXR1czogVGFza1N0YXR1cy50b2RvLAogICAgICAgICAgICBjYXRlZ29yeTogJ2RlZmF1bHQnLAogICAgICAgICAgICBwb3NpdGlvbjogMCwKICAgICAgICAgICAgdGFnczogWyd0YWcxJ10sCiAgICAgICAgICAgIGNyZWF0ZWRBdDogRGF0ZVRpbWUubm93KCksCiAgICAgICAgICAgIHVwZGF0ZWRBdDogRGF0ZVRpbWUubm93KCksCiAgICAgICAgICApLAogICAgICAgIF0sCiAgICAgICAgVGFza1VwZGF0ZVR5cGUuaW5pdGlhbCwKICAgICAgKTsKICAgICAgCiAgICAgIC8vIEFkZCBpbml0aWFsIHRhc2sgdG8gdGhlIHN0cmVhbQogICAgICBtb2NrU3RyZWFtQ29udHJvbGxlci5hZGQoaW5pdGlhbEV2ZW50KTsKICAgICAgCiAgICAgIC8vIE1vY2sgdGhlIHRhc2tzIHN1YnNjcmlwdGlvbgogICAgICBUZXN0V2lkZ2V0c0ZsdXR0ZXJCaW5kaW5nLmVuc3VyZUluaXRpYWxpemVkKCk7CiAgICB9KTsKICAgIAogICAgdGVhckRvd24oKCkgewogICAgICBtb2NrU3RyZWFtQ29udHJvbGxlci5jbG9zZSgpOwogICAgfSk7CiAgICAKICAgIHRlc3RXaWRnZXRzKCdCb2FyZCB2aWV3IHNob3VsZCBkaXNwbGF5IG5ldyB0YXNrcyBpbiByZWFsLXRpbWUnLCAoV2lkZ2V0VGVzdGVyIHRlc3RlcikgYXN5bmMgewogICAgICBhd2FpdCB0ZXN0ZXIucHVtcFdpZGdldCgKICAgICAgICBNYXRlcmlhbEFwcCgKICAgICAgICAgIGhvbWU6IEJvYXJkRGV0YWlsVmlldyhib2FyZElkOiAnYm9hcmQtMScpLAogICAgICAgICksCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gVmVyaWZ5IGluaXRpYWwgdGFzayBpcyBkaXNwbGF5ZWQKICAgICAgZXhwZWN0KGZpbmQudGV4dCgnVGFzayAxJyksIGZpbmRzT25lV2lkZ2V0KTsKICAgICAgCiAgICAgIC8vIFNpbXVsYXRlIGEgbmV3IHRhc2sgYmVpbmcgYWRkZWQgdmlhIHJlYWwtdGltZSBzdWJzY3JpcHRpb24KICAgICAgZmluYWwgbmV3VGFzayA9IFRhc2tNb2RlbCgKICAgICAgICBpZDogJzInLAogICAgICAgIGJvYXJkSWQ6ICdib2FyZC0xJywKICAgICAgICB0aXRsZTogJ05ldyBSZWFsLXRpbWUgVGFzaycsCiAgICAgICAgc3RhdHVzOiBUYXNrU3RhdHVzLnRvZG8sCiAgICAgICAgY2F0ZWdvcnk6ICdkZWZhdWx0JywKICAgICAgICBwb3NpdGlvbjogMSwKICAgICAgICB0YWdzOiBbJ3JlYWx0aW1lJ10sCiAgICAgICAgY3JlYXRlZEF0OiBEYXRlVGltZS5ub3coKSwKICAgICAgICB1cGRhdGVkQXQ6IERhdGVUaW1lLm5vdygpLAogICAgICApOwogICAgICAKICAgICAgbW9ja1N0cmVhbUNvbnRyb2xsZXIuYWRkKAogICAgICAgIFRhc2tVcGRhdGVFdmVudCgKICAgICAgICAgIFtpbml0aWFsRXZlbnQudGFza3MuZmlyc3QsIG5ld1Rhc2tdLAogICAgICAgICAgVGFza1VwZGF0ZVR5cGUub3RoZXJVcGRhdGUsCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgCiAgICAgIGF3YWl0IHRlc3Rlci5wdW1wQW5kU2V0dGxlKCk7CiAgICAgIAogICAgICAvLyBWZXJpZnkgYm90aCB0YXNrcyBhcmUgZGlzcGxheWVkCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1Rhc2sgMScpLCBmaW5kc09uZVdpZGdldCk7CiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ05ldyBSZWFsLXRpbWUgVGFzaycpLCBmaW5kc09uZVdpZGdldCk7CiAgICB9KTsKICAgIAogICAgdGVzdFdpZGdldHMoJ0JvYXJkIHZpZXcgc2hvdWxkIHJlZmxlY3QgdGFzayBjb2x1bW4gY2hhbmdlcyBpbiByZWFsLXRpbWUnLCAoV2lkZ2V0VGVzdGVyIHRlc3RlcikgYXN5bmMgewogICAgICBhd2FpdCB0ZXN0ZXIucHVtcFdpZGdldCgKICAgICAgICBNYXRlcmlhbEFwcCgKICAgICAgICAgIGhvbWU6IEJvYXJkRGV0YWlsVmlldyhib2FyZElkOiAnYm9hcmQtMScpLAogICAgICAgICksCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gSW5pdGlhbCB0YXNrIGlzIGluIHRvZG8gY29sdW1uCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1Rhc2sgMScpLCBmaW5kc09uZVdpZGdldCk7CiAgICAgIAogICAgICAvLyBTaW11bGF0ZSB0YXNrIG1vdmluZyB0byBpbiBwcm9ncmVzcyBjb2x1bW4KICAgICAgZmluYWwgdXBkYXRlZFRhc2sgPSBpbml0aWFsRXZlbnQudGFza3MuZmlyc3QuY29weVdpdGgoCiAgICAgICAgc3RhdHVzOiBUYXNrU3RhdHVzLmluUHJvZ3Jlc3MsCiAgICAgICk7CiAgICAgIAogICAgICBtb2NrU3RyZWFtQ29udHJvbGxlci5hZGQoCiAgICAgICAgVGFza1VwZGF0ZUV2ZW50KAogICAgICAgICAgW3VwZGF0ZWRUYXNrXSwKICAgICAgICAgIFRhc2tVcGRhdGVUeXBlLmNvbHVtbk1vdmUsCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgCiAgICAgIGF3YWl0IHRlc3Rlci5wdW1wQW5kU2V0dGxlKCk7CiAgICAgIAogICAgICAvLyBWZXJpZnkgdGhlIHRhc2sgaGFzIG1vdmVkIGNvbHVtbnMKICAgICAgZXhwZWN0KGZpbmQudGV4dCgnVGFzayAxJyksIGZpbmRzT25lV2lkZ2V0KTsKICAgICAgCiAgICAgIC8vIFZlcmlmeSBzbmFja2JhciBhcHBlYXJzIGZvciBjb2x1bW4gbW92ZQogICAgICBleHBlY3QoZmluZC50ZXh0KCdUYXNrIG1vdmVkIHRvIGEgbmV3IGNvbHVtbicpLCBmaW5kc09uZVdpZGdldCk7CiAgICB9KTsKICAgIAogICAgdGVzdFdpZGdldHMoJ0JvYXJkIHZpZXcgc2hvdWxkIHVwZGF0ZSB3aGVuIHRhc2sgdGFncyBjaGFuZ2UnLCAoV2lkZ2V0VGVzdGVyIHRlc3RlcikgYXN5bmMgewogICAgICBhd2FpdCB0ZXN0ZXIucHVtcFdpZGdldCgKICAgICAgICBNYXRlcmlhbEFwcCgKICAgICAgICAgIGhvbWU6IEJvYXJkRGV0YWlsVmlldyhib2FyZElkOiAnYm9hcmQtMScpLAogICAgICAgICksCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gVmVyaWZ5IGluaXRpYWwgdGFnIGlzIGRpc3BsYXllZAogICAgICBleHBlY3QoZmluZC50ZXh0KCd0YWcxJyksIGZpbmRzT25lV2lkZ2V0KTsKICAgICAgCiAgICAgIC8vIFNpbXVsYXRlIHRhZyB1cGRhdGUKICAgICAgZmluYWwgdGFnVXBkYXRlZFRhc2sgPSBpbml0aWFsRXZlbnQudGFza3MuZmlyc3QuY29weVdpdGgoCiAgICAgICAgdGFnczogWyd0YWcxJywgJ25ld3RhZyddLAogICAgICApOwogICAgICAKICAgICAgbW9ja1N0cmVhbUNvbnRyb2xsZXIuYWRkKAogICAgICAgIFRhc2tVcGRhdGVFdmVudCgKICAgICAgICAgIFt0YWdVcGRhdGVkVGFza10sCiAgICAgICAgICBUYXNrVXBkYXRlVHlwZS50YWdVcGRhdGUsCiAgICAgICAgKSwKICAgICAgKTsKICAgICAgCiAgICAgIGF3YWl0IHRlc3Rlci5wdW1wQW5kU2V0dGxlKCk7CiAgICAgIAogICAgICAvLyBWZXJpZnkgYm90aCB0YWdzIGFyZSBub3cgZGlzcGxheWVkCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ3RhZzEnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICBleHBlY3QoZmluZC50ZXh0KCduZXd0YWcnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgfSk7CiAgICAKICAgIHRlc3RXaWRnZXRzKCdGaWx0ZXIgYnkgdGFnIHNob3VsZCB3b3JrIHdpdGggcmVhbC10aW1lIHVwZGF0ZXMnLCAoV2lkZ2V0VGVzdGVyIHRlc3RlcikgYXN5bmMgewogICAgICBhd2FpdCB0ZXN0ZXIucHVtcFdpZGdldCgKICAgICAgICBNYXRlcmlhbEFwcCgKICAgICAgICAgIGhvbWU6IEJvYXJkRGV0YWlsVmlldyhib2FyZElkOiAnYm9hcmQtMScpLAogICAgICAgICksCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gSW5pdGlhbCBzdGF0ZSBoYXMgb25lIHRhc2sgd2l0aCAndGFnMScKICAgICAgZXhwZWN0KGZpbmQudGV4dCgnVGFzayAxJyksIGZpbmRzT25lV2lkZ2V0KTsKICAgICAgCiAgICAgIC8vIEFkZCBhIHNlY29uZCB0YXNrIHdpdGggZGlmZmVyZW50IHRhZwogICAgICBmaW5hbCBzZWNvbmRUYXNrID0gVGFza01vZGVsKAogICAgICAgIGlkOiAnMicsCiAgICAgICAgYm9hcmRJZDogJ2JvYXJkLTEnLAogICAgICAgIHRpdGxlOiAnVGFzayAyJywKICAgICAgICBzdGF0dXM6IFRhc2tTdGF0dXMudG9kbywKICAgICAgICBjYXRlZ29yeTogJ2RlZmF1bHQnLAogICAgICAgIHBvc2l0aW9uOiAxLAogICAgICAgIHRhZ3M6IFsndGFnMiddLAogICAgICAgIGNyZWF0ZWRBdDogRGF0ZVRpbWUubm93KCksCiAgICAgICAgdXBkYXRlZEF0OiBEYXRlVGltZS5ub3coKSwKICAgICAgKTsKICAgICAgCiAgICAgIG1vY2tTdHJlYW1Db250cm9sbGVyLmFkZCgKICAgICAgICBUYXNrVXBkYXRlRXZlbnQoCiAgICAgICAgICBbaW5pdGlhbEV2ZW50LnRhc2tzLmZpcnN0LCBzZWNvbmRUYXNrXSwKICAgICAgICAgIFRhc2tVcGRhdGVUeXBlLm90aGVyVXBkYXRlLAogICAgICAgICksCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gQm90aCB0YXNrcyBzaG91bGQgYmUgdmlzaWJsZQogICAgICBleHBlY3QoZmluZC50ZXh0KCdUYXNrIDEnKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICBleHBlY3QoZmluZC50ZXh0KCdUYXNrIDInKSwgZmluZHNPbmVXaWRnZXQpOwogICAgICAKICAgICAgLy8gRmlsdGVyIGJ5IHRhZzEKICAgICAgYXdhaXQgdGVzdGVyLnRhcChmaW5kLnRleHQoJ0FsbCB0YWdzJykpOwogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICBhd2FpdCB0ZXN0ZXIudGFwKGZpbmQudGV4dCgndGFnMScpKTsKICAgICAgYXdhaXQgdGVzdGVyLnB1bXBBbmRTZXR0bGUoKTsKICAgICAgCiAgICAgIC8vIE9ubHkgVGFzayAxIHNob3VsZCBiZSB2aXNpYmxlCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1Rhc2sgMScpLCBmaW5kc09uZVdpZGdldCk7CiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1Rhc2sgMicpLCBmaW5kc05vdGhpbmcpOwogICAgICAKICAgICAgLy8gQWRkIGEgdGhpcmQgdGFzayB3aXRoIHRhZzEgaW4gcmVhbC10aW1lCiAgICAgIGZpbmFsIHRoaXJkVGFzayA9IFRhc2tNb2RlbCgKICAgICAgICBpZDogJzMnLAogICAgICAgIGJvYXJkSWQ6ICdib2FyZC0xJywKICAgICAgICB0aXRsZTogJ1Rhc2sgMycsCiAgICAgICAgc3RhdHVzOiBUYXNrU3RhdHVzLnRvZG8sCiAgICAgICAgY2F0ZWdvcnk6ICdkZWZhdWx0JywKICAgICAgICBwb3NpdGlvbjogMiwKICAgICAgICB0YWdzOiBbJ3RhZzEnXSwKICAgICAgICBjcmVhdGVkQXQ6IERhdGVUaW1lLm5vdygpLAogICAgICAgIHVwZGF0ZWRBdDogRGF0ZVRpbWUubm93KCksCiAgICAgICk7CiAgICAgIAogICAgICBtb2NrU3RyZWFtQ29udHJvbGxlci5hZGQoCiAgICAgICAgVGFza1VwZGF0ZUV2ZW50KAogICAgICAgICAgW2luaXRpYWxFdmVudC50YXNrcy5maXJzdCwgc2Vjb25kVGFzaywgdGhpcmRUYXNrXSwKICAgICAgICAgIFRhc2tVcGRhdGVUeXBlLm90aGVyVXBkYXRlLAogICAgICAgICksCiAgICAgICk7CiAgICAgIAogICAgICBhd2FpdCB0ZXN0ZXIucHVtcEFuZFNldHRsZSgpOwogICAgICAKICAgICAgLy8gQm90aCBUYXNrIDEgYW5kIFRhc2sgMyBzaG91bGQgYmUgdmlzaWJsZSAoYm90aCBoYXZlIHRhZzEpCiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1Rhc2sgMScpLCBmaW5kc09uZVdpZGdldCk7CiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1Rhc2sgMycpLCBmaW5kc09uZVdpZGdldCk7CiAgICAgIGV4cGVjdChmaW5kLnRleHQoJ1Rhc2sgMicpLCBmaW5kc05vdGhpbmcpOwogICAgfSk7CiAgfSk7Cn0=
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:template/config/supabase_config.dart';
+import 'package:template/src/controllers/tasks_controller.dart';
+import 'package:template/src/models/task_model.dart';
+import 'package:template/src/views/board_detail_view.dart';
+import 'package:mockito/mockito.dart';
+import 'package:mockito/annotations.dart';
+import 'dart:async';
+
+@GenerateMocks([SupabaseConfig])
+void main() {
+  group('Real-time Synchronization Tests', () {
+    late TaskUpdateEvent initialEvent;
+    late StreamController<TaskUpdateEvent> mockStreamController;
+    
+    setUp(() {
+      mockStreamController = StreamController<TaskUpdateEvent>.broadcast();
+      
+      initialEvent = TaskUpdateEvent(
+        [
+          TaskModel(
+            id: '1',
+            boardId: 'board-1',
+            title: 'Task 1',
+            status: TaskStatus.todo,
+            category: 'default',
+            position: 0,
+            tags: ['tag1'],
+            createdAt: DateTime.now(),
+            updatedAt: DateTime.now(),
+          ),
+        ],
+        TaskUpdateType.initial,
+      );
+      
+      // Add initial task to the stream
+      mockStreamController.add(initialEvent);
+      
+      // Mock the tasks subscription
+      TestWidgetsFlutterBinding.ensureInitialized();
+    });
+    
+    tearDown(() {
+      mockStreamController.close();
+    });
+    
+    testWidgets('Board view should display new tasks in real-time', (WidgetTester tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: BoardDetailView(boardId: 'board-1'),
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Verify initial task is displayed
+      expect(find.text('Task 1'), findsOneWidget);
+      
+      // Simulate a new task being added via real-time subscription
+      final newTask = TaskModel(
+        id: '2',
+        boardId: 'board-1',
+        title: 'New Real-time Task',
+        status: TaskStatus.todo,
+        category: 'default',
+        position: 1,
+        tags: ['realtime'],
+        createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
+      );
+      
+      mockStreamController.add(
+        TaskUpdateEvent(
+          [initialEvent.tasks.first, newTask],
+          TaskUpdateType.otherUpdate,
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Verify both tasks are displayed
+      expect(find.text('Task 1'), findsOneWidget);
+      expect(find.text('New Real-time Task'), findsOneWidget);
+    });
+    
+    testWidgets('Board view should reflect task column changes in real-time', (WidgetTester tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: BoardDetailView(boardId: 'board-1'),
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Initial task is in todo column
+      expect(find.text('Task 1'), findsOneWidget);
+      
+      // Simulate task moving to in progress column
+      final updatedTask = initialEvent.tasks.first.copyWith(
+        status: TaskStatus.inProgress,
+      );
+      
+      mockStreamController.add(
+        TaskUpdateEvent(
+          [updatedTask],
+          TaskUpdateType.columnMove,
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Verify the task has moved columns
+      expect(find.text('Task 1'), findsOneWidget);
+      
+      // Verify snackbar appears for column move
+      expect(find.text('Task moved to a new column'), findsOneWidget);
+    });
+    
+    testWidgets('Board view should update when task tags change', (WidgetTester tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: BoardDetailView(boardId: 'board-1'),
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Verify initial tag is displayed
+      expect(find.text('tag1'), findsOneWidget);
+      
+      // Simulate tag update
+      final tagUpdatedTask = initialEvent.tasks.first.copyWith(
+        tags: ['tag1', 'newtag'],
+      );
+      
+      mockStreamController.add(
+        TaskUpdateEvent(
+          [tagUpdatedTask],
+          TaskUpdateType.tagUpdate,
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Verify both tags are now displayed
+      expect(find.text('tag1'), findsOneWidget);
+      expect(find.text('newtag'), findsOneWidget);
+    });
+    
+    testWidgets('Filter by tag should work with real-time updates', (WidgetTester tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: BoardDetailView(boardId: 'board-1'),
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Initial state has one task with 'tag1'
+      expect(find.text('Task 1'), findsOneWidget);
+      
+      // Add a second task with different tag
+      final secondTask = TaskModel(
+        id: '2',
+        boardId: 'board-1',
+        title: 'Task 2',
+        status: TaskStatus.todo,
+        category: 'default',
+        position: 1,
+        tags: ['tag2'],
+        createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
+      );
+      
+      mockStreamController.add(
+        TaskUpdateEvent(
+          [initialEvent.tasks.first, secondTask],
+          TaskUpdateType.otherUpdate,
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Both tasks should be visible
+      expect(find.text('Task 1'), findsOneWidget);
+      expect(find.text('Task 2'), findsOneWidget);
+      
+      // Filter by tag1
+      await tester.tap(find.text('All tags'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('tag1'));
+      await tester.pumpAndSettle();
+      
+      // Only Task 1 should be visible
+      expect(find.text('Task 1'), findsOneWidget);
+      expect(find.text('Task 2'), findsNothing);
+      
+      // Add a third task with tag1 in real-time
+      final thirdTask = TaskModel(
+        id: '3',
+        boardId: 'board-1',
+        title: 'Task 3',
+        status: TaskStatus.todo,
+        category: 'default',
+        position: 2,
+        tags: ['tag1'],
+        createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
+      );
+      
+      mockStreamController.add(
+        TaskUpdateEvent(
+          [initialEvent.tasks.first, secondTask, thirdTask],
+          TaskUpdateType.otherUpdate,
+        ),
+      );
+      
+      await tester.pumpAndSettle();
+      
+      // Both Task 1 and Task 3 should be visible (both have tag1)
+      expect(find.text('Task 1'), findsOneWidget);
+      expect(find.text('Task 3'), findsOneWidget);
+      expect(find.text('Task 2'), findsNothing);
+    });
+  });
+}

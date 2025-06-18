@@ -1,1 +1,43 @@
-Ly8gRmx1dHRlciBpbXBvcnRzOgppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlci9tYXRlcmlhbC5kYXJ0JzsKCmNsYXNzIENvbnRyb2xsZXJCdWlsZGVyPFQgZXh0ZW5kcyBDaGFuZ2VOb3RpZmllcj4gZXh0ZW5kcyBTdGF0ZWZ1bFdpZGdldCB7CiAgY29uc3QgQ29udHJvbGxlckJ1aWxkZXIoewogICAgcmVxdWlyZWQgdGhpcy5jcmVhdGUsCiAgICByZXF1aXJlZCB0aGlzLmJ1aWxkZXIsCiAgICB0aGlzLmluaXRTdGF0ZSwKICAgIHN1cGVyLmtleSwKICB9KTsKCiAgZmluYWwgVCBGdW5jdGlvbigpIGNyZWF0ZTsKICBmaW5hbCB2b2lkIEZ1bmN0aW9uKEJ1aWxkQ29udGV4dCwgVCk/IGluaXRTdGF0ZTsKICBmaW5hbCBXaWRnZXQgRnVuY3Rpb24oQnVpbGRDb250ZXh0LCBUKSBidWlsZGVyOwoKICBAb3ZlcnJpZGUKICBTdGF0ZTxDb250cm9sbGVyQnVpbGRlcjxUPj4gY3JlYXRlU3RhdGUoKSA9PiBfQ29udHJvbGxlckRpc3Bvc2VyU3RhdGU8VD4oKTsKfQoKY2xhc3MgX0NvbnRyb2xsZXJEaXNwb3NlclN0YXRlPFQgZXh0ZW5kcyBDaGFuZ2VOb3RpZmllcj4KICAgIGV4dGVuZHMgU3RhdGU8Q29udHJvbGxlckJ1aWxkZXI8VD4+IHsKICBsYXRlIGZpbmFsIFQgY29udHJvbGxlcjsKCiAgQG92ZXJyaWRlCiAgdm9pZCBpbml0U3RhdGUoKSB7CiAgICBzdXBlci5pbml0U3RhdGUoKTsKICAgIGNvbnRyb2xsZXIgPSB3aWRnZXQuY3JlYXRlKCk7CiAgICBpZiAod2lkZ2V0LmluaXRTdGF0ZSAhPSBudWxsKSB7CiAgICAgIHdpZGdldC5pbml0U3RhdGU/LmNhbGwoY29udGV4dCwgY29udHJvbGxlcik7CiAgICB9CiAgfQoKICBAb3ZlcnJpZGUKICB2b2lkIGRpc3Bvc2UoKSB7CiAgICBjb250cm9sbGVyLmRpc3Bvc2UoKTsKICAgIHN1cGVyLmRpc3Bvc2UoKTsKICB9CgogIEBvdmVycmlkZQogIFdpZGdldCBidWlsZChCdWlsZENvbnRleHQgY29udGV4dCkgewogICAgcmV0dXJuIHdpZGdldC5idWlsZGVyKGNvbnRleHQsIGNvbnRyb2xsZXIpOwogIH0KfQo=
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+class ControllerBuilder<T extends ChangeNotifier> extends StatefulWidget {
+  const ControllerBuilder({
+    required this.create,
+    required this.builder,
+    this.initState,
+    super.key,
+  });
+
+  final T Function() create;
+  final void Function(BuildContext, T)? initState;
+  final Widget Function(BuildContext, T) builder;
+
+  @override
+  State<ControllerBuilder<T>> createState() => _ControllerDisposerState<T>();
+}
+
+class _ControllerDisposerState<T extends ChangeNotifier>
+    extends State<ControllerBuilder<T>> {
+  late final T controller;
+
+  @override
+  void initState() {
+    super.initState();
+    controller = widget.create();
+    if (widget.initState != null) {
+      widget.initState?.call(context, controller);
+    }
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return widget.builder(context, controller);
+  }
+}

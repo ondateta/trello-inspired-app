@@ -1,1 +1,26 @@
-Y21ha2VfbWluaW11bV9yZXF1aXJlZChWRVJTSU9OIDMuMTMpCnByb2plY3QocnVubmVyIExBTkdVQUdFUyBDWFgpCgojIERlZmluZSB0aGUgYXBwbGljYXRpb24gdGFyZ2V0LiBUbyBjaGFuZ2UgaXRzIG5hbWUsIGNoYW5nZSBCSU5BUllfTkFNRSBpbiB0aGUKIyB0b3AtbGV2ZWwgQ01ha2VMaXN0cy50eHQsIG5vdCB0aGUgdmFsdWUgaGVyZSwgb3IgYGZsdXR0ZXIgcnVuYCB3aWxsIG5vIGxvbmdlcgojIHdvcmsuCiMKIyBBbnkgbmV3IHNvdXJjZSBmaWxlcyB0aGF0IHlvdSBhZGQgdG8gdGhlIGFwcGxpY2F0aW9uIHNob3VsZCBiZSBhZGRlZCBoZXJlLgphZGRfZXhlY3V0YWJsZSgke0JJTkFSWV9OQU1FfQogICJtYWluLmNjIgogICJteV9hcHBsaWNhdGlvbi5jYyIKICAiJHtGTFVUVEVSX01BTkFHRURfRElSfS9nZW5lcmF0ZWRfcGx1Z2luX3JlZ2lzdHJhbnQuY2MiCikKCiMgQXBwbHkgdGhlIHN0YW5kYXJkIHNldCBvZiBidWlsZCBzZXR0aW5ncy4gVGhpcyBjYW4gYmUgcmVtb3ZlZCBmb3IgYXBwbGljYXRpb25zCiMgdGhhdCBuZWVkIGRpZmZlcmVudCBidWlsZCBzZXR0aW5ncy4KYXBwbHlfc3RhbmRhcmRfc2V0dGluZ3MoJHtCSU5BUllfTkFNRX0pCgojIEFkZCBwcmVwcm9jZXNzb3IgZGVmaW5pdGlvbnMgZm9yIHRoZSBhcHBsaWNhdGlvbiBJRC4KYWRkX2RlZmluaXRpb25zKC1EQVBQTElDQVRJT05fSUQ9IiR7QVBQTElDQVRJT05fSUR9IikKCiMgQWRkIGRlcGVuZGVuY3kgbGlicmFyaWVzLiBBZGQgYW55IGFwcGxpY2F0aW9uLXNwZWNpZmljIGRlcGVuZGVuY2llcyBoZXJlLgp0YXJnZXRfbGlua19saWJyYXJpZXMoJHtCSU5BUllfTkFNRX0gUFJJVkFURSBmbHV0dGVyKQp0YXJnZXRfbGlua19saWJyYXJpZXMoJHtCSU5BUllfTkFNRX0gUFJJVkFURSBQa2dDb25maWc6OkdUSykKCnRhcmdldF9pbmNsdWRlX2RpcmVjdG9yaWVzKCR7QklOQVJZX05BTUV9IFBSSVZBVEUgIiR7Q01BS0VfU09VUkNFX0RJUn0iKQo=
+cmake_minimum_required(VERSION 3.13)
+project(runner LANGUAGES CXX)
+
+# Define the application target. To change its name, change BINARY_NAME in the
+# top-level CMakeLists.txt, not the value here, or `flutter run` will no longer
+# work.
+#
+# Any new source files that you add to the application should be added here.
+add_executable(${BINARY_NAME}
+  "main.cc"
+  "my_application.cc"
+  "${FLUTTER_MANAGED_DIR}/generated_plugin_registrant.cc"
+)
+
+# Apply the standard set of build settings. This can be removed for applications
+# that need different build settings.
+apply_standard_settings(${BINARY_NAME})
+
+# Add preprocessor definitions for the application ID.
+add_definitions(-DAPPLICATION_ID="${APPLICATION_ID}")
+
+# Add dependency libraries. Add any application-specific dependencies here.
+target_link_libraries(${BINARY_NAME} PRIVATE flutter)
+target_link_libraries(${BINARY_NAME} PRIVATE PkgConfig::GTK)
+
+target_include_directories(${BINARY_NAME} PRIVATE "${CMAKE_SOURCE_DIR}")

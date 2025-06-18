@@ -1,1 +1,25 @@
-IwojIEdlbmVyYXRlZCBmaWxlLCBkbyBub3QgZWRpdC4KIwoKbGlzdChBUFBFTkQgRkxVVFRFUl9QTFVHSU5fTElTVAogIGFwcF9saW5rcwogIHVybF9sYXVuY2hlcl93aW5kb3dzCikKCmxpc3QoQVBQRU5EIEZMVVRURVJfRkZJX1BMVUdJTl9MSVNUCikKCnNldChQTFVHSU5fQlVORExFRF9MSUJSQVJJRVMpCgpmb3JlYWNoKHBsdWdpbiAke0ZMVVRURVJfUExVR0lOX0xJU1R9KQogIGFkZF9zdWJkaXJlY3RvcnkoZmx1dHRlci9lcGhlbWVyYWwvLnBsdWdpbl9zeW1saW5rcy8ke3BsdWdpbn0vd2luZG93cyBwbHVnaW5zLyR7cGx1Z2lufSkKICB0YXJnZXRfbGlua19saWJyYXJpZXMoJHtCSU5BUllfTkFNRX0gUFJJVkFURSAke3BsdWdpbn1fcGx1Z2luKQogIGxpc3QoQVBQRU5EIFBMVUdJTl9CVU5ETEVEX0xJQlJBUklFUyAkPFRBUkdFVF9GSUxFOiR7cGx1Z2lufV9wbHVnaW4+KQogIGxpc3QoQVBQRU5EIFBMVUdJTl9CVU5ETEVEX0xJQlJBUklFUyAkeyR7cGx1Z2lufV9idW5kbGVkX2xpYnJhcmllc30pCmVuZGZvcmVhY2gocGx1Z2luKQoKZm9yZWFjaChmZmlfcGx1Z2luICR7RkxVVFRFUl9GRklfUExVR0lOX0xJU1R9KQogIGFkZF9zdWJkaXJlY3RvcnkoZmx1dHRlci9lcGhlbWVyYWwvLnBsdWdpbl9zeW1saW5rcy8ke2ZmaV9wbHVnaW59L3dpbmRvd3MgcGx1Z2lucy8ke2ZmaV9wbHVnaW59KQogIGxpc3QoQVBQRU5EIFBMVUdJTl9CVU5ETEVEX0xJQlJBUklFUyAkeyR7ZmZpX3BsdWdpbn1fYnVuZGxlZF9saWJyYXJpZXN9KQplbmRmb3JlYWNoKGZmaV9wbHVnaW4pCg==
+#
+# Generated file, do not edit.
+#
+
+list(APPEND FLUTTER_PLUGIN_LIST
+  app_links
+  url_launcher_windows
+)
+
+list(APPEND FLUTTER_FFI_PLUGIN_LIST
+)
+
+set(PLUGIN_BUNDLED_LIBRARIES)
+
+foreach(plugin ${FLUTTER_PLUGIN_LIST})
+  add_subdirectory(flutter/ephemeral/.plugin_symlinks/${plugin}/windows plugins/${plugin})
+  target_link_libraries(${BINARY_NAME} PRIVATE ${plugin}_plugin)
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES $<TARGET_FILE:${plugin}_plugin>)
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES ${${plugin}_bundled_libraries})
+endforeach(plugin)
+
+foreach(ffi_plugin ${FLUTTER_FFI_PLUGIN_LIST})
+  add_subdirectory(flutter/ephemeral/.plugin_symlinks/${ffi_plugin}/windows plugins/${ffi_plugin})
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES ${${ffi_plugin}_bundled_libraries})
+endforeach(ffi_plugin)

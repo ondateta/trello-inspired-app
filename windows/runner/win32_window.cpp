@@ -1,1 +1,288 @@
-I2luY2x1ZGUgIndpbjMyX3dpbmRvdy5oIgoKI2luY2x1ZGUgPGR3bWFwaS5oPgojaW5jbHVkZSA8Zmx1dHRlcl93aW5kb3dzLmg+CgojaW5jbHVkZSAicmVzb3VyY2UuaCIKCm5hbWVzcGFjZSB7CgovLy8gV2luZG93IGF0dHJpYnV0ZSB0aGF0IGVuYWJsZXMgZGFyayBtb2RlIHdpbmRvdyBkZWNvcmF0aW9ucy4KLy8vCi8vLyBSZWRlZmluZWQgaW4gY2FzZSB0aGUgZGV2ZWxvcGVyJ3MgbWFjaGluZSBoYXMgYSBXaW5kb3dzIFNESyBvbGRlciB0aGFuCi8vLyB2ZXJzaW9uIDEwLjAuMjIwMDAuMC4KLy8vIFNlZTogaHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vd2luZG93cy93aW4zMi9hcGkvZHdtYXBpL25lLWR3bWFwaS1kd213aW5kb3dhdHRyaWJ1dGUKI2lmbmRlZiBEV01XQV9VU0VfSU1NRVJTSVZFX0RBUktfTU9ERQojZGVmaW5lIERXTVdBX1VTRV9JTU1FUlNJVkVfREFSS19NT0RFIDIwCiNlbmRpZgoKY29uc3RleHByIGNvbnN0IHdjaGFyX3Qga1dpbmRvd0NsYXNzTmFtZVtdID0gTCJGTFVUVEVSX1JVTk5FUl9XSU4zMl9XSU5ET1ciOwoKLy8vIFJlZ2lzdHJ5IGtleSBmb3IgYXBwIHRoZW1lIHByZWZlcmVuY2UuCi8vLwovLy8gQSB2YWx1ZSBvZiAwIGluZGljYXRlcyBhcHBzIHNob3VsZCB1c2UgZGFyayBtb2RlLiBBIG5vbi16ZXJvIG9yIG1pc3NpbmcKLy8vIHZhbHVlIGluZGljYXRlcyBhcHBzIHNob3VsZCB1c2UgbGlnaHQgbW9kZS4KY29uc3RleHByIGNvbnN0IHdjaGFyX3Qga0dldFByZWZlcnJlZEJyaWdodG5lc3NSZWdLZXlbXSA9CiAgTCJTb2Z0d2FyZVxcTWljcm9zb2Z0XFxXaW5kb3dzXFxDdXJyZW50VmVyc2lvblxcVGhlbWVzXFxQZXJzb25hbGl6ZSI7CmNvbnN0ZXhwciBjb25zdCB3Y2hhcl90IGtHZXRQcmVmZXJyZWRCcmlnaHRuZXNzUmVnVmFsdWVbXSA9IEwiQXBwc1VzZUxpZ2h0VGhlbWUiOwoKLy8gVGhlIG51bWJlciBvZiBXaW4zMldpbmRvdyBvYmplY3RzIHRoYXQgY3VycmVudGx5IGV4aXN0LgpzdGF0aWMgaW50IGdfYWN0aXZlX3dpbmRvd19jb3VudCA9IDA7Cgp1c2luZyBFbmFibGVOb25DbGllbnREcGlTY2FsaW5nID0gQk9PTCBfX3N0ZGNhbGwoSFdORCBod25kKTsKCi8vIFNjYWxlIGhlbHBlciB0byBjb252ZXJ0IGxvZ2ljYWwgc2NhbGVyIHZhbHVlcyB0byBwaHlzaWNhbCB1c2luZyBwYXNzZWQgaW4KLy8gc2NhbGUgZmFjdG9yCmludCBTY2FsZShpbnQgc291cmNlLCBkb3VibGUgc2NhbGVfZmFjdG9yKSB7CiAgcmV0dXJuIHN0YXRpY19jYXN0PGludD4oc291cmNlICogc2NhbGVfZmFjdG9yKTsKfQoKLy8gRHluYW1pY2FsbHkgbG9hZHMgdGhlIHxFbmFibGVOb25DbGllbnREcGlTY2FsaW5nfCBmcm9tIHRoZSBVc2VyMzIgbW9kdWxlLgovLyBUaGlzIEFQSSBpcyBvbmx5IG5lZWRlZCBmb3IgUGVyTW9uaXRvciBWMSBhd2FyZW5lc3MgbW9kZS4Kdm9pZCBFbmFibGVGdWxsRHBpU3VwcG9ydElmQXZhaWxhYmxlKEhXTkQgaHduZCkgewogIEhNT0RVTEUgdXNlcjMyX21vZHVsZSA9IExvYWRMaWJyYXJ5QSgiVXNlcjMyLmRsbCIpOwogIGlmICghdXNlcjMyX21vZHVsZSkgewogICAgcmV0dXJuOwogIH0KICBhdXRvIGVuYWJsZV9ub25fY2xpZW50X2RwaV9zY2FsaW5nID0KICAgICAgcmVpbnRlcnByZXRfY2FzdDxFbmFibGVOb25DbGllbnREcGlTY2FsaW5nKj4oCiAgICAgICAgICBHZXRQcm9jQWRkcmVzcyh1c2VyMzJfbW9kdWxlLCAiRW5hYmxlTm9uQ2xpZW50RHBpU2NhbGluZyIpKTsKICBpZiAoZW5hYmxlX25vbl9jbGllbnRfZHBpX3NjYWxpbmcgIT0gbnVsbHB0cikgewogICAgZW5hYmxlX25vbl9jbGllbnRfZHBpX3NjYWxpbmcoaHduZCk7CiAgfQogIEZyZWVMaWJyYXJ5KHVzZXIzMl9tb2R1bGUpOwp9Cgp9ICAvLyBuYW1lc3BhY2UKCi8vIE1hbmFnZXMgdGhlIFdpbjMyV2luZG93J3Mgd2luZG93IGNsYXNzIHJlZ2lzdHJhdGlvbi4KY2xhc3MgV2luZG93Q2xhc3NSZWdpc3RyYXIgewogcHVibGljOgogIH5XaW5kb3dDbGFzc1JlZ2lzdHJhcigpID0gZGVmYXVsdDsKCiAgLy8gUmV0dXJucyB0aGUgc2luZ2xldG9uIHJlZ2lzdHJhciBpbnN0YW5jZS4KICBzdGF0aWMgV2luZG93Q2xhc3NSZWdpc3RyYXIqIEdldEluc3RhbmNlKCkgewogICAgaWYgKCFpbnN0YW5jZV8pIHsKICAgICAgaW5zdGFuY2VfID0gbmV3IFdpbmRvd0NsYXNzUmVnaXN0cmFyKCk7CiAgICB9CiAgICByZXR1cm4gaW5zdGFuY2VfOwogIH0KCiAgLy8gUmV0dXJucyB0aGUgbmFtZSBvZiB0aGUgd2luZG93IGNsYXNzLCByZWdpc3RlcmluZyB0aGUgY2xhc3MgaWYgaXQgaGFzbid0CiAgLy8gcHJldmlvdXNseSBiZWVuIHJlZ2lzdGVyZWQuCiAgY29uc3Qgd2NoYXJfdCogR2V0V2luZG93Q2xhc3MoKTsKCiAgLy8gVW5yZWdpc3RlcnMgdGhlIHdpbmRvdyBjbGFzcy4gU2hvdWxkIG9ubHkgYmUgY2FsbGVkIGlmIHRoZXJlIGFyZSBubwogIC8vIGluc3RhbmNlcyBvZiB0aGUgd2luZG93LgogIHZvaWQgVW5yZWdpc3RlcldpbmRvd0NsYXNzKCk7CgogcHJpdmF0ZToKICBXaW5kb3dDbGFzc1JlZ2lzdHJhcigpID0gZGVmYXVsdDsKCiAgc3RhdGljIFdpbmRvd0NsYXNzUmVnaXN0cmFyKiBpbnN0YW5jZV87CgogIGJvb2wgY2xhc3NfcmVnaXN0ZXJlZF8gPSBmYWxzZTsKfTsKCldpbmRvd0NsYXNzUmVnaXN0cmFyKiBXaW5kb3dDbGFzc1JlZ2lzdHJhcjo6aW5zdGFuY2VfID0gbnVsbHB0cjsKCmNvbnN0IHdjaGFyX3QqIFdpbmRvd0NsYXNzUmVnaXN0cmFyOjpHZXRXaW5kb3dDbGFzcygpIHsKICBpZiAoIWNsYXNzX3JlZ2lzdGVyZWRfKSB7CiAgICBXTkRDTEFTUyB3aW5kb3dfY2xhc3N7fTsKICAgIHdpbmRvd19jbGFzcy5oQ3Vyc29yID0gTG9hZEN1cnNvcihudWxscHRyLCBJRENfQVJST1cpOwogICAgd2luZG93X2NsYXNzLmxwc3pDbGFzc05hbWUgPSBrV2luZG93Q2xhc3NOYW1lOwogICAgd2luZG93X2NsYXNzLnN0eWxlID0gQ1NfSFJFRFJBVyB8IENTX1ZSRURSQVc7CiAgICB3aW5kb3dfY2xhc3MuY2JDbHNFeHRyYSA9IDA7CiAgICB3aW5kb3dfY2xhc3MuY2JXbmRFeHRyYSA9IDA7CiAgICB3aW5kb3dfY2xhc3MuaEluc3RhbmNlID0gR2V0TW9kdWxlSGFuZGxlKG51bGxwdHIpOwogICAgd2luZG93X2NsYXNzLmhJY29uID0KICAgICAgICBMb2FkSWNvbih3aW5kb3dfY2xhc3MuaEluc3RhbmNlLCBNQUtFSU5UUkVTT1VSQ0UoSURJX0FQUF9JQ09OKSk7CiAgICB3aW5kb3dfY2xhc3MuaGJyQmFja2dyb3VuZCA9IDA7CiAgICB3aW5kb3dfY2xhc3MubHBzek1lbnVOYW1lID0gbnVsbHB0cjsKICAgIHdpbmRvd19jbGFzcy5scGZuV25kUHJvYyA9IFdpbjMyV2luZG93OjpXbmRQcm9jOwogICAgUmVnaXN0ZXJDbGFzcygmd2luZG93X2NsYXNzKTsKICAgIGNsYXNzX3JlZ2lzdGVyZWRfID0gdHJ1ZTsKICB9CiAgcmV0dXJuIGtXaW5kb3dDbGFzc05hbWU7Cn0KCnZvaWQgV2luZG93Q2xhc3NSZWdpc3RyYXI6OlVucmVnaXN0ZXJXaW5kb3dDbGFzcygpIHsKICBVbnJlZ2lzdGVyQ2xhc3Moa1dpbmRvd0NsYXNzTmFtZSwgbnVsbHB0cik7CiAgY2xhc3NfcmVnaXN0ZXJlZF8gPSBmYWxzZTsKfQoKV2luMzJXaW5kb3c6OldpbjMyV2luZG93KCkgewogICsrZ19hY3RpdmVfd2luZG93X2NvdW50Owp9CgpXaW4zMldpbmRvdzo6fldpbjMyV2luZG93KCkgewogIC0tZ19hY3RpdmVfd2luZG93X2NvdW50OwogIERlc3Ryb3koKTsKfQoKYm9vbCBXaW4zMldpbmRvdzo6Q3JlYXRlKGNvbnN0IHN0ZDo6d3N0cmluZyYgdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBQb2ludCYgb3JpZ2luLAogICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgU2l6ZSYgc2l6ZSkgewogIERlc3Ryb3koKTsKCiAgY29uc3Qgd2NoYXJfdCogd2luZG93X2NsYXNzID0KICAgICAgV2luZG93Q2xhc3NSZWdpc3RyYXI6OkdldEluc3RhbmNlKCktPkdldFdpbmRvd0NsYXNzKCk7CgogIGNvbnN0IFBPSU5UIHRhcmdldF9wb2ludCA9IHtzdGF0aWNfY2FzdDxMT05HPihvcmlnaW4ueCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY19jYXN0PExPTkc+KG9yaWdpbi55KX07CiAgSE1PTklUT1IgbW9uaXRvciA9IE1vbml0b3JGcm9tUG9pbnQodGFyZ2V0X3BvaW50LCBNT05JVE9SX0RFRkFVTFRUT05FQVJFU1QpOwogIFVJTlQgZHBpID0gRmx1dHRlckRlc2t0b3BHZXREcGlGb3JNb25pdG9yKG1vbml0b3IpOwogIGRvdWJsZSBzY2FsZV9mYWN0b3IgPSBkcGkgLyA5Ni4wOwoKICBIV05EIHdpbmRvdyA9IENyZWF0ZVdpbmRvdygKICAgICAgd2luZG93X2NsYXNzLCB0aXRsZS5jX3N0cigpLCBXU19PVkVSTEFQUEVEV0lORE9XLAogICAgICBTY2FsZShvcmlnaW4ueCwgc2NhbGVfZmFjdG9yKSwgU2NhbGUob3JpZ2luLnksIHNjYWxlX2ZhY3RvciksCiAgICAgIFNjYWxlKHNpemUud2lkdGgsIHNjYWxlX2ZhY3RvciksIFNjYWxlKHNpemUuaGVpZ2h0LCBzY2FsZV9mYWN0b3IpLAogICAgICBudWxscHRyLCBudWxscHRyLCBHZXRNb2R1bGVIYW5kbGUobnVsbHB0ciksIHRoaXMpOwoKICBpZiAoIXdpbmRvdykgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgVXBkYXRlVGhlbWUod2luZG93KTsKCiAgcmV0dXJuIE9uQ3JlYXRlKCk7Cn0KCmJvb2wgV2luMzJXaW5kb3c6OlNob3coKSB7CiAgcmV0dXJuIFNob3dXaW5kb3cod2luZG93X2hhbmRsZV8sIFNXX1NIT1dOT1JNQUwpOwp9CgovLyBzdGF0aWMKTFJFU1VMVCBDQUxMQkFDSyBXaW4zMldpbmRvdzo6V25kUHJvYyhIV05EIGNvbnN0IHdpbmRvdywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBVSU5UIGNvbnN0IG1lc3NhZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgV1BBUkFNIGNvbnN0IHdwYXJhbSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMUEFSQU0gY29uc3QgbHBhcmFtKSBub2V4Y2VwdCB7CiAgaWYgKG1lc3NhZ2UgPT0gV01fTkNDUkVBVEUpIHsKICAgIGF1dG8gd2luZG93X3N0cnVjdCA9IHJlaW50ZXJwcmV0X2Nhc3Q8Q1JFQVRFU1RSVUNUKj4obHBhcmFtKTsKICAgIFNldFdpbmRvd0xvbmdQdHIod2luZG93LCBHV0xQX1VTRVJEQVRBLAogICAgICAgICAgICAgICAgICAgICByZWludGVycHJldF9jYXN0PExPTkdfUFRSPih3aW5kb3dfc3RydWN0LT5scENyZWF0ZVBhcmFtcykpOwoKICAgIGF1dG8gdGhhdCA9IHN0YXRpY19jYXN0PFdpbjMyV2luZG93Kj4od2luZG93X3N0cnVjdC0+bHBDcmVhdGVQYXJhbXMpOwogICAgRW5hYmxlRnVsbERwaVN1cHBvcnRJZkF2YWlsYWJsZSh3aW5kb3cpOwogICAgdGhhdC0+d2luZG93X2hhbmRsZV8gPSB3aW5kb3c7CiAgfSBlbHNlIGlmIChXaW4zMldpbmRvdyogdGhhdCA9IEdldFRoaXNGcm9tSGFuZGxlKHdpbmRvdykpIHsKICAgIHJldHVybiB0aGF0LT5NZXNzYWdlSGFuZGxlcih3aW5kb3csIG1lc3NhZ2UsIHdwYXJhbSwgbHBhcmFtKTsKICB9CgogIHJldHVybiBEZWZXaW5kb3dQcm9jKHdpbmRvdywgbWVzc2FnZSwgd3BhcmFtLCBscGFyYW0pOwp9CgpMUkVTVUxUCldpbjMyV2luZG93OjpNZXNzYWdlSGFuZGxlcihIV05EIGh3bmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBVSU5UIGNvbnN0IG1lc3NhZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBXUEFSQU0gY29uc3Qgd3BhcmFtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgTFBBUkFNIGNvbnN0IGxwYXJhbSkgbm9leGNlcHQgewogIHN3aXRjaCAobWVzc2FnZSkgewogICAgY2FzZSBXTV9ERVNUUk9ZOgogICAgICB3aW5kb3dfaGFuZGxlXyA9IG51bGxwdHI7CiAgICAgIERlc3Ryb3koKTsKICAgICAgaWYgKHF1aXRfb25fY2xvc2VfKSB7CiAgICAgICAgUG9zdFF1aXRNZXNzYWdlKDApOwogICAgICB9CiAgICAgIHJldHVybiAwOwoKICAgIGNhc2UgV01fRFBJQ0hBTkdFRDogewogICAgICBhdXRvIG5ld1JlY3RTaXplID0gcmVpbnRlcnByZXRfY2FzdDxSRUNUKj4obHBhcmFtKTsKICAgICAgTE9ORyBuZXdXaWR0aCA9IG5ld1JlY3RTaXplLT5yaWdodCAtIG5ld1JlY3RTaXplLT5sZWZ0OwogICAgICBMT05HIG5ld0hlaWdodCA9IG5ld1JlY3RTaXplLT5ib3R0b20gLSBuZXdSZWN0U2l6ZS0+dG9wOwoKICAgICAgU2V0V2luZG93UG9zKGh3bmQsIG51bGxwdHIsIG5ld1JlY3RTaXplLT5sZWZ0LCBuZXdSZWN0U2l6ZS0+dG9wLCBuZXdXaWR0aCwKICAgICAgICAgICAgICAgICAgIG5ld0hlaWdodCwgU1dQX05PWk9SREVSIHwgU1dQX05PQUNUSVZBVEUpOwoKICAgICAgcmV0dXJuIDA7CiAgICB9CiAgICBjYXNlIFdNX1NJWkU6IHsKICAgICAgUkVDVCByZWN0ID0gR2V0Q2xpZW50QXJlYSgpOwogICAgICBpZiAoY2hpbGRfY29udGVudF8gIT0gbnVsbHB0cikgewogICAgICAgIC8vIFNpemUgYW5kIHBvc2l0aW9uIHRoZSBjaGlsZCB3aW5kb3cuCiAgICAgICAgTW92ZVdpbmRvdyhjaGlsZF9jb250ZW50XywgcmVjdC5sZWZ0LCByZWN0LnRvcCwgcmVjdC5yaWdodCAtIHJlY3QubGVmdCwKICAgICAgICAgICAgICAgICAgIHJlY3QuYm90dG9tIC0gcmVjdC50b3AsIFRSVUUpOwogICAgICB9CiAgICAgIHJldHVybiAwOwogICAgfQoKICAgIGNhc2UgV01fQUNUSVZBVEU6CiAgICAgIGlmIChjaGlsZF9jb250ZW50XyAhPSBudWxscHRyKSB7CiAgICAgICAgU2V0Rm9jdXMoY2hpbGRfY29udGVudF8pOwogICAgICB9CiAgICAgIHJldHVybiAwOwoKICAgIGNhc2UgV01fRFdNQ09MT1JJWkFUSU9OQ09MT1JDSEFOR0VEOgogICAgICBVcGRhdGVUaGVtZShod25kKTsKICAgICAgcmV0dXJuIDA7CiAgfQoKICByZXR1cm4gRGVmV2luZG93UHJvYyh3aW5kb3dfaGFuZGxlXywgbWVzc2FnZSwgd3BhcmFtLCBscGFyYW0pOwp9Cgp2b2lkIFdpbjMyV2luZG93OjpEZXN0cm95KCkgewogIE9uRGVzdHJveSgpOwoKICBpZiAod2luZG93X2hhbmRsZV8pIHsKICAgIERlc3Ryb3lXaW5kb3cod2luZG93X2hhbmRsZV8pOwogICAgd2luZG93X2hhbmRsZV8gPSBudWxscHRyOwogIH0KICBpZiAoZ19hY3RpdmVfd2luZG93X2NvdW50ID09IDApIHsKICAgIFdpbmRvd0NsYXNzUmVnaXN0cmFyOjpHZXRJbnN0YW5jZSgpLT5VbnJlZ2lzdGVyV2luZG93Q2xhc3MoKTsKICB9Cn0KCldpbjMyV2luZG93KiBXaW4zMldpbmRvdzo6R2V0VGhpc0Zyb21IYW5kbGUoSFdORCBjb25zdCB3aW5kb3cpIG5vZXhjZXB0IHsKICByZXR1cm4gcmVpbnRlcnByZXRfY2FzdDxXaW4zMldpbmRvdyo+KAogICAgICBHZXRXaW5kb3dMb25nUHRyKHdpbmRvdywgR1dMUF9VU0VSREFUQSkpOwp9Cgp2b2lkIFdpbjMyV2luZG93OjpTZXRDaGlsZENvbnRlbnQoSFdORCBjb250ZW50KSB7CiAgY2hpbGRfY29udGVudF8gPSBjb250ZW50OwogIFNldFBhcmVudChjb250ZW50LCB3aW5kb3dfaGFuZGxlXyk7CiAgUkVDVCBmcmFtZSA9IEdldENsaWVudEFyZWEoKTsKCiAgTW92ZVdpbmRvdyhjb250ZW50LCBmcmFtZS5sZWZ0LCBmcmFtZS50b3AsIGZyYW1lLnJpZ2h0IC0gZnJhbWUubGVmdCwKICAgICAgICAgICAgIGZyYW1lLmJvdHRvbSAtIGZyYW1lLnRvcCwgdHJ1ZSk7CgogIFNldEZvY3VzKGNoaWxkX2NvbnRlbnRfKTsKfQoKUkVDVCBXaW4zMldpbmRvdzo6R2V0Q2xpZW50QXJlYSgpIHsKICBSRUNUIGZyYW1lOwogIEdldENsaWVudFJlY3Qod2luZG93X2hhbmRsZV8sICZmcmFtZSk7CiAgcmV0dXJuIGZyYW1lOwp9CgpIV05EIFdpbjMyV2luZG93OjpHZXRIYW5kbGUoKSB7CiAgcmV0dXJuIHdpbmRvd19oYW5kbGVfOwp9Cgp2b2lkIFdpbjMyV2luZG93OjpTZXRRdWl0T25DbG9zZShib29sIHF1aXRfb25fY2xvc2UpIHsKICBxdWl0X29uX2Nsb3NlXyA9IHF1aXRfb25fY2xvc2U7Cn0KCmJvb2wgV2luMzJXaW5kb3c6Ok9uQ3JlYXRlKCkgewogIC8vIE5vLW9wOyBwcm92aWRlZCBmb3Igc3ViY2xhc3Nlcy4KICByZXR1cm4gdHJ1ZTsKfQoKdm9pZCBXaW4zMldpbmRvdzo6T25EZXN0cm95KCkgewogIC8vIE5vLW9wOyBwcm92aWRlZCBmb3Igc3ViY2xhc3Nlcy4KfQoKdm9pZCBXaW4zMldpbmRvdzo6VXBkYXRlVGhlbWUoSFdORCBjb25zdCB3aW5kb3cpIHsKICBEV09SRCBsaWdodF9tb2RlOwogIERXT1JEIGxpZ2h0X21vZGVfc2l6ZSA9IHNpemVvZihsaWdodF9tb2RlKTsKICBMU1RBVFVTIHJlc3VsdCA9IFJlZ0dldFZhbHVlKEhLRVlfQ1VSUkVOVF9VU0VSLCBrR2V0UHJlZmVycmVkQnJpZ2h0bmVzc1JlZ0tleSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtHZXRQcmVmZXJyZWRCcmlnaHRuZXNzUmVnVmFsdWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBSUkZfUlRfUkVHX0RXT1JELCBudWxscHRyLCAmbGlnaHRfbW9kZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICZsaWdodF9tb2RlX3NpemUpOwoKICBpZiAocmVzdWx0ID09IEVSUk9SX1NVQ0NFU1MpIHsKICAgIEJPT0wgZW5hYmxlX2RhcmtfbW9kZSA9IGxpZ2h0X21vZGUgPT0gMDsKICAgIER3bVNldFdpbmRvd0F0dHJpYnV0ZSh3aW5kb3csIERXTVdBX1VTRV9JTU1FUlNJVkVfREFSS19NT0RFLAogICAgICAgICAgICAgICAgICAgICAgICAgICZlbmFibGVfZGFya19tb2RlLCBzaXplb2YoZW5hYmxlX2RhcmtfbW9kZSkpOwogIH0KfQo=
+#include "win32_window.h"
+
+#include <dwmapi.h>
+#include <flutter_windows.h>
+
+#include "resource.h"
+
+namespace {
+
+/// Window attribute that enables dark mode window decorations.
+///
+/// Redefined in case the developer's machine has a Windows SDK older than
+/// version 10.0.22000.0.
+/// See: https://docs.microsoft.com/windows/win32/api/dwmapi/ne-dwmapi-dwmwindowattribute
+#ifndef DWMWA_USE_IMMERSIVE_DARK_MODE
+#define DWMWA_USE_IMMERSIVE_DARK_MODE 20
+#endif
+
+constexpr const wchar_t kWindowClassName[] = L"FLUTTER_RUNNER_WIN32_WINDOW";
+
+/// Registry key for app theme preference.
+///
+/// A value of 0 indicates apps should use dark mode. A non-zero or missing
+/// value indicates apps should use light mode.
+constexpr const wchar_t kGetPreferredBrightnessRegKey[] =
+  L"Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize";
+constexpr const wchar_t kGetPreferredBrightnessRegValue[] = L"AppsUseLightTheme";
+
+// The number of Win32Window objects that currently exist.
+static int g_active_window_count = 0;
+
+using EnableNonClientDpiScaling = BOOL __stdcall(HWND hwnd);
+
+// Scale helper to convert logical scaler values to physical using passed in
+// scale factor
+int Scale(int source, double scale_factor) {
+  return static_cast<int>(source * scale_factor);
+}
+
+// Dynamically loads the |EnableNonClientDpiScaling| from the User32 module.
+// This API is only needed for PerMonitor V1 awareness mode.
+void EnableFullDpiSupportIfAvailable(HWND hwnd) {
+  HMODULE user32_module = LoadLibraryA("User32.dll");
+  if (!user32_module) {
+    return;
+  }
+  auto enable_non_client_dpi_scaling =
+      reinterpret_cast<EnableNonClientDpiScaling*>(
+          GetProcAddress(user32_module, "EnableNonClientDpiScaling"));
+  if (enable_non_client_dpi_scaling != nullptr) {
+    enable_non_client_dpi_scaling(hwnd);
+  }
+  FreeLibrary(user32_module);
+}
+
+}  // namespace
+
+// Manages the Win32Window's window class registration.
+class WindowClassRegistrar {
+ public:
+  ~WindowClassRegistrar() = default;
+
+  // Returns the singleton registrar instance.
+  static WindowClassRegistrar* GetInstance() {
+    if (!instance_) {
+      instance_ = new WindowClassRegistrar();
+    }
+    return instance_;
+  }
+
+  // Returns the name of the window class, registering the class if it hasn't
+  // previously been registered.
+  const wchar_t* GetWindowClass();
+
+  // Unregisters the window class. Should only be called if there are no
+  // instances of the window.
+  void UnregisterWindowClass();
+
+ private:
+  WindowClassRegistrar() = default;
+
+  static WindowClassRegistrar* instance_;
+
+  bool class_registered_ = false;
+};
+
+WindowClassRegistrar* WindowClassRegistrar::instance_ = nullptr;
+
+const wchar_t* WindowClassRegistrar::GetWindowClass() {
+  if (!class_registered_) {
+    WNDCLASS window_class{};
+    window_class.hCursor = LoadCursor(nullptr, IDC_ARROW);
+    window_class.lpszClassName = kWindowClassName;
+    window_class.style = CS_HREDRAW | CS_VREDRAW;
+    window_class.cbClsExtra = 0;
+    window_class.cbWndExtra = 0;
+    window_class.hInstance = GetModuleHandle(nullptr);
+    window_class.hIcon =
+        LoadIcon(window_class.hInstance, MAKEINTRESOURCE(IDI_APP_ICON));
+    window_class.hbrBackground = 0;
+    window_class.lpszMenuName = nullptr;
+    window_class.lpfnWndProc = Win32Window::WndProc;
+    RegisterClass(&window_class);
+    class_registered_ = true;
+  }
+  return kWindowClassName;
+}
+
+void WindowClassRegistrar::UnregisterWindowClass() {
+  UnregisterClass(kWindowClassName, nullptr);
+  class_registered_ = false;
+}
+
+Win32Window::Win32Window() {
+  ++g_active_window_count;
+}
+
+Win32Window::~Win32Window() {
+  --g_active_window_count;
+  Destroy();
+}
+
+bool Win32Window::Create(const std::wstring& title,
+                         const Point& origin,
+                         const Size& size) {
+  Destroy();
+
+  const wchar_t* window_class =
+      WindowClassRegistrar::GetInstance()->GetWindowClass();
+
+  const POINT target_point = {static_cast<LONG>(origin.x),
+                              static_cast<LONG>(origin.y)};
+  HMONITOR monitor = MonitorFromPoint(target_point, MONITOR_DEFAULTTONEAREST);
+  UINT dpi = FlutterDesktopGetDpiForMonitor(monitor);
+  double scale_factor = dpi / 96.0;
+
+  HWND window = CreateWindow(
+      window_class, title.c_str(), WS_OVERLAPPEDWINDOW,
+      Scale(origin.x, scale_factor), Scale(origin.y, scale_factor),
+      Scale(size.width, scale_factor), Scale(size.height, scale_factor),
+      nullptr, nullptr, GetModuleHandle(nullptr), this);
+
+  if (!window) {
+    return false;
+  }
+
+  UpdateTheme(window);
+
+  return OnCreate();
+}
+
+bool Win32Window::Show() {
+  return ShowWindow(window_handle_, SW_SHOWNORMAL);
+}
+
+// static
+LRESULT CALLBACK Win32Window::WndProc(HWND const window,
+                                      UINT const message,
+                                      WPARAM const wparam,
+                                      LPARAM const lparam) noexcept {
+  if (message == WM_NCCREATE) {
+    auto window_struct = reinterpret_cast<CREATESTRUCT*>(lparam);
+    SetWindowLongPtr(window, GWLP_USERDATA,
+                     reinterpret_cast<LONG_PTR>(window_struct->lpCreateParams));
+
+    auto that = static_cast<Win32Window*>(window_struct->lpCreateParams);
+    EnableFullDpiSupportIfAvailable(window);
+    that->window_handle_ = window;
+  } else if (Win32Window* that = GetThisFromHandle(window)) {
+    return that->MessageHandler(window, message, wparam, lparam);
+  }
+
+  return DefWindowProc(window, message, wparam, lparam);
+}
+
+LRESULT
+Win32Window::MessageHandler(HWND hwnd,
+                            UINT const message,
+                            WPARAM const wparam,
+                            LPARAM const lparam) noexcept {
+  switch (message) {
+    case WM_DESTROY:
+      window_handle_ = nullptr;
+      Destroy();
+      if (quit_on_close_) {
+        PostQuitMessage(0);
+      }
+      return 0;
+
+    case WM_DPICHANGED: {
+      auto newRectSize = reinterpret_cast<RECT*>(lparam);
+      LONG newWidth = newRectSize->right - newRectSize->left;
+      LONG newHeight = newRectSize->bottom - newRectSize->top;
+
+      SetWindowPos(hwnd, nullptr, newRectSize->left, newRectSize->top, newWidth,
+                   newHeight, SWP_NOZORDER | SWP_NOACTIVATE);
+
+      return 0;
+    }
+    case WM_SIZE: {
+      RECT rect = GetClientArea();
+      if (child_content_ != nullptr) {
+        // Size and position the child window.
+        MoveWindow(child_content_, rect.left, rect.top, rect.right - rect.left,
+                   rect.bottom - rect.top, TRUE);
+      }
+      return 0;
+    }
+
+    case WM_ACTIVATE:
+      if (child_content_ != nullptr) {
+        SetFocus(child_content_);
+      }
+      return 0;
+
+    case WM_DWMCOLORIZATIONCOLORCHANGED:
+      UpdateTheme(hwnd);
+      return 0;
+  }
+
+  return DefWindowProc(window_handle_, message, wparam, lparam);
+}
+
+void Win32Window::Destroy() {
+  OnDestroy();
+
+  if (window_handle_) {
+    DestroyWindow(window_handle_);
+    window_handle_ = nullptr;
+  }
+  if (g_active_window_count == 0) {
+    WindowClassRegistrar::GetInstance()->UnregisterWindowClass();
+  }
+}
+
+Win32Window* Win32Window::GetThisFromHandle(HWND const window) noexcept {
+  return reinterpret_cast<Win32Window*>(
+      GetWindowLongPtr(window, GWLP_USERDATA));
+}
+
+void Win32Window::SetChildContent(HWND content) {
+  child_content_ = content;
+  SetParent(content, window_handle_);
+  RECT frame = GetClientArea();
+
+  MoveWindow(content, frame.left, frame.top, frame.right - frame.left,
+             frame.bottom - frame.top, true);
+
+  SetFocus(child_content_);
+}
+
+RECT Win32Window::GetClientArea() {
+  RECT frame;
+  GetClientRect(window_handle_, &frame);
+  return frame;
+}
+
+HWND Win32Window::GetHandle() {
+  return window_handle_;
+}
+
+void Win32Window::SetQuitOnClose(bool quit_on_close) {
+  quit_on_close_ = quit_on_close;
+}
+
+bool Win32Window::OnCreate() {
+  // No-op; provided for subclasses.
+  return true;
+}
+
+void Win32Window::OnDestroy() {
+  // No-op; provided for subclasses.
+}
+
+void Win32Window::UpdateTheme(HWND const window) {
+  DWORD light_mode;
+  DWORD light_mode_size = sizeof(light_mode);
+  LSTATUS result = RegGetValue(HKEY_CURRENT_USER, kGetPreferredBrightnessRegKey,
+                               kGetPreferredBrightnessRegValue,
+                               RRF_RT_REG_DWORD, nullptr, &light_mode,
+                               &light_mode_size);
+
+  if (result == ERROR_SUCCESS) {
+    BOOL enable_dark_mode = light_mode == 0;
+    DwmSetWindowAttribute(window, DWMWA_USE_IMMERSIVE_DARK_MODE,
+                          &enable_dark_mode, sizeof(enable_dark_mode));
+  }
+}

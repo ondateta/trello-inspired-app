@@ -1,1 +1,10 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CgpleHRlbnNpb24gSGV4Q29sb3Igb24gQ29sb3IgewogIC8vLyBQcmVmaXhlcyBhIGhhc2ggc2lnbiBpZiBbbGVhZGluZ0hhc2hTaWduXSBpcyBzZXQgdG8gYHRydWVgIChkZWZhdWx0IGlzIGB0cnVlYCkuCiAgU3RyaW5nIHRvSGV4KHtib29sIGxlYWRpbmdIYXNoU2lnbiA9IHRydWV9KSA9PiAnJHtsZWFkaW5nSGFzaFNpZ24gPyAnIycgOiAnJ30nCiAgICAgICcke2FscGhhLnRvUmFkaXhTdHJpbmcoMTYpLnBhZExlZnQoMiwgJzAnKX0nCiAgICAgICcke3JlZC50b1JhZGl4U3RyaW5nKDE2KS5wYWRMZWZ0KDIsICcwJyl9JwogICAgICAnJHtncmVlbi50b1JhZGl4U3RyaW5nKDE2KS5wYWRMZWZ0KDIsICcwJyl9JwogICAgICAnJHtibHVlLnRvUmFkaXhTdHJpbmcoMTYpLnBhZExlZnQoMiwgJzAnKX0nOwp9Cg==
+import 'package:flutter/material.dart';
+
+extension HexColor on Color {
+  /// Prefixes a hash sign if [leadingHashSign] is set to `true` (default is `true`).
+  String toHex({bool leadingHashSign = true}) => '${leadingHashSign ? '#' : ''}'
+      '${alpha.toRadixString(16).padLeft(2, '0')}'
+      '${red.toRadixString(16).padLeft(2, '0')}'
+      '${green.toRadixString(16).padLeft(2, '0')}'
+      '${blue.toRadixString(16).padLeft(2, '0')}';
+}

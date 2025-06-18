@@ -1,1 +1,17 @@
-Ly8KLy8gIEdlbmVyYXRlZCBmaWxlLiBEbyBub3QgZWRpdC4KLy8KCi8vIGNsYW5nLWZvcm1hdCBvZmYKCiNpbmNsdWRlICJnZW5lcmF0ZWRfcGx1Z2luX3JlZ2lzdHJhbnQuaCIKCiNpbmNsdWRlIDxhcHBfbGlua3MvYXBwX2xpbmtzX3BsdWdpbl9jX2FwaS5oPgojaW5jbHVkZSA8dXJsX2xhdW5jaGVyX3dpbmRvd3MvdXJsX2xhdW5jaGVyX3dpbmRvd3MuaD4KCnZvaWQgUmVnaXN0ZXJQbHVnaW5zKGZsdXR0ZXI6OlBsdWdpblJlZ2lzdHJ5KiByZWdpc3RyeSkgewogIEFwcExpbmtzUGx1Z2luQ0FwaVJlZ2lzdGVyV2l0aFJlZ2lzdHJhcigKICAgICAgcmVnaXN0cnktPkdldFJlZ2lzdHJhckZvclBsdWdpbigiQXBwTGlua3NQbHVnaW5DQXBpIikpOwogIFVybExhdW5jaGVyV2luZG93c1JlZ2lzdGVyV2l0aFJlZ2lzdHJhcigKICAgICAgcmVnaXN0cnktPkdldFJlZ2lzdHJhckZvclBsdWdpbigiVXJsTGF1bmNoZXJXaW5kb3dzIikpOwp9Cg==
+//
+//  Generated file. Do not edit.
+//
+
+// clang-format off
+
+#include "generated_plugin_registrant.h"
+
+#include <app_links/app_links_plugin_c_api.h>
+#include <url_launcher_windows/url_launcher_windows.h>
+
+void RegisterPlugins(flutter::PluginRegistry* registry) {
+  AppLinksPluginCApiRegisterWithRegistrar(
+      registry->GetRegistrarForPlugin("AppLinksPluginCApi"));
+  UrlLauncherWindowsRegisterWithRegistrar(
+      registry->GetRegistrarForPlugin("UrlLauncherWindows"));
+}

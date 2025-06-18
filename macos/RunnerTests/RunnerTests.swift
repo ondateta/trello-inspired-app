@@ -1,1 +1,12 @@
-aW1wb3J0IENvY29hCmltcG9ydCBGbHV0dGVyTWFjT1MKaW1wb3J0IFhDVGVzdAoKY2xhc3MgUnVubmVyVGVzdHM6IFhDVGVzdENhc2UgewoKICBmdW5jIHRlc3RFeGFtcGxlKCkgewogICAgLy8gSWYgeW91IGFkZCBjb2RlIHRvIHRoZSBSdW5uZXIgYXBwbGljYXRpb24sIGNvbnNpZGVyIGFkZGluZyB0ZXN0cyBoZXJlLgogICAgLy8gU2VlIGh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9kb2N1bWVudGF0aW9uL3hjdGVzdCBmb3IgbW9yZSBpbmZvcm1hdGlvbiBhYm91dCB1c2luZyBYQ1Rlc3QuCiAgfQoKfQo=
+import Cocoa
+import FlutterMacOS
+import XCTest
+
+class RunnerTests: XCTestCase {
+
+  func testExample() {
+    // If you add code to the Runner application, consider adding tests here.
+    // See https://developer.apple.com/documentation/xctest for more information about using XCTest.
+  }
+
+}

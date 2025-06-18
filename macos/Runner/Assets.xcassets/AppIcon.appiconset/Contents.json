@@ -1,1 +1,68 @@
-ewogICJpbWFnZXMiIDogWwogICAgewogICAgICAic2l6ZSIgOiAiMTZ4MTYiLAogICAgICAiaWRpb20iIDogIm1hYyIsCiAgICAgICJmaWxlbmFtZSIgOiAiYXBwX2ljb25fMTYucG5nIiwKICAgICAgInNjYWxlIiA6ICIxeCIKICAgIH0sCiAgICB7CiAgICAgICJzaXplIiA6ICIxNngxNiIsCiAgICAgICJpZGlvbSIgOiAibWFjIiwKICAgICAgImZpbGVuYW1lIiA6ICJhcHBfaWNvbl8zMi5wbmciLAogICAgICAic2NhbGUiIDogIjJ4IgogICAgfSwKICAgIHsKICAgICAgInNpemUiIDogIjMyeDMyIiwKICAgICAgImlkaW9tIiA6ICJtYWMiLAogICAgICAiZmlsZW5hbWUiIDogImFwcF9pY29uXzMyLnBuZyIsCiAgICAgICJzY2FsZSIgOiAiMXgiCiAgICB9LAogICAgewogICAgICAic2l6ZSIgOiAiMzJ4MzIiLAogICAgICAiaWRpb20iIDogIm1hYyIsCiAgICAgICJmaWxlbmFtZSIgOiAiYXBwX2ljb25fNjQucG5nIiwKICAgICAgInNjYWxlIiA6ICIyeCIKICAgIH0sCiAgICB7CiAgICAgICJzaXplIiA6ICIxMjh4MTI4IiwKICAgICAgImlkaW9tIiA6ICJtYWMiLAogICAgICAiZmlsZW5hbWUiIDogImFwcF9pY29uXzEyOC5wbmciLAogICAgICAic2NhbGUiIDogIjF4IgogICAgfSwKICAgIHsKICAgICAgInNpemUiIDogIjEyOHgxMjgiLAogICAgICAiaWRpb20iIDogIm1hYyIsCiAgICAgICJmaWxlbmFtZSIgOiAiYXBwX2ljb25fMjU2LnBuZyIsCiAgICAgICJzY2FsZSIgOiAiMngiCiAgICB9LAogICAgewogICAgICAic2l6ZSIgOiAiMjU2eDI1NiIsCiAgICAgICJpZGlvbSIgOiAibWFjIiwKICAgICAgImZpbGVuYW1lIiA6ICJhcHBfaWNvbl8yNTYucG5nIiwKICAgICAgInNjYWxlIiA6ICIxeCIKICAgIH0sCiAgICB7CiAgICAgICJzaXplIiA6ICIyNTZ4MjU2IiwKICAgICAgImlkaW9tIiA6ICJtYWMiLAogICAgICAiZmlsZW5hbWUiIDogImFwcF9pY29uXzUxMi5wbmciLAogICAgICAic2NhbGUiIDogIjJ4IgogICAgfSwKICAgIHsKICAgICAgInNpemUiIDogIjUxMng1MTIiLAogICAgICAiaWRpb20iIDogIm1hYyIsCiAgICAgICJmaWxlbmFtZSIgOiAiYXBwX2ljb25fNTEyLnBuZyIsCiAgICAgICJzY2FsZSIgOiAiMXgiCiAgICB9LAogICAgewogICAgICAic2l6ZSIgOiAiNTEyeDUxMiIsCiAgICAgICJpZGlvbSIgOiAibWFjIiwKICAgICAgImZpbGVuYW1lIiA6ICJhcHBfaWNvbl8xMDI0LnBuZyIsCiAgICAgICJzY2FsZSIgOiAiMngiCiAgICB9CiAgXSwKICAiaW5mbyIgOiB7CiAgICAidmVyc2lvbiIgOiAxLAogICAgImF1dGhvciIgOiAieGNvZGUiCiAgfQp9Cg==
+{
+  "images" : [
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "app_icon_16.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "app_icon_32.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "app_icon_32.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "app_icon_64.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "app_icon_128.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "app_icon_256.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "app_icon_256.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "app_icon_512.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "app_icon_512.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "app_icon_1024.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

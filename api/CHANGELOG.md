@@ -1,1 +1,3 @@
-IyMgMS4wLjAKCi0gSW5pdGlhbCB2ZXJzaW9uLgo=
+## 1.0.0
+
+- Initial version.

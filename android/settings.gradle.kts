@@ -1,1 +1,25 @@
-cGx1Z2luTWFuYWdlbWVudCB7CiAgICB2YWwgZmx1dHRlclNka1BhdGggPSBydW4gewogICAgICAgIHZhbCBwcm9wZXJ0aWVzID0gamF2YS51dGlsLlByb3BlcnRpZXMoKQogICAgICAgIGZpbGUoImxvY2FsLnByb3BlcnRpZXMiKS5pbnB1dFN0cmVhbSgpLnVzZSB7IHByb3BlcnRpZXMubG9hZChpdCkgfQogICAgICAgIHZhbCBmbHV0dGVyU2RrUGF0aCA9IHByb3BlcnRpZXMuZ2V0UHJvcGVydHkoImZsdXR0ZXIuc2RrIikKICAgICAgICByZXF1aXJlKGZsdXR0ZXJTZGtQYXRoICE9IG51bGwpIHsgImZsdXR0ZXIuc2RrIG5vdCBzZXQgaW4gbG9jYWwucHJvcGVydGllcyIgfQogICAgICAgIGZsdXR0ZXJTZGtQYXRoCiAgICB9CgogICAgaW5jbHVkZUJ1aWxkKCIkZmx1dHRlclNka1BhdGgvcGFja2FnZXMvZmx1dHRlcl90b29scy9ncmFkbGUiKQoKICAgIHJlcG9zaXRvcmllcyB7CiAgICAgICAgZ29vZ2xlKCkKICAgICAgICBtYXZlbkNlbnRyYWwoKQogICAgICAgIGdyYWRsZVBsdWdpblBvcnRhbCgpCiAgICB9Cn0KCnBsdWdpbnMgewogICAgaWQoImRldi5mbHV0dGVyLmZsdXR0ZXItcGx1Z2luLWxvYWRlciIpIHZlcnNpb24gIjEuMC4wIgogICAgaWQoImNvbS5hbmRyb2lkLmFwcGxpY2F0aW9uIikgdmVyc2lvbiAiOC43LjAiIGFwcGx5IGZhbHNlCiAgICBpZCgib3JnLmpldGJyYWlucy5rb3RsaW4uYW5kcm9pZCIpIHZlcnNpb24gIjEuOC4yMiIgYXBwbHkgZmFsc2UKfQoKaW5jbHVkZSgiOmFwcCIpCg==
+pluginManagement {
+    val flutterSdkPath = run {
+        val properties = java.util.Properties()
+        file("local.properties").inputStream().use { properties.load(it) }
+        val flutterSdkPath = properties.getProperty("flutter.sdk")
+        require(flutterSdkPath != null) { "flutter.sdk not set in local.properties" }
+        flutterSdkPath
+    }
+
+    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
+
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id("dev.flutter.flutter-plugin-loader") version "1.0.0"
+    id("com.android.application") version "8.7.0" apply false
+    id("org.jetbrains.kotlin.android") version "1.8.22" apply false
+}
+
+include(":app")

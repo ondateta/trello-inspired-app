@@ -1,1 +1,14 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8YXNzZW1ibHkgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206YXNtLnYxIiBtYW5pZmVzdFZlcnNpb249IjEuMCI+CiAgPGFwcGxpY2F0aW9uIHhtbG5zPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOmFzbS52MyI+CiAgICA8d2luZG93c1NldHRpbmdzPgogICAgICA8ZHBpQXdhcmVuZXNzIHhtbG5zPSJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL1NNSS8yMDE2L1dpbmRvd3NTZXR0aW5ncyI+UGVyTW9uaXRvclYyPC9kcGlBd2FyZW5lc3M+CiAgICA8L3dpbmRvd3NTZXR0aW5ncz4KICA8L2FwcGxpY2F0aW9uPgogIDxjb21wYXRpYmlsaXR5IHhtbG5zPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOmNvbXBhdGliaWxpdHkudjEiPgogICAgPGFwcGxpY2F0aW9uPgogICAgICA8IS0tIFdpbmRvd3MgMTAgYW5kIFdpbmRvd3MgMTEgLS0+CiAgICAgIDxzdXBwb3J0ZWRPUyBJZD0iezhlMGY3YTEyLWJmYjMtNGZlOC1iOWE1LTQ4ZmQ1MGExNWE5YX0iLz4KICAgIDwvYXBwbGljYXRpb24+CiAgPC9jb21wYXRpYmlsaXR5Pgo8L2Fzc2VtYmx5Pgo=
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2</dpiAwareness>
+    </windowsSettings>
+  </application>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Windows 10 and Windows 11 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+    </application>
+  </compatibility>
+</assembly>

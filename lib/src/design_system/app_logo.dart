@@ -1,1 +1,29 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvZXh0ZW5zaW9ucy9pbmRleC5kYXJ0JzsKCmNsYXNzIEFwcExvZ28gZXh0ZW5kcyBTdGF0ZWxlc3NXaWRnZXQgewogIGNvbnN0IEFwcExvZ28oewogICAgc3VwZXIua2V5LAogICAgdGhpcy5zaXplID0gODAsCiAgICB0aGlzLnRvb2x0aXAsCiAgfSk7CgogIGZpbmFsIGRvdWJsZSBzaXplOwogIGZpbmFsIFN0cmluZz8gdG9vbHRpcDsKCiAgQG92ZXJyaWRlCiAgV2lkZ2V0IGJ1aWxkKEJ1aWxkQ29udGV4dCBjb250ZXh0KSB7CiAgICAvLyBUT0RPOiBjaGFuZ2UgZGFya01vZGUgYW5kIGxpZ2h0TW9kZSB3aXRoIGFwcCBsb2dvCiAgICBmaW5hbCBkYXJrTW9kZSA9IEZsdXR0ZXJMb2dvKAogICAgICBzaXplOiBzaXplLAogICAgKTsKICAgIGZpbmFsIGxpZ2h0TW9kZSA9IEZsdXR0ZXJMb2dvKAogICAgICBzaXplOiBzaXplLAogICAgKTsKCiAgICBpZiAoY29udGV4dC5pc0RhcmtNb2RlKSB7CiAgICAgIHJldHVybiBkYXJrTW9kZS50b29sdGlwKHRvb2x0aXAgPz8gJ1RldGEnKTsKICAgIH0KICAgIHJldHVybiBsaWdodE1vZGUudG9vbHRpcCh0b29sdGlwID8/ICdUZXRhJyk7CiAgfQp9Cg==
+import 'package:flutter/material.dart';
+import 'package:template/src/extensions/index.dart';
+
+class AppLogo extends StatelessWidget {
+  const AppLogo({
+    super.key,
+    this.size = 80,
+    this.tooltip,
+  });
+
+  final double size;
+  final String? tooltip;
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: change darkMode and lightMode with app logo
+    final darkMode = FlutterLogo(
+      size: size,
+    );
+    final lightMode = FlutterLogo(
+      size: size,
+    );
+
+    if (context.isDarkMode) {
+      return darkMode.tooltip(tooltip ?? 'Teta');
+    }
+    return lightMode.tooltip(tooltip ?? 'Teta');
+  }
+}

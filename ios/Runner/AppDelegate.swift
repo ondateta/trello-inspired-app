@@ -1,1 +1,13 @@
-aW1wb3J0IEZsdXR0ZXIKaW1wb3J0IFVJS2l0CgpAbWFpbgpAb2JqYyBjbGFzcyBBcHBEZWxlZ2F0ZTogRmx1dHRlckFwcERlbGVnYXRlIHsKICBvdmVycmlkZSBmdW5jIGFwcGxpY2F0aW9uKAogICAgXyBhcHBsaWNhdGlvbjogVUlBcHBsaWNhdGlvbiwKICAgIGRpZEZpbmlzaExhdW5jaGluZ1dpdGhPcHRpb25zIGxhdW5jaE9wdGlvbnM6IFtVSUFwcGxpY2F0aW9uLkxhdW5jaE9wdGlvbnNLZXk6IEFueV0/CiAgKSAtPiBCb29sIHsKICAgIEdlbmVyYXRlZFBsdWdpblJlZ2lzdHJhbnQucmVnaXN0ZXIod2l0aDogc2VsZikKICAgIHJldHVybiBzdXBlci5hcHBsaWNhdGlvbihhcHBsaWNhdGlvbiwgZGlkRmluaXNoTGF1bmNoaW5nV2l0aE9wdGlvbnM6IGxhdW5jaE9wdGlvbnMpCiAgfQp9Cg==
+import Flutter
+import UIKit
+
+@main
+@objc class AppDelegate: FlutterAppDelegate {
+  override func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+  ) -> Bool {
+    GeneratedPluginRegistrant.register(with: self)
+    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  }
+}

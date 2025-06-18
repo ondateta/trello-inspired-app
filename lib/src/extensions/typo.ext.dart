@@ -1,1 +1,22 @@
-Ly8gRmx1dHRlciBpbXBvcnRzOgppbXBvcnQgJ3BhY2thZ2U6Zmx1dHRlci9tYXRlcmlhbC5kYXJ0JzsKCmV4dGVuc2lvbiBUeXBvVXRpbHMgb24gQnVpbGRDb250ZXh0IHsKICBUZXh0VGhlbWUgZ2V0IHRleHRUaGVtZSA9PiBUaGVtZS5vZih0aGlzKS50ZXh0VGhlbWU7CgogIFRleHRTdHlsZSBnZXQgZGlzcGxheUxhcmdlID0+IHRleHRUaGVtZS5kaXNwbGF5TGFyZ2UhOwogIFRleHRTdHlsZSBnZXQgZGlzcGxheU1lZGl1bSA9PiB0ZXh0VGhlbWUuZGlzcGxheU1lZGl1bSE7CiAgVGV4dFN0eWxlIGdldCBkaXNwbGF5U21hbGwgPT4gdGV4dFRoZW1lLmRpc3BsYXlTbWFsbCE7CiAgVGV4dFN0eWxlIGdldCBoZWFkbGluZUxhcmdlID0+IHRleHRUaGVtZS5oZWFkbGluZUxhcmdlITsKICBUZXh0U3R5bGUgZ2V0IGhlYWRsaW5lTWVkaXVtID0+IHRleHRUaGVtZS5oZWFkbGluZU1lZGl1bSE7CiAgVGV4dFN0eWxlIGdldCBoZWFkbGluZVNtYWxsID0+IHRleHRUaGVtZS5oZWFkbGluZVNtYWxsITsKICBUZXh0U3R5bGUgZ2V0IHRpdGxlTGFyZ2UgPT4gdGV4dFRoZW1lLnRpdGxlTGFyZ2UhOwogIFRleHRTdHlsZSBnZXQgdGl0bGVNZWRpdW0gPT4gdGV4dFRoZW1lLnRpdGxlTWVkaXVtITsKICBUZXh0U3R5bGUgZ2V0IHRpdGxlU21hbGwgPT4gdGV4dFRoZW1lLnRpdGxlU21hbGwhOwogIFRleHRTdHlsZSBnZXQgYm9keUxhcmdlID0+IHRleHRUaGVtZS5ib2R5TGFyZ2UhOwogIFRleHRTdHlsZSBnZXQgYm9keU1lZGl1bSA9PiB0ZXh0VGhlbWUuYm9keU1lZGl1bSE7CiAgVGV4dFN0eWxlIGdldCBib2R5U21hbGwgPT4gdGV4dFRoZW1lLmJvZHlTbWFsbCE7CiAgVGV4dFN0eWxlIGdldCBsYWJlbExhcmdlID0+IHRleHRUaGVtZS5sYWJlbExhcmdlITsKICBUZXh0U3R5bGUgZ2V0IGxhYmVsTWVkaXVtID0+IHRleHRUaGVtZS5sYWJlbE1lZGl1bSE7CiAgVGV4dFN0eWxlIGdldCBsYWJlbFNtYWxsID0+IHRleHRUaGVtZS5sYWJlbFNtYWxsITsKfQo=
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+extension TypoUtils on BuildContext {
+  TextTheme get textTheme => Theme.of(this).textTheme;
+
+  TextStyle get displayLarge => textTheme.displayLarge!;
+  TextStyle get displayMedium => textTheme.displayMedium!;
+  TextStyle get displaySmall => textTheme.displaySmall!;
+  TextStyle get headlineLarge => textTheme.headlineLarge!;
+  TextStyle get headlineMedium => textTheme.headlineMedium!;
+  TextStyle get headlineSmall => textTheme.headlineSmall!;
+  TextStyle get titleLarge => textTheme.titleLarge!;
+  TextStyle get titleMedium => textTheme.titleMedium!;
+  TextStyle get titleSmall => textTheme.titleSmall!;
+  TextStyle get bodyLarge => textTheme.bodyLarge!;
+  TextStyle get bodyMedium => textTheme.bodyMedium!;
+  TextStyle get bodySmall => textTheme.bodySmall!;
+  TextStyle get labelLarge => textTheme.labelLarge!;
+  TextStyle get labelMedium => textTheme.labelMedium!;
+  TextStyle get labelSmall => textTheme.labelSmall!;
+}

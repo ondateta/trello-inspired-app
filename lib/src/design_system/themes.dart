@@ -1,1 +1,233 @@
-aW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvZGVzaWduX3N5c3RlbS9jb2xvcnMuZGFydCc7CmltcG9ydCAncGFja2FnZTp0ZW1wbGF0ZS9zcmMvZGVzaWduX3N5c3RlbS90eXBvZ3JhcGh5LmRhcnQnOwoKY2xhc3MgQXBwVGhlbWVzIHsKICBzdGF0aWMgVGhlbWVEYXRhIGxpZ2h0VGhlbWUgPSBUaGVtZURhdGEoCiAgICB1c2VNYXRlcmlhbDM6IHRydWUsCiAgICBmb250RmFtaWx5OiBBcHBUeXBvZ3JhcGh5LmZvbnRGYW1pbHksCiAgICBjb2xvclNjaGVtZTogQXBwQ29sb3JzLmxpZ2h0Q29sb3JTY2hlbWUsCiAgICBzY2FmZm9sZEJhY2tncm91bmRDb2xvcjogQXBwQ29sb3JzLmJhY2tncm91bmRMaWdodCwKICAgIGFwcEJhclRoZW1lOiBjb25zdCBBcHBCYXJUaGVtZSgKICAgICAgZWxldmF0aW9uOiAwLAogICAgICBzY3JvbGxlZFVuZGVyRWxldmF0aW9uOiAwLAogICAgICBzdXJmYWNlVGludENvbG9yOiBDb2xvcnMudHJhbnNwYXJlbnQsCiAgICAgIGJhY2tncm91bmRDb2xvcjogQXBwQ29sb3JzLmJhY2tncm91bmRMaWdodCwKICAgICAgZm9yZWdyb3VuZENvbG9yOiBBcHBDb2xvcnMub25TdXJmYWNlTGlnaHQsCiAgICApLAogICAgY2FyZFRoZW1lOiBDYXJkVGhlbWUoCiAgICAgIGVsZXZhdGlvbjogMCwKICAgICAgc3VyZmFjZVRpbnRDb2xvcjogQ29sb3JzLnRyYW5zcGFyZW50LAogICAgICBjb2xvcjogQXBwQ29sb3JzLnN1cmZhY2VDb250YWluZXJMaWdodCwKICAgICAgc2hhZG93Q29sb3I6IENvbG9ycy50cmFuc3BhcmVudCwKICAgICAgc2hhcGU6IFJvdW5kZWRSZWN0YW5nbGVCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoMTYpLAogICAgICApLAogICAgKSwKICAgIGVsZXZhdGVkQnV0dG9uVGhlbWU6IEVsZXZhdGVkQnV0dG9uVGhlbWVEYXRhKAogICAgICBzdHlsZTogRWxldmF0ZWRCdXR0b24uc3R5bGVGcm9tKAogICAgICAgIGJhY2tncm91bmRDb2xvcjogQXBwQ29sb3JzLnByaW1hcnlMaWdodCwKICAgICAgICBmb3JlZ3JvdW5kQ29sb3I6IENvbG9ycy53aGl0ZSwKICAgICAgICBlbGV2YXRpb246IDAsCiAgICAgICAgcGFkZGluZzogY29uc3QgRWRnZUluc2V0cy5zeW1tZXRyaWMoCiAgICAgICAgICBob3Jpem9udGFsOiAyNCwKICAgICAgICAgIHZlcnRpY2FsOiAxMiwKICAgICAgICApLAogICAgICAgIHNoYXBlOiBSb3VuZGVkUmVjdGFuZ2xlQm9yZGVyKAogICAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgKSwKICAgICAgKSwKICAgICksCiAgICBvdXRsaW5lZEJ1dHRvblRoZW1lOiBPdXRsaW5lZEJ1dHRvblRoZW1lRGF0YSgKICAgICAgc3R5bGU6IE91dGxpbmVkQnV0dG9uLnN0eWxlRnJvbSgKICAgICAgICBmb3JlZ3JvdW5kQ29sb3I6IEFwcENvbG9ycy5wcmltYXJ5TGlnaHQsCiAgICAgICAgcGFkZGluZzogY29uc3QgRWRnZUluc2V0cy5zeW1tZXRyaWMoCiAgICAgICAgICBob3Jpem9udGFsOiAyNCwKICAgICAgICAgIHZlcnRpY2FsOiAxMiwKICAgICAgICApLAogICAgICAgIHNoYXBlOiBSb3VuZGVkUmVjdGFuZ2xlQm9yZGVyKAogICAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgKSwKICAgICAgICBzaWRlOiBjb25zdCBCb3JkZXJTaWRlKAogICAgICAgICAgY29sb3I6IEFwcENvbG9ycy5wcmltYXJ5TGlnaHQsCiAgICAgICAgICB3aWR0aDogMS41LAogICAgICAgICksCiAgICAgICksCiAgICApLAogICAgdGV4dEJ1dHRvblRoZW1lOiBUZXh0QnV0dG9uVGhlbWVEYXRhKAogICAgICBzdHlsZTogVGV4dEJ1dHRvbi5zdHlsZUZyb20oCiAgICAgICAgZm9yZWdyb3VuZENvbG9yOiBBcHBDb2xvcnMucHJpbWFyeUxpZ2h0LAogICAgICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMuc3ltbWV0cmljKAogICAgICAgICAgaG9yaXpvbnRhbDogMTYsCiAgICAgICAgICB2ZXJ0aWNhbDogOCwKICAgICAgICApLAogICAgICAgIHNoYXBlOiBSb3VuZGVkUmVjdGFuZ2xlQm9yZGVyKAogICAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgKSwKICAgICAgKSwKICAgICksCiAgICBpY29uVGhlbWU6IGNvbnN0IEljb25UaGVtZURhdGEoCiAgICAgIGNvbG9yOiBBcHBDb2xvcnMub25TdXJmYWNlTGlnaHQsCiAgICApLAogICAgaWNvbkJ1dHRvblRoZW1lOiBJY29uQnV0dG9uVGhlbWVEYXRhKAogICAgICBzdHlsZTogQnV0dG9uU3R5bGUoCiAgICAgICAgZm9yZWdyb3VuZENvbG9yOiBXaWRnZXRTdGF0ZVByb3BlcnR5LmFsbChBcHBDb2xvcnMub25TdXJmYWNlTGlnaHQpLAogICAgICApLAogICAgKSwKICAgIGlucHV0RGVjb3JhdGlvblRoZW1lOiBJbnB1dERlY29yYXRpb25UaGVtZSgKICAgICAgYm9yZGVyOiBPdXRsaW5lSW5wdXRCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgYm9yZGVyU2lkZTogY29uc3QgQm9yZGVyU2lkZSgKICAgICAgICAgIGNvbG9yOiBBcHBDb2xvcnMuc3VyZmFjZUNvbnRhaW5lckxpZ2h0LAogICAgICAgICAgd2lkdGg6IDEsCiAgICAgICAgKSwKICAgICAgKSwKICAgICAgZW5hYmxlZEJvcmRlcjogT3V0bGluZUlucHV0Qm9yZGVyKAogICAgICAgIGJvcmRlclJhZGl1czogQm9yZGVyUmFkaXVzLmNpcmN1bGFyKDgpLAogICAgICAgIGJvcmRlclNpZGU6IGNvbnN0IEJvcmRlclNpZGUoCiAgICAgICAgICBjb2xvcjogQXBwQ29sb3JzLnN1cmZhY2VDb250YWluZXJMaWdodCwKICAgICAgICAgIHdpZHRoOiAxLAogICAgICAgICksCiAgICAgICksCiAgICAgIGZvY3VzZWRCb3JkZXI6IE91dGxpbmVJbnB1dEJvcmRlcigKICAgICAgICBib3JkZXJSYWRpdXM6IEJvcmRlclJhZGl1cy5jaXJjdWxhcig4KSwKICAgICAgICBib3JkZXJTaWRlOiBjb25zdCBCb3JkZXJTaWRlKAogICAgICAgICAgY29sb3I6IEFwcENvbG9ycy5wcmltYXJ5TGlnaHQsCiAgICAgICAgICB3aWR0aDogMS41LAogICAgICAgICksCiAgICAgICksCiAgICAgIGVycm9yQm9yZGVyOiBPdXRsaW5lSW5wdXRCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgYm9yZGVyU2lkZTogY29uc3QgQm9yZGVyU2lkZSgKICAgICAgICAgIGNvbG9yOiBBcHBDb2xvcnMuZXJyb3JMaWdodCwKICAgICAgICAgIHdpZHRoOiAxLAogICAgICAgICksCiAgICAgICksCiAgICAgIGZpbGxlZDogdHJ1ZSwKICAgICAgZmlsbENvbG9yOiBBcHBDb2xvcnMuc3VyZmFjZUNvbnRhaW5lckxpZ2h0LAogICAgICBjb250ZW50UGFkZGluZzogY29uc3QgRWRnZUluc2V0cy5zeW1tZXRyaWMoCiAgICAgICAgaG9yaXpvbnRhbDogMTYsCiAgICAgICAgdmVydGljYWw6IDEyLAogICAgICApLAogICAgKSwKICApOwoKICBzdGF0aWMgVGhlbWVEYXRhIGRhcmtUaGVtZSA9IFRoZW1lRGF0YSgKICAgIHVzZU1hdGVyaWFsMzogdHJ1ZSwKICAgIGZvbnRGYW1pbHk6IEFwcFR5cG9ncmFwaHkuZm9udEZhbWlseSwKICAgIGNvbG9yU2NoZW1lOiBBcHBDb2xvcnMuZGFya0NvbG9yU2NoZW1lLAogICAgc2NhZmZvbGRCYWNrZ3JvdW5kQ29sb3I6IEFwcENvbG9ycy5iYWNrZ3JvdW5kRGFyaywKICAgIGFwcEJhclRoZW1lOiBjb25zdCBBcHBCYXJUaGVtZSgKICAgICAgZWxldmF0aW9uOiAwLAogICAgICBzY3JvbGxlZFVuZGVyRWxldmF0aW9uOiAwLAogICAgICBzdXJmYWNlVGludENvbG9yOiBDb2xvcnMudHJhbnNwYXJlbnQsCiAgICAgIGJhY2tncm91bmRDb2xvcjogQXBwQ29sb3JzLmJhY2tncm91bmREYXJrLAogICAgICBmb3JlZ3JvdW5kQ29sb3I6IEFwcENvbG9ycy5vblN1cmZhY2VEYXJrLAogICAgKSwKICAgIGNhcmRUaGVtZTogQ2FyZFRoZW1lKAogICAgICBlbGV2YXRpb246IDAsCiAgICAgIHN1cmZhY2VUaW50Q29sb3I6IENvbG9ycy50cmFuc3BhcmVudCwKICAgICAgY29sb3I6IEFwcENvbG9ycy5zdXJmYWNlQ29udGFpbmVyRGFyaywKICAgICAgc2hhZG93Q29sb3I6IENvbG9ycy50cmFuc3BhcmVudCwKICAgICAgc2hhcGU6IFJvdW5kZWRSZWN0YW5nbGVCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoMTYpLAogICAgICApLAogICAgKSwKICAgIGVsZXZhdGVkQnV0dG9uVGhlbWU6IEVsZXZhdGVkQnV0dG9uVGhlbWVEYXRhKAogICAgICBzdHlsZTogRWxldmF0ZWRCdXR0b24uc3R5bGVGcm9tKAogICAgICAgIGJhY2tncm91bmRDb2xvcjogQXBwQ29sb3JzLnByaW1hcnlEYXJrLAogICAgICAgIGZvcmVncm91bmRDb2xvcjogQ29sb3JzLndoaXRlLAogICAgICAgIGVsZXZhdGlvbjogMCwKICAgICAgICBwYWRkaW5nOiBjb25zdCBFZGdlSW5zZXRzLnN5bW1ldHJpYygKICAgICAgICAgIGhvcml6b250YWw6IDI0LAogICAgICAgICAgdmVydGljYWw6IDEyLAogICAgICAgICksCiAgICAgICAgc2hhcGU6IFJvdW5kZWRSZWN0YW5nbGVCb3JkZXIoCiAgICAgICAgICBib3JkZXJSYWRpdXM6IEJvcmRlclJhZGl1cy5jaXJjdWxhcig4KSwKICAgICAgICApLAogICAgICApLAogICAgKSwKICAgIG91dGxpbmVkQnV0dG9uVGhlbWU6IE91dGxpbmVkQnV0dG9uVGhlbWVEYXRhKAogICAgICBzdHlsZTogT3V0bGluZWRCdXR0b24uc3R5bGVGcm9tKAogICAgICAgIGZvcmVncm91bmRDb2xvcjogQXBwQ29sb3JzLnByaW1hcnlEYXJrLAogICAgICAgIHBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMuc3ltbWV0cmljKAogICAgICAgICAgaG9yaXpvbnRhbDogMjQsCiAgICAgICAgICB2ZXJ0aWNhbDogMTIsCiAgICAgICAgKSwKICAgICAgICBzaGFwZTogUm91bmRlZFJlY3RhbmdsZUJvcmRlcigKICAgICAgICAgIGJvcmRlclJhZGl1czogQm9yZGVyUmFkaXVzLmNpcmN1bGFyKDgpLAogICAgICAgICksCiAgICAgICAgc2lkZTogY29uc3QgQm9yZGVyU2lkZSgKICAgICAgICAgIGNvbG9yOiBBcHBDb2xvcnMucHJpbWFyeURhcmssCiAgICAgICAgICB3aWR0aDogMS41LAogICAgICAgICksCiAgICAgICksCiAgICApLAogICAgdGV4dEJ1dHRvblRoZW1lOiBUZXh0QnV0dG9uVGhlbWVEYXRhKAogICAgICBzdHlsZTogVGV4dEJ1dHRvbi5zdHlsZUZyb20oCiAgICAgICAgZm9yZWdyb3VuZENvbG9yOiBBcHBDb2xvcnMucHJpbWFyeURhcmssCiAgICAgICAgcGFkZGluZzogY29uc3QgRWRnZUluc2V0cy5zeW1tZXRyaWMoCiAgICAgICAgICBob3Jpem9udGFsOiAxNiwKICAgICAgICAgIHZlcnRpY2FsOiA4LAogICAgICAgICksCiAgICAgICAgc2hhcGU6IFJvdW5kZWRSZWN0YW5nbGVCb3JkZXIoCiAgICAgICAgICBib3JkZXJSYWRpdXM6IEJvcmRlclJhZGl1cy5jaXJjdWxhcig4KSwKICAgICAgICApLAogICAgICApLAogICAgKSwKICAgIGljb25UaGVtZTogY29uc3QgSWNvblRoZW1lRGF0YSgKICAgICAgY29sb3I6IEFwcENvbG9ycy5vblN1cmZhY2VEYXJrLAogICAgKSwKICAgIGljb25CdXR0b25UaGVtZTogSWNvbkJ1dHRvblRoZW1lRGF0YSgKICAgICAgc3R5bGU6IEJ1dHRvblN0eWxlKAogICAgICAgIGZvcmVncm91bmRDb2xvcjogV2lkZ2V0U3RhdGVQcm9wZXJ0eS5hbGwoQXBwQ29sb3JzLm9uU3VyZmFjZURhcmspLAogICAgICApLAogICAgKSwKICAgIGlucHV0RGVjb3JhdGlvblRoZW1lOiBJbnB1dERlY29yYXRpb25UaGVtZSgKICAgICAgYm9yZGVyOiBPdXRsaW5lSW5wdXRCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgYm9yZGVyU2lkZTogY29uc3QgQm9yZGVyU2lkZSgKICAgICAgICAgIGNvbG9yOiBBcHBDb2xvcnMuc3VyZmFjZUNvbnRhaW5lckRhcmssCiAgICAgICAgICB3aWR0aDogMSwKICAgICAgICApLAogICAgICApLAogICAgICBlbmFibGVkQm9yZGVyOiBPdXRsaW5lSW5wdXRCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgYm9yZGVyU2lkZTogY29uc3QgQm9yZGVyU2lkZSgKICAgICAgICAgIGNvbG9yOiBBcHBDb2xvcnMuc3VyZmFjZUNvbnRhaW5lckRhcmssCiAgICAgICAgICB3aWR0aDogMSwKICAgICAgICApLAogICAgICApLAogICAgICBmb2N1c2VkQm9yZGVyOiBPdXRsaW5lSW5wdXRCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgYm9yZGVyU2lkZTogY29uc3QgQm9yZGVyU2lkZSgKICAgICAgICAgIGNvbG9yOiBBcHBDb2xvcnMucHJpbWFyeURhcmssCiAgICAgICAgICB3aWR0aDogMS41LAogICAgICAgICksCiAgICAgICksCiAgICAgIGVycm9yQm9yZGVyOiBPdXRsaW5lSW5wdXRCb3JkZXIoCiAgICAgICAgYm9yZGVyUmFkaXVzOiBCb3JkZXJSYWRpdXMuY2lyY3VsYXIoOCksCiAgICAgICAgYm9yZGVyU2lkZTogY29uc3QgQm9yZGVyU2lkZSgKICAgICAgICAgIGNvbG9yOiBBcHBDb2xvcnMuZXJyb3JEYXJrLAogICAgICAgICAgd2lkdGg6IDEsCiAgICAgICAgKSwKICAgICAgKSwKICAgICAgZmlsbGVkOiB0cnVlLAogICAgICBmaWxsQ29sb3I6IEFwcENvbG9ycy5zdXJmYWNlQ29udGFpbmVyRGFyaywKICAgICAgY29udGVudFBhZGRpbmc6IGNvbnN0IEVkZ2VJbnNldHMuc3ltbWV0cmljKAogICAgICAgIGhvcml6b250YWw6IDE2LAogICAgICAgIHZlcnRpY2FsOiAxMiwKICAgICAgKSwKICAgICksCiAgKTsKCiAgc3RhdGljIFRoZW1lRGF0YSBnZXRUaGVtZShCcmlnaHRuZXNzIGJyaWdodG5lc3MpIHsKICAgIGZpbmFsIFRoZW1lRGF0YSBiYXNlVGhlbWUgPSBicmlnaHRuZXNzID09IEJyaWdodG5lc3MubGlnaHQgCiAgICAgICAgPyBsaWdodFRoZW1lIAogICAgICAgIDogZGFya1RoZW1lOwogICAgCiAgICByZXR1cm4gYmFzZVRoZW1lLmNvcHlXaXRoKAogICAgICB0ZXh0VGhlbWU6IEFwcFR5cG9ncmFwaHkuZ2V0VGV4dFRoZW1lKGJhc2VUaGVtZS50ZXh0VGhlbWUsIGJyaWdodG5lc3MpLAogICAgKTsKICB9Cn0=
+import 'package:flutter/material.dart';
+import 'package:template/src/design_system/colors.dart';
+import 'package:template/src/design_system/typography.dart';
+
+class AppThemes {
+  static ThemeData lightTheme = ThemeData(
+    useMaterial3: true,
+    fontFamily: AppTypography.fontFamily,
+    colorScheme: AppColors.lightColorScheme,
+    scaffoldBackgroundColor: AppColors.backgroundLight,
+    appBarTheme: const AppBarTheme(
+      elevation: 0,
+      scrolledUnderElevation: 0,
+      surfaceTintColor: Colors.transparent,
+      backgroundColor: AppColors.backgroundLight,
+      foregroundColor: AppColors.onSurfaceLight,
+    ),
+    cardTheme: CardTheme(
+      elevation: 0,
+      surfaceTintColor: Colors.transparent,
+      color: AppColors.surfaceContainerLight,
+      shadowColor: Colors.transparent,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: AppColors.primaryLight,
+        foregroundColor: Colors.white,
+        elevation: 0,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 24,
+          vertical: 12,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(8),
+        ),
+      ),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        foregroundColor: AppColors.primaryLight,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 24,
+          vertical: 12,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(8),
+        ),
+        side: const BorderSide(
+          color: AppColors.primaryLight,
+          width: 1.5,
+        ),
+      ),
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        foregroundColor: AppColors.primaryLight,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 16,
+          vertical: 8,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(8),
+        ),
+      ),
+    ),
+    iconTheme: const IconThemeData(
+      color: AppColors.onSurfaceLight,
+    ),
+    iconButtonTheme: IconButtonThemeData(
+      style: ButtonStyle(
+        foregroundColor: WidgetStateProperty.all(AppColors.onSurfaceLight),
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.surfaceContainerLight,
+          width: 1,
+        ),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.surfaceContainerLight,
+          width: 1,
+        ),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.primaryLight,
+          width: 1.5,
+        ),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.errorLight,
+          width: 1,
+        ),
+      ),
+      filled: true,
+      fillColor: AppColors.surfaceContainerLight,
+      contentPadding: const EdgeInsets.symmetric(
+        horizontal: 16,
+        vertical: 12,
+      ),
+    ),
+  );
+
+  static ThemeData darkTheme = ThemeData(
+    useMaterial3: true,
+    fontFamily: AppTypography.fontFamily,
+    colorScheme: AppColors.darkColorScheme,
+    scaffoldBackgroundColor: AppColors.backgroundDark,
+    appBarTheme: const AppBarTheme(
+      elevation: 0,
+      scrolledUnderElevation: 0,
+      surfaceTintColor: Colors.transparent,
+      backgroundColor: AppColors.backgroundDark,
+      foregroundColor: AppColors.onSurfaceDark,
+    ),
+    cardTheme: CardTheme(
+      elevation: 0,
+      surfaceTintColor: Colors.transparent,
+      color: AppColors.surfaceContainerDark,
+      shadowColor: Colors.transparent,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: AppColors.primaryDark,
+        foregroundColor: Colors.white,
+        elevation: 0,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 24,
+          vertical: 12,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(8),
+        ),
+      ),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        foregroundColor: AppColors.primaryDark,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 24,
+          vertical: 12,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(8),
+        ),
+        side: const BorderSide(
+          color: AppColors.primaryDark,
+          width: 1.5,
+        ),
+      ),
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        foregroundColor: AppColors.primaryDark,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 16,
+          vertical: 8,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(8),
+        ),
+      ),
+    ),
+    iconTheme: const IconThemeData(
+      color: AppColors.onSurfaceDark,
+    ),
+    iconButtonTheme: IconButtonThemeData(
+      style: ButtonStyle(
+        foregroundColor: WidgetStateProperty.all(AppColors.onSurfaceDark),
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.surfaceContainerDark,
+          width: 1,
+        ),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.surfaceContainerDark,
+          width: 1,
+        ),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.primaryDark,
+          width: 1.5,
+        ),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(
+          color: AppColors.errorDark,
+          width: 1,
+        ),
+      ),
+      filled: true,
+      fillColor: AppColors.surfaceContainerDark,
+      contentPadding: const EdgeInsets.symmetric(
+        horizontal: 16,
+        vertical: 12,
+      ),
+    ),
+  );
+
+  static ThemeData getTheme(Brightness brightness) {
+    final ThemeData baseTheme = brightness == Brightness.light 
+        ? lightTheme 
+        : darkTheme;
+    
+    return baseTheme.copyWith(
+      textTheme: AppTypography.getTextTheme(baseTheme.textTheme, brightness),
+    );
+  }
+}

@@ -1,1 +1,36 @@
-LS0gQ3JlYXRlIHRyaWdnZXJzIHRvIGVtaXQgcmVhbHRpbWUgZXZlbnRzIHdoZW4gdGFza3MgYXJlIHVwZGF0ZWQKCi0tIENyZWF0ZSBhIGZ1bmN0aW9uIHRvIGhhbmRsZSB0YXNrIHVwZGF0ZXMKQ1JFQVRFIE9SIFJFUExBQ0UgRlVOQ1RJT04gaGFuZGxlX3Rhc2tfdXBkYXRlcygpClJFVFVSTlMgVFJJR0dFUiBBUyAkJApCRUdJTgogIElGIE9MRC5wb3NpdGlvbiA8PiBORVcucG9zaXRpb24gT1IgCiAgICAgT0xELnN0YXR1cyA8PiBORVcuc3RhdHVzIE9SIAogICAgIE9MRC5jYXRlZ29yeSA8PiBORVcuY2F0ZWdvcnkgT1IgCiAgICAgT0xELnRhZ3MgPD4gTkVXLnRhZ3MgVEhFTgogICAgCiAgICAtLSBUaGlzIHBheWxvYWQgd2lsbCBiZSBlbWl0dGVkIHdpdGggdGhlIHJlYWx0aW1lIGV2ZW50CiAgICBORVcudXBkYXRlZF9maWVsZHMgOj0ganNvbmJfYnVpbGRfb2JqZWN0KAogICAgICAncG9zaXRpb24nLCBORVcucG9zaXRpb24gPD4gT0xELnBvc2l0aW9uLAogICAgICAnc3RhdHVzJywgTkVXLnN0YXR1cyA8PiBPTEQuc3RhdHVzLAogICAgICAnY2F0ZWdvcnknLCBORVcuY2F0ZWdvcnkgPD4gT0xELmNhdGVnb3J5LAogICAgICAndGFncycsIE5FVy50YWdzIDw+IE9MRC50YWdzCiAgICApOwogIEVORCBJRjsKICAKICBSRVRVUk4gTkVXOwpFTkQ7CiQkIExBTkdVQUdFIHBscGdzcWw7CgotLSBDcmVhdGUgYSB0cmlnZ2VyIHRvIGZpcmUgdGhlIGZ1bmN0aW9uIG9uIHRhc2sgdXBkYXRlcwpEUk9QIFRSSUdHRVIgSUYgRVhJU1RTIG9uX3Rhc2tfdXBkYXRlIE9OIHRhc2tzOwpDUkVBVEUgVFJJR0dFUiBvbl90YXNrX3VwZGF0ZQogIEJFRk9SRSBVUERBVEUgT04gdGFza3MKICBGT1IgRUFDSCBST1cKICBFWEVDVVRFIEZVTkNUSU9OIGhhbmRsZV90YXNrX3VwZGF0ZXMoKTsKCi0tIEVuc3VyZSB0aGUgdGFza3MgdGFibGUgaGFzIGFwcHJvcHJpYXRlIHB1Ymxpc2ggc2V0dGluZ3MgZm9yIHJlYWx0aW1lCkFMVEVSIFBVQkxJQ0FUSU9OIHN1cGFiYXNlX3JlYWx0aW1lIEFERCBUQUJMRSB0YXNrczsKCi0tIE1ha2Ugc3VyZSB0aGUgYm9hcmRfY2F0ZWdvcmllcyB0YWJsZSBpcyBhbHNvIGluIHRoZSByZWFsdGltZSBwdWJsaWNhdGlvbgpBTFRFUiBQVUJMSUNBVElPTiBzdXBhYmFzZV9yZWFsdGltZSBBREQgVEFCTEUgYm9hcmRfY2F0ZWdvcmllczs=
+-- Create triggers to emit realtime events when tasks are updated
+
+-- Create a function to handle task updates
+CREATE OR REPLACE FUNCTION handle_task_updates()
+RETURNS TRIGGER AS $$
+BEGIN
+  IF OLD.position <> NEW.position OR 
+     OLD.status <> NEW.status OR 
+     OLD.category <> NEW.category OR 
+     OLD.tags <> NEW.tags THEN
+    
+    -- This payload will be emitted with the realtime event
+    NEW.updated_fields := jsonb_build_object(
+      'position', NEW.position <> OLD.position,
+      'status', NEW.status <> OLD.status,
+      'category', NEW.category <> OLD.category,
+      'tags', NEW.tags <> OLD.tags
+    );
+  END IF;
+  
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Create a trigger to fire the function on task updates
+DROP TRIGGER IF EXISTS on_task_update ON tasks;
+CREATE TRIGGER on_task_update
+  BEFORE UPDATE ON tasks
+  FOR EACH ROW
+  EXECUTE FUNCTION handle_task_updates();
+
+-- Ensure the tasks table has appropriate publish settings for realtime
+ALTER PUBLICATION supabase_realtime ADD TABLE tasks;
+
+-- Make sure the board_categories table is also in the realtime publication
+ALTER PUBLICATION supabase_realtime ADD TABLE board_categories;
