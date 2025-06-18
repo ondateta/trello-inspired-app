@@ -1,18 +1,1 @@
-#ifndef FLUTTER_MY_APPLICATION_H_
-#define FLUTTER_MY_APPLICATION_H_
-
-#include <gtk/gtk.h>
-
-G_DECLARE_FINAL_TYPE(MyApplication, my_application, MY, APPLICATION,
-                     GtkApplication)
-
-/**
- * my_application_new:
- *
- * Creates a new Flutter-based application.
- *
- * Returns: a new #MyApplication.
- */
-MyApplication* my_application_new();
-
-#endif  // FLUTTER_MY_APPLICATION_H_
+I2lmbmRlZiBGTFVUVEVSX01ZX0FQUExJQ0FUSU9OX0hfCiNkZWZpbmUgRkxVVFRFUl9NWV9BUFBMSUNBVElPTl9IXwoKI2luY2x1ZGUgPGd0ay9ndGsuaD4KCkdfREVDTEFSRV9GSU5BTF9UWVBFKE15QXBwbGljYXRpb24sIG15X2FwcGxpY2F0aW9uLCBNWSwgQVBQTElDQVRJT04sCiAgICAgICAgICAgICAgICAgICAgIEd0a0FwcGxpY2F0aW9uKQoKLyoqCiAqIG15X2FwcGxpY2F0aW9uX25ldzoKICoKICogQ3JlYXRlcyBhIG5ldyBGbHV0dGVyLWJhc2VkIGFwcGxpY2F0aW9uLgogKgogKiBSZXR1cm5zOiBhIG5ldyAjTXlBcHBsaWNhdGlvbi4KICovCk15QXBwbGljYXRpb24qIG15X2FwcGxpY2F0aW9uX25ldygpOwoKI2VuZGlmICAvLyBGTFVUVEVSX01ZX0FQUExJQ0FUSU9OX0hfCg==

@@ -1,12 +1,1 @@
-import 'package:envied/envied.dart';
-
-part 'env.g.dart';
-
-@Envied(path: '.env')
-abstract class Env {
-  @EnviedField(varName: 'SUPABASE_URL')
-  static const String supabaseUrl = _Env.supabaseUrl;
-
-  @EnviedField(varName: 'SUPABASE_ANON_KEY')
-  static const String supabaseAnonKey = _Env.supabaseAnonKey;
-}
+aW1wb3J0ICdwYWNrYWdlOmVudmllZC9lbnZpZWQuZGFydCc7CgpwYXJ0ICdlbnYuZy5kYXJ0JzsKCkBFbnZpZWQocGF0aDogJy5lbnYnKQphYnN0cmFjdCBjbGFzcyBFbnYgewogIEBFbnZpZWRGaWVsZCh2YXJOYW1lOiAnU1VQQUJBU0VfVVJMJykKICBzdGF0aWMgY29uc3QgU3RyaW5nIHN1cGFiYXNlVXJsID0gX0Vudi5zdXBhYmFzZVVybDsKCiAgQEVudmllZEZpZWxkKHZhck5hbWU6ICdTVVBBQkFTRV9BTk9OX0tFWScpCiAgc3RhdGljIGNvbnN0IFN0cmluZyBzdXBhYmFzZUFub25LZXkgPSBfRW52LnN1cGFiYXNlQW5vbktleTsKfQ==

@@ -1,12 +1,1 @@
-import Flutter
-import UIKit
-import XCTest
-
-class RunnerTests: XCTestCase {
-
-  func testExample() {
-    // If you add code to the Runner application, consider adding tests here.
-    // See https://developer.apple.com/documentation/xctest for more information about using XCTest.
-  }
-
-}
+aW1wb3J0IEZsdXR0ZXIKaW1wb3J0IFVJS2l0CmltcG9ydCBYQ1Rlc3QKCmNsYXNzIFJ1bm5lclRlc3RzOiBYQ1Rlc3RDYXNlIHsKCiAgZnVuYyB0ZXN0RXhhbXBsZSgpIHsKICAgIC8vIElmIHlvdSBhZGQgY29kZSB0byB0aGUgUnVubmVyIGFwcGxpY2F0aW9uLCBjb25zaWRlciBhZGRpbmcgdGVzdHMgaGVyZS4KICAgIC8vIFNlZSBodHRwczovL2RldmVsb3Blci5hcHBsZS5jb20vZG9jdW1lbnRhdGlvbi94Y3Rlc3QgZm9yIG1vcmUgaW5mb3JtYXRpb24gYWJvdXQgdXNpbmcgWENUZXN0LgogIH0KCn0K

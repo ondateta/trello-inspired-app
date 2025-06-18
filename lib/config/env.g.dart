@@ -1,15 +1,1 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
-part of 'env.dart';
-
-// **************************************************************************
-// EnviedGenerator
-// **************************************************************************
-
-// coverage:ignore-file
-// ignore_for_file: type=lint
-final class _Env {
-  static const String supabaseUrl = 'https://dxfwbwejjthjgbhheoww.supabase.co';
-
-  static const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR4Zndid2VqanRoamdiaGhlb3d3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNjA5MDQsImV4cCI6MjA1NTYzNjkwNH0.1XxPwCApgNbY6froRZjK1mIueWm7bUGr1bO4ozZ4PAw';
-}
+Ly8gR0VORVJBVEVEIENPREUgLSBETyBOT1QgTU9ESUZZIEJZIEhBTkQKCnBhcnQgb2YgJ2Vudi5kYXJ0JzsKCi8vICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqCi8vIEVudmllZEdlbmVyYXRvcgovLyAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKgoKLy8gY292ZXJhZ2U6aWdub3JlLWZpbGUKLy8gaWdub3JlX2Zvcl9maWxlOiB0eXBlPWxpbnQKZmluYWwgY2xhc3MgX0VudiB7CiAgc3RhdGljIGNvbnN0IFN0cmluZyBzdXBhYmFzZVVybCA9ICdodHRwczovL2R4Zndid2VqanRoamdiaGhlb3d3LnN1cGFiYXNlLmNvJzsKCiAgc3RhdGljIGNvbnN0IFN0cmluZyBzdXBhYmFzZUFub25LZXkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1SNFpuZGlkMlZxYW5Sb2FtZGlhR2hsYjNkM0lpd2ljbTlzWlNJNkltRnViMjRpTENKcFlYUWlPakUzTkRBd05qQTVNRFFzSW1WNGNDSTZNakExTlRZek5qa3dOSDAuMVh4UHdDQXBnTmJZNmZyb1JaaksxbUl1ZVdtN2JVR3IxYk80b3paNFBBdyc7Cn0K

@@ -1,15 +1,1 @@
-//
-//  Generated file. Do not edit.
-//
-
-// clang-format off
-
-#ifndef GENERATED_PLUGIN_REGISTRANT_
-#define GENERATED_PLUGIN_REGISTRANT_
-
-#include <flutter/plugin_registry.h>
-
-// Registers Flutter plugins.
-void RegisterPlugins(flutter::PluginRegistry* registry);
-
-#endif  // GENERATED_PLUGIN_REGISTRANT_
+Ly8KLy8gIEdlbmVyYXRlZCBmaWxlLiBEbyBub3QgZWRpdC4KLy8KCi8vIGNsYW5nLWZvcm1hdCBvZmYKCiNpZm5kZWYgR0VORVJBVEVEX1BMVUdJTl9SRUdJU1RSQU5UXwojZGVmaW5lIEdFTkVSQVRFRF9QTFVHSU5fUkVHSVNUUkFOVF8KCiNpbmNsdWRlIDxmbHV0dGVyL3BsdWdpbl9yZWdpc3RyeS5oPgoKLy8gUmVnaXN0ZXJzIEZsdXR0ZXIgcGx1Z2lucy4Kdm9pZCBSZWdpc3RlclBsdWdpbnMoZmx1dHRlcjo6UGx1Z2luUmVnaXN0cnkqIHJlZ2lzdHJ5KTsKCiNlbmRpZiAgLy8gR0VORVJBVEVEX1BMVUdJTl9SRUdJU1RSQU5UXwo=

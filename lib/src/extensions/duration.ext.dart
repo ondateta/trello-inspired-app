@@ -1,3 +1,1 @@
-extension DurationUtils on Duration {
-  Future<void> delay() => Future.delayed(this);
-}
+ZXh0ZW5zaW9uIER1cmF0aW9uVXRpbHMgb24gRHVyYXRpb24gewogIEZ1dHVyZTx2b2lkPiBkZWxheSgpID0+IEZ1dHVyZS5kZWxheWVkKHRoaXMpOwp9Cg==

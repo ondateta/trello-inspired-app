@@ -1,16 +1,1 @@
-import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:template/config/env.dart';
-
-class SupabaseConfig {
-  static Future<void> initialize() async {
-    await Supabase.initialize(
-      url: Env.supabaseUrl,
-      anonKey: Env.supabaseAnonKey,
-      realtimeClientOptions: const RealtimeClientOptions(
-        eventsPerSecond: 10,
-      ),
-    );
-  }
-
-  static SupabaseClient get client => Supabase.instance.client;
-}
+aW1wb3J0ICdwYWNrYWdlOnN1cGFiYXNlX2ZsdXR0ZXIvc3VwYWJhc2VfZmx1dHRlci5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnRlbXBsYXRlL2NvbmZpZy9lbnYuZGFydCc7CgpjbGFzcyBTdXBhYmFzZUNvbmZpZyB7CiAgc3RhdGljIEZ1dHVyZTx2b2lkPiBpbml0aWFsaXplKCkgYXN5bmMgewogICAgYXdhaXQgU3VwYWJhc2UuaW5pdGlhbGl6ZSgKICAgICAgdXJsOiBFbnYuc3VwYWJhc2VVcmwsCiAgICAgIGFub25LZXk6IEVudi5zdXBhYmFzZUFub25LZXksCiAgICAgIHJlYWx0aW1lQ2xpZW50T3B0aW9uczogY29uc3QgUmVhbHRpbWVDbGllbnRPcHRpb25zKAogICAgICAgIGV2ZW50c1BlclNlY29uZDogMTAsCiAgICAgICksCiAgICApOwogIH0KCiAgc3RhdGljIFN1cGFiYXNlQ2xpZW50IGdldCBjbGllbnQgPT4gU3VwYWJhc2UuaW5zdGFuY2UuY2xpZW50Owp9

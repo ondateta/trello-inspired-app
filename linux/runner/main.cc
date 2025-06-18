@@ -1,6 +1,1 @@
-#include "my_application.h"
-
-int main(int argc, char** argv) {
-  g_autoptr(MyApplication) app = my_application_new();
-  return g_application_run(G_APPLICATION(app), argc, argv);
-}
+I2luY2x1ZGUgIm15X2FwcGxpY2F0aW9uLmgiCgppbnQgbWFpbihpbnQgYXJnYywgY2hhcioqIGFyZ3YpIHsKICBnX2F1dG9wdHIoTXlBcHBsaWNhdGlvbikgYXBwID0gbXlfYXBwbGljYXRpb25fbmV3KCk7CiAgcmV0dXJuIGdfYXBwbGljYXRpb25fcnVuKEdfQVBQTElDQVRJT04oYXBwKSwgYXJnYywgYXJndik7Cn0K

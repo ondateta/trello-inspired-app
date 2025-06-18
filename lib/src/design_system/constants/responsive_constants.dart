@@ -1,5 +1,1 @@
-class ResponsiveConstants {
-  static const phoneSize = 600;
-  static const tabletSize = 1200;
-  static const laptop = 1600;
-}
+Y2xhc3MgUmVzcG9uc2l2ZUNvbnN0YW50cyB7CiAgc3RhdGljIGNvbnN0IHBob25lU2l6ZSA9IDYwMDsKICBzdGF0aWMgY29uc3QgdGFibGV0U2l6ZSA9IDEyMDA7CiAgc3RhdGljIGNvbnN0IGxhcHRvcCA9IDE2MDA7Cn0K

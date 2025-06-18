@@ -1,10 +1,1 @@
-void tryCatch(
-  void Function() function, {
-  void Function(dynamic)? onError,
-}) {
-  try {
-    function();
-  } catch (e) {
-    onError?.call(e);
-  }
-}
+dm9pZCB0cnlDYXRjaCgKICB2b2lkIEZ1bmN0aW9uKCkgZnVuY3Rpb24sIHsKICB2b2lkIEZ1bmN0aW9uKGR5bmFtaWMpPyBvbkVycm9yLAp9KSB7CiAgdHJ5IHsKICAgIGZ1bmN0aW9uKCk7CiAgfSBjYXRjaCAoZSkgewogICAgb25FcnJvcj8uY2FsbChlKTsKICB9Cn0K
